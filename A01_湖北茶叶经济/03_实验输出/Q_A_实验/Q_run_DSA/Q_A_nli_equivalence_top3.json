@@ -1,0 +1,2292 @@
+{
+  "model": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "theta": 0.5,
+  "metric": "score_avg",
+  "top_k": 3,
+  "n_human": 90,
+  "n_model": 80,
+  "candidate_pairs": 386,
+  "candidate_pct": 5.4,
+  "eq_edges": 2,
+  "n_concepts": 168,
+  "human_concepts": 90,
+  "model_concepts": 79,
+  "intersection": 1,
+  "union": 168,
+  "jaccard": 0.006,
+  "aci_j": 0.994,
+  "shared_concepts": 1,
+  "human_only_concepts": 89,
+  "model_only_concepts": 78,
+  "concepts": [
+    {
+      "concept_id": "c1",
+      "members": [
+        {
+          "atom": "human_C3.2.6",
+          "run": "human",
+          "node_id": "C3.2.6",
+          "text": "学者估算北宋茶产量至少八千万至九千万斤至多达一亿五千万斤",
+          "sources": [
+            "M45"
+          ]
+        },
+        {
+          "atom": "model_C1.8",
+          "run": "model",
+          "node_id": "C1.8",
+          "text": "北宋榷茶之制，“择要会之地”置榷货务，湖北三处榷务均在其列（M38）。",
+          "sources": [
+            "M38"
+          ]
+        },
+        {
+          "atom": "model_C1.19",
+          "run": "model",
+          "node_id": "C1.19",
+          "text": "乾德二年（964年），北宋令京师、建安、汉阳、蕲口并置场榷茶（M38）。",
+          "sources": [
+            "M38"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c2",
+      "members": [
+        {
+          "atom": "human_C1.1.1",
+          "run": "human",
+          "node_id": "C1.1.1",
+          "text": "以元丰年间所定二十三路为标准考察北宋湖北政区",
+          "sources": [
+            "M4"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c3",
+      "members": [
+        {
+          "atom": "human_C1.1.2",
+          "run": "human",
+          "node_id": "C1.1.2",
+          "text": "今湖北在北宋地跨京西南荆湖北淮南西江南西夔州五路共十八府州军",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c4",
+      "members": [
+        {
+          "atom": "human_C1.1.3",
+          "run": "human",
+          "node_id": "C1.1.3",
+          "text": "湖北重要产茶区涵盖襄州南漳兴国军阳新通山江陵府鄂州蒲圻崇阳蕲州蕲春黄梅黄州麻城等地",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c5",
+      "members": [
+        {
+          "atom": "human_C1.1.4",
+          "run": "human",
+          "node_id": "C1.1.4",
+          "text": "湖北产茶区共十府州军在域内府州军总数中占比达百分之五十五",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c6",
+      "members": [
+        {
+          "atom": "human_C1.1.5",
+          "run": "human",
+          "node_id": "C1.1.5",
+          "text": "景祐元年天下户丁三分其一为产茶州军而湖北产茶比例远高于此",
+          "sources": [
+            "M5"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c7",
+      "members": [
+        {
+          "atom": "human_C1.1.6",
+          "run": "human",
+          "node_id": "C1.1.6",
+          "text": "湖北片茶有枕出江陵岳麓草子等散茶有龙溪雨前雨后等品类丰富",
+          "sources": [
+            "M6",
+            "M7"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c8",
+      "members": [
+        {
+          "atom": "human_C1.1.7",
+          "run": "human",
+          "node_id": "C1.1.7",
+          "text": "表一显示鄂州江陵府与蕲州三场茶叶种类较为丰富且质量上乘",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c9",
+      "members": [
+        {
+          "atom": "human_C1.1.8",
+          "run": "human",
+          "node_id": "C1.1.8",
+          "text": "因地方史料散佚与重量单位屡经更易北宋全国及各路茶叶产额难以确知",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c10",
+      "members": [
+        {
+          "atom": "human_C1.1.9",
+          "run": "human",
+          "node_id": "C1.1.9",
+          "text": "除夔州路所辖施州外湖北概行榷茶法便于将全域视作一体计算产量",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c11",
+      "members": [
+        {
+          "atom": "human_C1.1.10",
+          "run": "human",
+          "node_id": "C1.1.10",
+          "text": "据表二北宋官府在湖北地区买茶额为一千零十万二千七百五十三斤",
+          "sources": [
+            "M8"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c12",
+      "members": [
+        {
+          "atom": "human_C1.1.11",
+          "run": "human",
+          "node_id": "C1.1.11",
+          "text": "夔州路自祖宗以来不榷茶始终行赋税折科与住税过税之税茶政策",
+          "sources": [
+            "M8",
+            "M9"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c13",
+      "members": [
+        {
+          "atom": "human_C1.1.12",
+          "run": "human",
+          "node_id": "C1.1.12",
+          "text": "范镇胪列蜀之产茶八处未及施州可推施州即便产茶产量亦极低",
+          "sources": [
+            "M11"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c14",
+      "members": [
+        {
+          "atom": "human_C1.1.13",
+          "run": "human",
+          "node_id": "C1.1.13",
+          "text": "民岁输税愿折茶者谓之折税茶且民茶折税外匿不送官者没入论罪",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c15",
+      "members": [
+        {
+          "atom": "human_C1.1.14",
+          "run": "human",
+          "node_id": "C1.1.14",
+          "text": "天禧五年全国折税茶较至道年间增百余万斤后天禧末年又降至七十六万斤",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c16",
+      "members": [
+        {
+          "atom": "human_C1.1.15",
+          "run": "human",
+          "node_id": "C1.1.15",
+          "text": "官府要求茶园户承担每百斤二十至三十五斤耗茶湖北耗茶约二百七十七万斤",
+          "sources": [
+            "M14"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c17",
+      "members": [
+        {
+          "atom": "human_C1.1.16",
+          "run": "human",
+          "node_id": "C1.1.16",
+          "text": "任土作贡的贡茶仅涉湖北少数产区江陵府有碧涧茶芽六百斤",
+          "sources": [
+            "M15"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c18",
+      "members": [
+        {
+          "atom": "human_C1.1.17",
+          "run": "human",
+          "node_id": "C1.1.17",
+          "text": "食茶系官府转售民户之茶已计入买茶额故本文不另计",
+          "sources": [
+            "M16",
+            "M17"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c19",
+      "members": [
+        {
+          "atom": "human_C1.1.18",
+          "run": "human",
+          "node_id": "C1.1.18",
+          "text": "荆湖南北产茶州县铺户自造茶货与铺户私相交易致私茶问题严峻",
+          "sources": [
+            "M6",
+            "M18"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c20",
+      "members": [
+        {
+          "atom": "human_C1.1.19",
+          "run": "human",
+          "node_id": "C1.1.19",
+          "text": "宋太宗遣监察御史薛雄诣沿江诸州禁绝私茶反证民间私茶数量之大",
+          "sources": [
+            "M6"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c21",
+      "members": [
+        {
+          "atom": "human_C1.1.20",
+          "run": "human",
+          "node_id": "C1.1.20",
+          "text": "学界估定私茶数量为买茶额半数至持平约五百万至一千万斤",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c22",
+      "members": [
+        {
+          "atom": "human_C1.1.21",
+          "run": "human",
+          "node_id": "C1.1.21",
+          "text": "湖北茶叶总产量保守计为买茶额折税茶纳耗茶与贡茶共约一千二百九十万斤",
+          "sources": [
+            "M8",
+            "M14",
+            "M15"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c23",
+      "members": [
+        {
+          "atom": "human_C1.2.1",
+          "run": "human",
+          "node_id": "C1.2.1",
+          "text": "北宋商业市场在空间上分为北方东南蜀川与关陇四域",
+          "sources": [
+            "M19"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c24",
+      "members": [
+        {
+          "atom": "human_C1.2.2",
+          "run": "human",
+          "node_id": "C1.2.2",
+          "text": "湖北凭水网交织的交通北通汴京东连江淮南邻荆湖南路西溯汉江抵达关陇",
+          "sources": [
+            "M19"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c25",
+      "members": [
+        {
+          "atom": "human_C1.2.3",
+          "run": "human",
+          "node_id": "C1.2.3",
+          "text": "学界多以官府与市场权利分配划分茶法可归为榷茶与通商两阶段",
+          "sources": [
+            "M20",
+            "M22",
+            "M23"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c26",
+      "members": [
+        {
+          "atom": "human_C1.2.4",
+          "run": "human",
+          "node_id": "C1.2.4",
+          "text": "湖北榷茶始自建隆年间刘湛奉召榷茶于蕲春",
+          "sources": [
+            "M24"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c27",
+      "members": [
+        {
+          "atom": "human_C1.2.5",
+          "run": "human",
+          "node_id": "C1.2.5",
+          "text": "乾德三年宋太祖采苏晓议榷蕲黄舒庐寿五州茶置十四场岁入百余万缗",
+          "sources": [
+            "M26"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c28",
+      "members": [
+        {
+          "atom": "human_C1.2.6",
+          "run": "human",
+          "node_id": "C1.2.6",
+          "text": "十四场分布于蕲州王祺石桥洗马黄州麻城庐州王同舒州太湖罗源寿州霍山麻步开顺光州商城子安光山",
+          "sources": [
+            "M26"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c29",
+      "members": [
+        {
+          "atom": "human_C1.2.7",
+          "run": "human",
+          "node_id": "C1.2.7",
+          "text": "太平兴国二年于江陵府襄复州无为军增置务至淳化四年废建安襄复州务",
+          "sources": [
+            "M26"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c30",
+      "members": [
+        {
+          "atom": "human_C1.2.8",
+          "run": "human",
+          "node_id": "C1.2.8",
+          "text": "雍熙年间令商人输刍粮塞下授以交引至京师给缗钱并移文江淮荆湖给茶盐",
+          "sources": [
+            "M28"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c31",
+      "members": [
+        {
+          "atom": "human_C1.2.9",
+          "run": "human",
+          "node_id": "C1.2.9",
+          "text": "政和二年蔡京主持制定合同场法以长短引从时空维度规制商人茶叶贸易",
+          "sources": [
+            "M20"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c32",
+      "members": [
+        {
+          "atom": "human_C1.2.10",
+          "run": "human",
+          "node_id": "C1.2.10",
+          "text": "短引止于本路限时一季度许民赴场输息于旁近郡县便鬻",
+          "sources": [
+            "M22"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c33",
+      "members": [
+        {
+          "atom": "human_C1.2.11",
+          "run": "human",
+          "node_id": "C1.2.11",
+          "text": "长引允许茶商销茶至他路限时一年沿路登时批发至所指地计税尽输",
+          "sources": [
+            "M23"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c34",
+      "members": [
+        {
+          "atom": "human_C1.2.12",
+          "run": "human",
+          "node_id": "C1.2.12",
+          "text": "天圣元年仁宗采李谘议行贴射法罢官给本钱使商人与园户自相交易官收其息",
+          "sources": [
+            "M20",
+            "M26"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c35",
+      "members": [
+        {
+          "atom": "human_C1.2.13",
+          "run": "human",
+          "node_id": "C1.2.13",
+          "text": "嘉祐四年通商法正式推行园户官收租钱商贾官收征算而尽罢禁榷",
+          "sources": [
+            "M28"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c36",
+      "members": [
+        {
+          "atom": "human_C1.2.14",
+          "run": "human",
+          "node_id": "C1.2.14",
+          "text": "茶法嬗变使采购对象运输路线与销售区域呈现榷货务与茶源地之别",
+          "sources": [
+            "M28"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c37",
+      "members": [
+        {
+          "atom": "human_C1.3.1",
+          "run": "human",
+          "node_id": "C1.3.1",
+          "text": "凡茶入官以轻估其出以重估县官之利甚博商贾转致西北其利又特厚",
+          "sources": [
+            "M29"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c38",
+      "members": [
+        {
+          "atom": "human_C1.3.2",
+          "run": "human",
+          "node_id": "C1.3.2",
+          "text": "表三辑录北宋湖北部分茶叶官府收购价与本地及外区出售价格",
+          "sources": [
+            "M29"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c39",
+      "members": [
+        {
+          "atom": "human_C1.3.3",
+          "run": "human",
+          "node_id": "C1.3.3",
+          "text": "榷茶阶段湖北茶叶主要销售地仍为本区鲜有远销黄河以北者",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c40",
+      "members": [
+        {
+          "atom": "human_C1.3.4",
+          "run": "human",
+          "node_id": "C1.3.4",
+          "text": "官府收购价与销售价差距悬殊如兴国军两府号片茶由四十文升至八百文",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c41",
+      "members": [
+        {
+          "atom": "human_C1.3.5",
+          "run": "human",
+          "node_id": "C1.3.5",
+          "text": "片茶收购与销售价格普遍高于散茶如第一号一百六十五文远高于散茶草子",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c42",
+      "members": [
+        {
+          "atom": "human_C1.3.6",
+          "run": "human",
+          "node_id": "C1.3.6",
+          "text": "茶叶售价虽受转运道里影响然品质等级实为决定因素",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c43",
+      "members": [
+        {
+          "atom": "human_C2.1.1",
+          "run": "human",
+          "node_id": "C2.1.1",
+          "text": "饮茶之风兴于唐盛于宋至北宋始为世重",
+          "sources": [
+            "M1"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c44",
+      "members": [
+        {
+          "atom": "human_C2.1.2",
+          "run": "human",
+          "node_id": "C2.1.2",
+          "text": "茶叶已是盖人家每日不可阙者成为日常必需品",
+          "sources": [
+            "M2"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c45",
+      "members": [
+        {
+          "atom": "human_C2.1.3",
+          "run": "human",
+          "node_id": "C2.1.3",
+          "text": "官府对茶利的倚重与民间饮茶风尚共同驱动湖北农民广泛植茶",
+          "sources": [
+            "M30"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c46",
+      "members": [
+        {
+          "atom": "human_C2.1.4",
+          "run": "human",
+          "node_id": "C2.1.4",
+          "text": "鄂州崇阳县多旷土民不务耕织唯以植茶为业",
+          "sources": [
+            "M30"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c47",
+      "members": [
+        {
+          "atom": "human_C2.1.5",
+          "run": "human",
+          "node_id": "C2.1.5",
+          "text": "谏官余靖指天下二税不足供军故茶盐酒税山泽杂产之利尽归于官",
+          "sources": [
+            "M31"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c48",
+      "members": [
+        {
+          "atom": "human_C2.1.6",
+          "run": "human",
+          "node_id": "C2.1.6",
+          "text": "北宋长期保持大量军队官府为保军需持续鼓励民众种植茶叶等高价值作物",
+          "sources": [
+            "M31"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c49",
+      "members": [
+        {
+          "atom": "human_C2.1.7",
+          "run": "human",
+          "node_id": "C2.1.7",
+          "text": "宋徽宗时期湖北恢复榷茶鼓励植茶其意更在满足皇室用度",
+          "sources": [
+            "M30"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c50",
+      "members": [
+        {
+          "atom": "human_C2.1.8",
+          "run": "human",
+          "node_id": "C2.1.8",
+          "text": "蔡條称茶之尚自唐人始至本朝为盛至祐陵时益穷极新出",
+          "sources": [
+            "M32"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c51",
+      "members": [
+        {
+          "atom": "human_C2.1.9",
+          "run": "human",
+          "node_id": "C2.1.9",
+          "text": "江陵鄂州襄阳等城茶坊林立周边草市亦有大量茶坊供百姓饮茶休闲",
+          "sources": [
+            "M32"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c52",
+      "members": [
+        {
+          "atom": "human_C2.2.1",
+          "run": "human",
+          "node_id": "C2.2.1",
+          "text": "陆羽与赵佶均论茶树生长环境称上者生烂石且植产之地崖必阳圃必阴",
+          "sources": [
+            "M33"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c53",
+      "members": [
+        {
+          "atom": "human_C2.2.2",
+          "run": "human",
+          "node_id": "C2.2.2",
+          "text": "湖北山地丘陵居多群山既拦截水汽又为茶树提供富含有机质的土壤",
+          "sources": [
+            "M33",
+            "M34"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c54",
+      "members": [
+        {
+          "atom": "human_C2.2.3",
+          "run": "human",
+          "node_id": "C2.2.3",
+          "text": "北宋时期气候整体偏暖较今高零点三至零点五度使湖北温度更宜茶叶生长",
+          "sources": [
+            "M34"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c55",
+      "members": [
+        {
+          "atom": "human_C2.2.4",
+          "run": "human",
+          "node_id": "C2.2.4",
+          "text": "茶树生长最适温度在十九至三十摄氏度今湖北年均气温十五至十七度",
+          "sources": [
+            "M34"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c56",
+      "members": [
+        {
+          "atom": "human_C2.3.1",
+          "run": "human",
+          "node_id": "C2.3.1",
+          "text": "北宋承袭前代路网疏浚河道修缮驿道为湖北茶叶经济提供交通保障",
+          "sources": [
+            "M35"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c57",
+      "members": [
+        {
+          "atom": "human_C2.3.2",
+          "run": "human",
+          "node_id": "C2.3.2",
+          "text": "湖北形成以鄂州汉阳军江陵府为多中心的水运网络且水运载量大价廉",
+          "sources": [
+            "M35"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c58",
+      "members": [
+        {
+          "atom": "human_C2.3.3",
+          "run": "human",
+          "node_id": "C2.3.3",
+          "text": "复州北至郢州私路二百五十里官路三百里形成陆运通道",
+          "sources": [
+            "M35"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c59",
+      "members": [
+        {
+          "atom": "human_C2.3.4",
+          "run": "human",
+          "node_id": "C2.3.4",
+          "text": "东西向长江上中游货物经鄂州至淮南由真州向北流入京师",
+          "sources": [
+            "M36"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c60",
+      "members": [
+        {
+          "atom": "human_C2.3.5",
+          "run": "human",
+          "node_id": "C2.3.5",
+          "text": "南北向广南诸州自桂州由湖南北江陵荆门而至汇聚湖北",
+          "sources": [
+            "M36"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c61",
+      "members": [
+        {
+          "atom": "human_C2.3.6",
+          "run": "human",
+          "node_id": "C2.3.6",
+          "text": "江陵府受纳潭鼎澧岳归峡荆南府片散茶共八十七万五千三百五十七斤",
+          "sources": [
+            "M37"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c62",
+      "members": [
+        {
+          "atom": "human_C3.1.1",
+          "run": "human",
+          "node_id": "C3.1.1",
+          "text": "乾德二年京师建安汉阳蕲口并置场榷茶并于黄州江陵蕲州襄州复州设场",
+          "sources": [
+            "M38"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c63",
+      "members": [
+        {
+          "atom": "human_C3.1.2",
+          "run": "human",
+          "node_id": "C3.1.2",
+          "text": "官府以行政权力使设榷场的江陵府汉阳蕲口黄州成为茶叶转运与销售核心城市",
+          "sources": [
+            "M38"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c64",
+      "members": [
+        {
+          "atom": "human_C3.1.3",
+          "run": "human",
+          "node_id": "C3.1.3",
+          "text": "大中祥符至天圣七年茶商因泥水阻滞车牛借路取真扬高邮楚泗州只纳旧路庐寿一路税钱",
+          "sources": [
+            "M40"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c65",
+      "members": [
+        {
+          "atom": "human_C3.1.4",
+          "run": "human",
+          "node_id": "C3.1.4",
+          "text": "仁宗令贩卖蕲口太湖洗马石桥无为军五处场务茶货依汉阳榷务茶例上京",
+          "sources": [
+            "M41"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c66",
+      "members": [
+        {
+          "atom": "human_C3.1.5",
+          "run": "human",
+          "node_id": "C3.1.5",
+          "text": "通商阶段江陵府与汉阳军凭榷茶积累与水利条件核心地位有增无减",
+          "sources": [
+            "M40",
+            "M41"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c67",
+      "members": [
+        {
+          "atom": "human_C3.1.6",
+          "run": "human",
+          "node_id": "C3.1.6",
+          "text": "鄂州虽非六榷务十三茶场节点但因产量高种类丰而受官府与商人重视",
+          "sources": [
+            "M42",
+            "M43"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c68",
+      "members": [
+        {
+          "atom": "human_C3.1.7",
+          "run": "human",
+          "node_id": "C3.1.7",
+          "text": "襄州地处湖北北部且郢州至襄阳尽是滩碛水运条件欠佳故降为辅助地位",
+          "sources": [
+            "M42",
+            "M43"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c69",
+      "members": [
+        {
+          "atom": "human_C3.1.8",
+          "run": "human",
+          "node_id": "C3.1.8",
+          "text": "鄂州与汉阳军隔江相望管下舟车辐辏共同构成沿江经济带核心之一",
+          "sources": [
+            "M43"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c70",
+      "members": [
+        {
+          "atom": "human_C3.1.9",
+          "run": "human",
+          "node_id": "C3.1.9",
+          "text": "茶叶贸易促进船运经济并刺激沿江城镇客栈邸舍经济发展",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c71",
+      "members": [
+        {
+          "atom": "human_C3.1.10",
+          "run": "human",
+          "node_id": "C3.1.10",
+          "text": "湖北形成以江陵府为一核心汉阳军与鄂州为另一核心的双核心沿江经济带",
+          "sources": [
+            "M38"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c72",
+      "members": [
+        {
+          "atom": "human_C3.2.1",
+          "run": "human",
+          "node_id": "C3.2.1",
+          "text": "茶盐之法系朝廷利柄自祖宗以来他司不敢侵紊",
+          "sources": [
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c73",
+      "members": [
+        {
+          "atom": "human_C3.2.2",
+          "run": "human",
+          "node_id": "C3.2.2",
+          "text": "官府视茶叶为征榷体制重要一环使茶利成为国家税收重要来源",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c74",
+      "members": [
+        {
+          "atom": "human_C3.2.3",
+          "run": "human",
+          "node_id": "C3.2.3",
+          "text": "景德年间茶税旧法得五百六十九万贯新法四百一十万贯后降至二百八十五万贯",
+          "sources": [
+            "M44"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c75",
+      "members": [
+        {
+          "atom": "human_C3.2.4",
+          "run": "human",
+          "node_id": "C3.2.4",
+          "text": "天禧末年北宋财政总收入仅二千六百五十余万贯可窥茶利在财政结构中的地位",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c76",
+      "members": [
+        {
+          "atom": "human_C3.2.5",
+          "run": "human",
+          "node_id": "C3.2.5",
+          "text": "北宋府州军监三百余个中产茶府州军九十七处而湖北独占一府九州",
+          "sources": [
+            "M28"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c77",
+      "members": [
+        {
+          "atom": "human_C3.2.7",
+          "run": "human",
+          "node_id": "C3.2.7",
+          "text": "通商法时期令园户之种茶者官收租钱故湖北茶利仍保持较高数额",
+          "sources": [
+            "M46"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c78",
+      "members": [
+        {
+          "atom": "human_C3.2.8",
+          "run": "human",
+          "node_id": "C3.2.8",
+          "text": "六路租茶岁计三十三万八千余贯湖北独当十万二千三百余贯鄂州约占三万九千缗",
+          "sources": [
+            "M46"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c79",
+      "members": [
+        {
+          "atom": "human_C3.2.9",
+          "run": "human",
+          "node_id": "C3.2.9",
+          "text": "北宋商税肇自太祖首定商税则例湖北茶相关船运客店茶坊皆纳入商税体系",
+          "sources": [
+            "M46"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c80",
+      "members": [
+        {
+          "atom": "human_C3.3.1",
+          "run": "human",
+          "node_id": "C3.3.1",
+          "text": "茶叶经济繁盛为民众开辟多元就业途径大量农民转为茶园户",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c81",
+      "members": [
+        {
+          "atom": "human_C3.3.2",
+          "run": "human",
+          "node_id": "C3.3.2",
+          "text": "城镇茶坊林立商业性饮茶场域增加创造大量就业机会",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c82",
+      "members": [
+        {
+          "atom": "human_C3.3.3",
+          "run": "human",
+          "node_id": "C3.3.3",
+          "text": "茶叶经济发展带动茶文化繁荣原盛行闽地的斗茶传入湖北",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c83",
+      "members": [
+        {
+          "atom": "human_C3.3.4",
+          "run": "human",
+          "node_id": "C3.3.4",
+          "text": "江陵汉阳夜间环境改善在文人推广下夜间饮茶习俗迅速发展",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c84",
+      "members": [
+        {
+          "atom": "human_C3.3.5",
+          "run": "human",
+          "node_id": "C3.3.5",
+          "text": "植茶本是贫民取以为利的手段亦是茶商盈利的根本",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c85",
+      "members": [
+        {
+          "atom": "human_C3.3.6",
+          "run": "human",
+          "node_id": "C3.3.6",
+          "text": "官府频更茶法旧纳茶税今变租钱致茶农与茶商生存环境恶化",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c86",
+      "members": [
+        {
+          "atom": "human_C3.3.7",
+          "run": "human",
+          "node_id": "C3.3.7",
+          "text": "通商法时期茶农赋税仍重江南荆湖茶园户破产亡家或举族而逃或自经而死",
+          "sources": [
+            "M49"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c87",
+      "members": [
+        {
+          "atom": "human_C3.3.8",
+          "run": "human",
+          "node_id": "C3.3.8",
+          "text": "大茶园户兼并个体茶户如石桥场祖额一百七万而近岁买纳才得十万",
+          "sources": [
+            "M50"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c88",
+      "members": [
+        {
+          "atom": "human_C3.3.9",
+          "run": "human",
+          "node_id": "C3.3.9",
+          "text": "宋真宗忧佣力贫民被斥去无用或聚为寇盗",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c89",
+      "members": [
+        {
+          "atom": "human_C3.3.10",
+          "run": "human",
+          "node_id": "C3.3.10",
+          "text": "通商法时期出现小商所贩至少大商绝不通行现象",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c90",
+      "members": [
+        {
+          "atom": "human_C3.3.11",
+          "run": "human",
+          "node_id": "C3.3.11",
+          "text": "湖北茶商群聚暴横被籍为兵号曰茶商军后多赖其用",
+          "sources": [
+            "M52"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c91",
+      "members": [
+        {
+          "atom": "model_C1.1",
+          "run": "model",
+          "node_id": "C1.1",
+          "text": "北宋时期，茶叶从珍稀饮品变为日常消费品（M2）。",
+          "sources": [
+            "M2"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c92",
+      "members": [
+        {
+          "atom": "model_C1.2",
+          "run": "model",
+          "node_id": "C1.2",
+          "text": "孟元老《东京梦华录》记录了消费市场的形成（M2）。",
+          "sources": [
+            "M2"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c93",
+      "members": [
+        {
+          "atom": "model_C1.3",
+          "run": "model",
+          "node_id": "C1.3",
+          "text": "湖北地区凭借地理与交通禀赋，成为茶叶经济核心地带。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c94",
+      "members": [
+        {
+          "atom": "model_C1.4",
+          "run": "model",
+          "node_id": "C1.4",
+          "text": "荆湖路每岁市茶额达二百四十七万余斤，全国第二位（M4）。",
+          "sources": [
+            "M4"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c95",
+      "members": [
+        {
+          "atom": "model_C1.5",
+          "run": "model",
+          "node_id": "C1.5",
+          "text": "江陵府、汉阳军、蕲州蕲口榷货务位于湖北要冲（M38）。",
+          "sources": [
+            "M38"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c96",
+      "members": [
+        {
+          "atom": "model_C1.6",
+          "run": "model",
+          "node_id": "C1.6",
+          "text": "湖北茶业的兴起得益于自然条件与交通区位，但不足以解释经济规模。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c97",
+      "members": [
+        {
+          "atom": "model_C1.7",
+          "run": "model",
+          "node_id": "C1.7",
+          "text": "真正塑造湖北茶业经济面貌的是北宋榷茶制度。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c98",
+      "members": [
+        {
+          "atom": "model_C1.9",
+          "run": "model",
+          "node_id": "C1.9",
+          "text": "中央政权通过榷务选址、茶法调整、茶利控制，决定茶业经济走向。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c99",
+      "members": [
+        {
+          "atom": "model_C1.10",
+          "run": "model",
+          "node_id": "C1.10",
+          "text": "湖北地区地处长江中游，地跨荆湖北路与淮南西路，江河纵横、丘陵广布。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c100",
+      "members": [
+        {
+          "atom": "model_C1.11",
+          "run": "model",
+          "node_id": "C1.11",
+          "text": "陆羽《茶经》论茶之产地，谓“上者生烂石，中者生栎壤，下者生黄土”（M33）。",
+          "sources": [
+            "M33"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c101",
+      "members": [
+        {
+          "atom": "model_C1.12",
+          "run": "model",
+          "node_id": "C1.12",
+          "text": "蔡襄《茶录》言“植产之地，崖必阳、圃必阴”（M34），湖北丘陵地貌提供这种微环境。",
+          "sources": [
+            "M34"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c102",
+      "members": [
+        {
+          "atom": "model_C1.13",
+          "run": "model",
+          "node_id": "C1.13",
+          "text": "自然条件的适宜，构成了湖北茶业发展的基础前提。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c103",
+      "members": [
+        {
+          "atom": "model_C1.14",
+          "run": "model",
+          "node_id": "C1.14",
+          "text": "仅有自然条件不足以解释湖北成为全国茶业枢纽。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c104",
+      "members": [
+        {
+          "atom": "model_C1.15",
+          "run": "model",
+          "node_id": "C1.15",
+          "text": "湖北地处水陆交通要冲，具备茶叶输送通道能力。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c105",
+      "members": [
+        {
+          "atom": "model_C1.16",
+          "run": "model",
+          "node_id": "C1.16",
+          "text": "刘挚在《忠肃集》描述湖北区位为“咽喉”（M41）。",
+          "sources": [
+            "M41"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c106",
+      "members": [
+        {
+          "atom": "model_C1.17",
+          "run": "model",
+          "node_id": "C1.17",
+          "text": "江陵府、汉阳军、蕲口三处榷务设置是交通优势的制度化利用。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c107",
+      "members": [
+        {
+          "atom": "model_C1.18",
+          "run": "model",
+          "node_id": "C1.18",
+          "text": "北宋中央政权对湖北茶业介入主动且制度化。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c108",
+      "members": [
+        {
+          "atom": "model_C1.20",
+          "run": "model",
+          "node_id": "C1.20",
+          "text": "次年，榷淮南茶，在六州设置十三买卖茶场，湖北境内有蕲州三场和黄州麻城场（M21）。",
+          "sources": [
+            "M21"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c109",
+      "members": [
+        {
+          "atom": "model_C1.21",
+          "run": "model",
+          "node_id": "C1.21",
+          "text": "中央政权对湖北茶利的重视作为国家财政支柱经营。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c110",
+      "members": [
+        {
+          "atom": "model_C1.22",
+          "run": "model",
+          "node_id": "C1.22",
+          "text": "中央政权在湖北设置榷务选址逻辑体现“择要会之地”制度理性。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c111",
+      "members": [
+        {
+          "atom": "model_C1.23",
+          "run": "model",
+          "node_id": "C1.23",
+          "text": "汉阳军榷务选址理由包括行政中心位置、水运便捷、茶品优质、市场就近（M40）。",
+          "sources": [
+            "M40"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c112",
+      "members": [
+        {
+          "atom": "model_C1.24",
+          "run": "model",
+          "node_id": "C1.24",
+          "text": "榷务选址核心标准是控制力与汲取力最大化，而非市场自发便利。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c113",
+      "members": [
+        {
+          "atom": "model_C2.1",
+          "run": "model",
+          "node_id": "C2.1",
+          "text": "北宋前期榷茶制度处于严格运行阶段。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c114",
+      "members": [
+        {
+          "atom": "model_C2.2",
+          "run": "model",
+          "node_id": "C2.2",
+          "text": "蔡京在崇宁元年奏疏回顾七路产茶禁榷，官置场收买，岁收息五百馀万缗（M3）。",
+          "sources": [
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c115",
+      "members": [
+        {
+          "atom": "model_C2.3",
+          "run": "model",
+          "node_id": "C2.3",
+          "text": "茶商不能直接向园户购茶，必须先向京师榷货务缴纳钱帛，取得茶引。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c116",
+      "members": [
+        {
+          "atom": "model_C2.4",
+          "run": "model",
+          "node_id": "C2.4",
+          "text": "茶引制度使中央政权垄断茶叶流通起点与终点，将茶商纳入国家专卖轨道。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c117",
+      "members": [
+        {
+          "atom": "model_C2.5",
+          "run": "model",
+          "node_id": "C2.5",
+          "text": "湖北蕲口、汉阳榷务成为茶叶流通关键节点，汉阳军茶税收入218,311贯，是鄂州7.6倍（M40）。",
+          "sources": [
+            "M40"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c118",
+      "members": [
+        {
+          "atom": "model_C2.6",
+          "run": "model",
+          "node_id": "C2.6",
+          "text": "严格禁榷体制运行数十年后暴露弊端，园户困苦，茶商利润微薄。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c119",
+      "members": [
+        {
+          "atom": "model_C2.7",
+          "run": "model",
+          "node_id": "C2.7",
+          "text": "嘉祐四年（1059年），北宋朝廷“罢禁榷，行便商之法”，准许茶商与园户直接交易（M27）。",
+          "sources": [
+            "M27"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c120",
+      "members": [
+        {
+          "atom": "model_C2.8",
+          "run": "model",
+          "node_id": "C2.8",
+          "text": "这一转向带来贸易自由化，但导致“客人园户私相贸易，公私不给，利源寖销”（M3）。",
+          "sources": [
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c121",
+      "members": [
+        {
+          "atom": "model_C2.9",
+          "run": "model",
+          "node_id": "C2.9",
+          "text": "中央茶利收入从祥符年间五百余万缗骤降至八十余万缗，降幅惊人。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c122",
+      "members": [
+        {
+          "atom": "model_C2.10",
+          "run": "model",
+          "node_id": "C2.10",
+          "text": "财政损失引发中央政权强烈反应，欧阳修记录弛禁后园户惨状（M48）。",
+          "sources": [
+            "M48"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c123",
+      "members": [
+        {
+          "atom": "model_C2.11",
+          "run": "model",
+          "node_id": "C2.11",
+          "text": "中央政权通过弛禁获得的茶利大幅缩减，地方交易未能形成稳定税收基础。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c124",
+      "members": [
+        {
+          "atom": "model_C2.12",
+          "run": "model",
+          "node_id": "C2.12",
+          "text": "王安石记述石桥场祖额从一百七万贯降至十万贯，降幅近九成（M49）。",
+          "sources": [
+            "M49"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c125",
+      "members": [
+        {
+          "atom": "model_C2.13",
+          "run": "model",
+          "node_id": "C2.13",
+          "text": "弛禁政策给予交易自由，但中央财政汲取能力遭到严重削弱。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c126",
+      "members": [
+        {
+          "atom": "model_C2.14",
+          "run": "model",
+          "node_id": "C2.14",
+          "text": "崇宁元年（1102年），蔡京上奏请求恢复禁榷，理由是茶法弊端（M3）。",
+          "sources": [
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c127",
+      "members": [
+        {
+          "atom": "model_C2.15",
+          "run": "model",
+          "node_id": "C2.15",
+          "text": "蔡京方案包括在产茶州县置场，官为收买，禁止私相交易，籍记园户姓名等。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c128",
+      "members": [
+        {
+          "atom": "model_C2.16",
+          "run": "model",
+          "node_id": "C2.16",
+          "text": "方案实质是将茶叶生产、流通、销售纳入中央官僚体系管理。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c129",
+      "members": [
+        {
+          "atom": "model_C2.17",
+          "run": "model",
+          "node_id": "C2.17",
+          "text": "湖北作为核心产茶区，成为体制重建重点区域。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c130",
+      "members": [
+        {
+          "atom": "model_C3.1",
+          "run": "model",
+          "node_id": "C3.1",
+          "text": "园户的茶叶销售对象是唯一的——官府设置的买茶场。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c131",
+      "members": [
+        {
+          "atom": "model_C3.2",
+          "run": "model",
+          "node_id": "C3.2",
+          "text": "湖北境内蕲州王祺、石桥、洗马场与黄州麻城场是主要收购点（M21）。",
+          "sources": [
+            "M21"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c132",
+      "members": [
+        {
+          "atom": "model_C3.3",
+          "run": "model",
+          "node_id": "C3.3",
+          "text": "茶场用茶折算向园户征税，规定岁额，按官定茶价预支本钱，收买茶叶。",
+          "sources": [
+            "M12",
+            "M13"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c133",
+      "members": [
+        {
+          "atom": "model_C3.4",
+          "run": "model",
+          "node_id": "C3.4",
+          "text": "园户不能自由选择买家，销售数量与价格被预先规定。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c134",
+      "members": [
+        {
+          "atom": "model_C3.5",
+          "run": "model",
+          "node_id": "C3.5",
+          "text": "茶商的运销路线受中央税制与榷务体系严格约束。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c135",
+      "members": [
+        {
+          "atom": "model_C3.6",
+          "run": "model",
+          "node_id": "C3.6",
+          "text": "《宋会要辑稿》记载茶商因泥水阻滞转江船般，借路取扬州等州，只纳旧路税钱（M39）。",
+          "sources": [
+            "M39"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c136",
+      "members": [
+        {
+          "atom": "model_C3.7",
+          "run": "model",
+          "node_id": "C3.7",
+          "text": "中央政权通过税率差异与征税地点规定，引导茶叶流通方向。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c137",
+      "members": [
+        {
+          "atom": "model_C3.8",
+          "run": "model",
+          "node_id": "C3.8",
+          "text": "中央政权对茶叶贸易利润分配保持严格控制。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c138",
+      "members": [
+        {
+          "atom": "model_C3.9",
+          "run": "model",
+          "node_id": "C3.9",
+          "text": "“贴射法”机制：商人园户自相交易，官府“中估”定价，官收其息（M27）。",
+          "sources": [
+            "M27"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c139",
+      "members": [
+        {
+          "atom": "model_C3.10",
+          "run": "model",
+          "node_id": "C3.10",
+          "text": "生产端与流通端同时施加税负，“园户收租钱，商贾收征算”（M28）。",
+          "sources": [
+            "M28"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c140",
+      "members": [
+        {
+          "atom": "model_C3.11",
+          "run": "model",
+          "node_id": "C3.11",
+          "text": "陆游《入蜀记》记录湖北境内茶场与茶商活动，与文献记载相互印证（M35）。",
+          "sources": [
+            "M35"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c141",
+      "members": [
+        {
+          "atom": "model_C3.12",
+          "run": "model",
+          "node_id": "C3.12",
+          "text": "洪适《盘洲文集》揭示荆门军榷茶制度下地方财政窘境，官吏面临“敷茶之弊”（M36）。",
+          "sources": [
+            "M36"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c142",
+      "members": [
+        {
+          "atom": "model_C3.13",
+          "run": "model",
+          "node_id": "C3.13",
+          "text": "中央与地方间张力表明茶利主导权在中央，地方仅为执行者与承受者。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c143",
+      "members": [
+        {
+          "atom": "model_C4.1",
+          "run": "model",
+          "node_id": "C4.1",
+          "text": "北宋湖北茶业经济繁盛在国家财政层面产生显著效果。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c144",
+      "members": [
+        {
+          "atom": "model_C4.2",
+          "run": "model",
+          "node_id": "C4.2",
+          "text": "沈括《梦溪笔谈》记录荆南府祖额钱三十一万五千余贯，汉阳军二十一万八千余贯，蕲州三十五万九千余贯（M37）。",
+          "sources": [
+            "M37"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c145",
+      "members": [
+        {
+          "atom": "model_C4.3",
+          "run": "model",
+          "node_id": "C4.3",
+          "text": "三处榷务茶利合计近九十万贯，在全国茶利总额中占显著份额。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c146",
+      "members": [
+        {
+          "atom": "model_C4.4",
+          "run": "model",
+          "node_id": "C4.4",
+          "text": "李焘《续资治通鉴长编》载榷蕲、黄、舒、庐、寿五州茶，置十四场，“岁入百余万缗”（M20）。",
+          "sources": [
+            "M20"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c147",
+      "members": [
+        {
+          "atom": "model_C4.5",
+          "run": "model",
+          "node_id": "C4.5",
+          "text": "湖北茶利贡献在北宋财政整体格局中具战略意义，支撑边防军费与官僚运转（M31）。",
+          "sources": [
+            "M31"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c148",
+      "members": [
+        {
+          "atom": "model_C4.6",
+          "run": "model",
+          "node_id": "C4.6",
+          "text": "北宋“三边有百万待哺之卒”，二税收入不足，故茶盐酒税等尽归官府（M31）。",
+          "sources": [
+            "M31"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c149",
+      "members": [
+        {
+          "atom": "model_C4.7",
+          "run": "model",
+          "node_id": "C4.7",
+          "text": "欧阳修描述嘉祐弛禁前后情形：“小商所贩至少，大商绝不通行”（M51）。",
+          "sources": [
+            "M51"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c150",
+      "members": [
+        {
+          "atom": "model_C4.8",
+          "run": "model",
+          "node_id": "C4.8",
+          "text": "榷茶制度下大商因利薄退出，小商因本微难继，贸易活力被制度性扼杀。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c151",
+      "members": [
+        {
+          "atom": "model_C4.9",
+          "run": "model",
+          "node_id": "C4.9",
+          "text": "《宋会要辑稿》记载园户采造依赖雇佣贫民，茶法变更时失业威胁，恐“聚为寇盗”（M50）。",
+          "sources": [
+            "M50"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c152",
+      "members": [
+        {
+          "atom": "model_C4.10",
+          "run": "model",
+          "node_id": "C4.10",
+          "text": "茶法变更不仅是经济问题，更是社会安定问题，由中央政权决策。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c153",
+      "members": [
+        {
+          "atom": "model_C4.11",
+          "run": "model",
+          "node_id": "C4.11",
+          "text": "《宋史》载：“凡民茶折税外，匿不送官及私贩鬻者没入之，计其直论罪”（M13）。",
+          "sources": [
+            "M13"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c154",
+      "members": [
+        {
+          "atom": "model_C4.12",
+          "run": "model",
+          "node_id": "C4.12",
+          "text": "“民岁输税愿折茶者，谓之折税茶”（M12），园户双重束缚：折税与不得私卖。",
+          "sources": [
+            "M12"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c155",
+      "members": [
+        {
+          "atom": "model_C4.13",
+          "run": "model",
+          "node_id": "C4.13",
+          "text": "园户被剥夺市场主体地位，沦为官府茶利汲取体系环节。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c156",
+      "members": [
+        {
+          "atom": "model_C5.1",
+          "run": "model",
+          "node_id": "C5.1",
+          "text": "湖北茶业兴起有自然条件与交通区位因素，但真正转化为大规模经济活动的是中央制度性嵌入。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c157",
+      "members": [
+        {
+          "atom": "model_C5.2",
+          "run": "model",
+          "node_id": "C5.2",
+          "text": "北宋立国之初即在汉阳、蕲口设置榷茶场，随后在五州设置十四场，纳入国家专卖体系（M38、M20）。",
+          "sources": [
+            "M20",
+            "M38"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c158",
+      "members": [
+        {
+          "atom": "model_C5.3",
+          "run": "model",
+          "node_id": "C5.3",
+          "text": "榷务选址逻辑是“择要会之地”，核心标准是控制力与汲取力最大化，而非市场自发便利。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c159",
+      "members": [
+        {
+          "atom": "model_C5.4",
+          "run": "model",
+          "node_id": "C5.4",
+          "text": "汉阳军成为全国性茶业枢纽，因中央政权选择其为茶利汲取节点（M40）。",
+          "sources": [
+            "M40"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c160",
+      "members": [
+        {
+          "atom": "model_C5.5",
+          "run": "model",
+          "node_id": "C5.5",
+          "text": "湖北茶业贸易盛衰节律与中央茶法弛张完全同步。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c161",
+      "members": [
+        {
+          "atom": "model_C5.6",
+          "run": "model",
+          "node_id": "C5.6",
+          "text": "榷茶严格时茶利岁入五百余万缗，弛禁时骤降至八十余万缗，复榷后回升（M3）。",
+          "sources": [
+            "M3"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c162",
+      "members": [
+        {
+          "atom": "model_C5.7",
+          "run": "model",
+          "node_id": "C5.7",
+          "text": "贸易繁荣与萧条是中央财政需求变化的直接投影，非市场供需自然波动。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c163",
+      "members": [
+        {
+          "atom": "model_C5.8",
+          "run": "model",
+          "node_id": "C5.8",
+          "text": "王安石所记石桥场祖额从一百七万贯降至十万贯案例佐证此判断（M49）。",
+          "sources": [
+            "M49"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c164",
+      "members": [
+        {
+          "atom": "model_C5.9",
+          "run": "model",
+          "node_id": "C5.9",
+          "text": "茶利分配格局完全由中央与地方制度性安排决定，“园户收租钱，商贾收征算”（M28）。",
+          "sources": [
+            "M28"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c165",
+      "members": [
+        {
+          "atom": "model_C5.10",
+          "run": "model",
+          "node_id": "C5.10",
+          "text": "湖北茶利在国家财政中战略意义——支撑“三边百万待哺之卒”——表明中央主导是战略选择（M31）。",
+          "sources": [
+            "M31"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c166",
+      "members": [
+        {
+          "atom": "model_C5.11",
+          "run": "model",
+          "node_id": "C5.11",
+          "text": "市场因素（茶商利润追求、园户生计维持、消费者需求）在榷茶制度框架下被严格限制。",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "concept_id": "c167",
+      "members": [
+        {
+          "atom": "model_C5.12",
+          "run": "model",
+          "node_id": "C5.12",
+          "text": "茶商不能自由选择购茶对象与运输路线，园户不能自由决定销售价格与数量（M27）。",
+          "sources": [
+            "M27"
+          ]
+        }
+      ]
+    },
+    {
+      "concept_id": "c168",
+      "members": [
+        {
+          "atom": "model_C5.13",
+          "run": "model",
+          "node_id": "C5.13",
+          "text": "茶叶交易价格由官府“中估”确定，市场机制在制度环境下扭曲发挥。",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

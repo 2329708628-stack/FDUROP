@@ -3,7 +3,7 @@
 .venv/
 .hf_cache/
 .ms_cache/
-__pycache__/
+**/__pycache__/
 *.pyc
 
 # ---- 密钥（含中转站 API key，禁止入库）----
@@ -11,3 +11,11 @@ API.txt
 
 # ---- 临时文件 ----
 _tmp_*
+_污染备份/
+
+# ---- WPS / 文档锁文件 ----
+~$*
+*.tmp
+
+# ---- 备份 ----
+原文_clean.backup.json

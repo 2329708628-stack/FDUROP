@@ -367,21 +367,22 @@ def main():
 
     # -------- 组装 run.json --------
     print("  [组装 run.json]")
+    # 父节点排序键：节点 id -> 其标题段的段落位置（不能用段落表 pidx 索引节点 id）
+    parent_order = {n["id"]: pidx[n["title_pid"]] for n in A_defs + B_defs_all}
     # 校验并排序 C
     enr = []
     for i, c in enumerate(c_level):
         par, anc, txt, srcs = c.get("parent"), c.get("anchor"), c.get("text", ""), c.get("sources", [])
-        if par not in {n["id"] for n in A_defs + B_defs_all}:
+        if par not in parent_order:
             print(f"    跳过 C: parent 不存在 {par}  text={txt[:30]}")
             continue
         if anc not in valid_P:
             print(f"    跳过 C: anchor 非法 {anc}  text={txt[:30]}")
             continue
         srcs = [m for m in srcs if m in valid_M]
-        enr.append((pidx[par], pidx[anc], i, par, anc, txt, srcs))
+        enr.append((parent_order[par], pidx[anc], i, par, anc, txt, srcs))
     enr.sort(key=lambda x: (x[0], x[1], x[2]))
 
-    parent_order = {n["id"]: pidx[n["title_pid"]] for n in A_defs + B_defs_all}
     counters, C = {}, []
     for _, _, _, par, anc, txt, srcs in enr:
         counters[par] = counters.get(par, 0) + 1

@@ -1,0 +1,15 @@
+# ---------------- 运行环境依赖 ----------------
+# 模型本体（mDeBERTa-v3 多语言 NLI，Spacy 等不依赖）
+#   MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+#   运行时通过 transformers 自动加载；脚本亦支持 HF 离线缓存（TRANSFORMERS_OFFLINE=1）。
+
+# ---------------- 深度学习 / NLI ----------------
+torch>=1.13
+transformers>=4.30
+numpy>=1.24
+
+# ---------------- HTTP（对接 LLM 中转站 API）----------------
+requests>=2.31
+
+# ---------------- 实验报告 / 对比表 ----------------
+python-docx>=1.1

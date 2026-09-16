@@ -1,0 +1,61 @@
+{
+  "A_skeleton": [
+    {
+      "id": "A1",
+      "depth": 1,
+      "title_label": "二、繁盛之基：湖北茶业的地理条件与中央制度嵌入",
+      "span": [
+        "P7",
+        "P10"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A2",
+      "depth": 1,
+      "title_label": "三、弛张之间：榷茶制度与湖北茶业贸易的盛衰节律",
+      "span": [
+        "P12",
+        "P17"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A3",
+      "depth": 1,
+      "title_label": "四、利权之归：茶叶贸易网络中的中央与地方",
+      "span": [
+        "P19",
+        "P23"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A4",
+      "depth": 1,
+      "title_label": "五、繁盛之果：财政汲取与民生代价",
+      "span": [
+        "P25",
+        "P29"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A5",
+      "depth": 1,
+      "title_label": "六、结论：繁盛主导权归于中央而非市场规律",
+      "span": [
+        "P31",
+        "P36"
+      ],
+      "parent": null
+    }
+  ],
+  "B_skeleton": [],
+  "front_matter": [
+    "P1",
+    "P2",
+    "P4",
+    "P5"
+  ]
+}

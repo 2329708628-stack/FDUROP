@@ -1,0 +1,367 @@
+{
+  "gold_run": "A01_湖北茶叶经济\\03_实验输出\\Q_A_实验\\Q_human_baseline\\run_poolspace.json",
+  "model_run": "A01_湖北茶叶经济\\03_实验输出\\Q_A_实验\\Q_run_DSA\\run.json",
+  "structure": {
+    "gold": {
+      "A": 4,
+      "B_depth2": 9,
+      "B_depth3": 0,
+      "C": 90
+    },
+    "model": {
+      "A": 5,
+      "B_depth2": 0,
+      "B_depth3": 0,
+      "C": 80
+    },
+    "gold_total": 103,
+    "model_total": 85
+  },
+  "material_coverage": {
+    "total_M": 52,
+    "gold_used": 43,
+    "model_used": 23,
+    "gold_coverage_pct": 82.7,
+    "model_coverage_pct": 44.2,
+    "gold_only": [
+      "M1",
+      "M5",
+      "M6",
+      "M7",
+      "M8",
+      "M9",
+      "M11",
+      "M14",
+      "M15",
+      "M16",
+      "M17",
+      "M18",
+      "M19",
+      "M22",
+      "M23",
+      "M24",
+      "M26",
+      "M29",
+      "M30",
+      "M32",
+      "M42",
+      "M43",
+      "M44",
+      "M45",
+      "M46",
+      "M52"
+    ],
+    "model_only": [
+      "M12",
+      "M13",
+      "M21",
+      "M27",
+      "M39",
+      "M48"
+    ],
+    "Precision": 0.739,
+    "Recall": 0.395,
+    "F1": 0.515
+  },
+  "anchor_coverage": {
+    "gold_anchors": [
+      "P10",
+      "P11",
+      "P13",
+      "P14",
+      "P18",
+      "P2",
+      "P20",
+      "P22",
+      "P26",
+      "P28",
+      "P29",
+      "P31",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "model_anchors": [
+      "P10",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P4",
+      "P5",
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "intersection": [
+      "P10",
+      "P13",
+      "P14",
+      "P20",
+      "P22",
+      "P26",
+      "P28",
+      "P29",
+      "P7",
+      "P8"
+    ],
+    "Jaccard": 0.357,
+    "per_anchor": [
+      {
+        "anchor": "P2",
+        "gold_C": 3,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P4",
+        "gold_C": 0,
+        "model_C": 5,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P5",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P6",
+        "gold_C": 6,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P7",
+        "gold_C": 3,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P8",
+        "gold_C": 12,
+        "model_C": 4,
+        "gold_M": 9,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P9",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P10",
+        "gold_C": 12,
+        "model_C": 3,
+        "gold_M": 7,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P11",
+        "gold_C": 2,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P13",
+        "gold_C": 2,
+        "model_C": 5,
+        "gold_M": 1,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P14",
+        "gold_C": 4,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P15",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P16",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P18",
+        "gold_C": 7,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P20",
+        "gold_C": 4,
+        "model_C": 4,
+        "gold_M": 2,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P21",
+        "gold_C": 0,
+        "model_C": 3,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P22",
+        "gold_C": 6,
+        "model_C": 3,
+        "gold_M": 3,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P23",
+        "gold_C": 0,
+        "model_C": 3,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P25",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P26",
+        "gold_C": 10,
+        "model_C": 2,
+        "gold_M": 5,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P27",
+        "gold_C": 0,
+        "model_C": 2,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P28",
+        "gold_C": 1,
+        "model_C": 2,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P29",
+        "gold_C": 7,
+        "model_C": 3,
+        "gold_M": 4,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P31",
+        "gold_C": 11,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P32",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P33",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P34",
+        "gold_C": 0,
+        "model_C": 2,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P35",
+        "gold_C": 0,
+        "model_C": 3,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      }
+    ]
+  },
+  "claim_comparison": [],
+  "metrics": {
+    "M_coverage_gold": 82.7,
+    "M_coverage_model": 44.2,
+    "M_Precision": 0.739,
+    "M_Recall": 0.395,
+    "M_F1": 0.515,
+    "anchor_Jaccard": 0.357,
+    "nodes_total_gold": 103,
+    "nodes_total_model": 85,
+    "nodes_ratio_percent": 82.5,
+    "C_count_gold": 90,
+    "C_count_model": 80,
+    "C_ratio_percent": 88.9,
+    "matched_claim_pairs": 0,
+    "claim_sim_mean": 0,
+    "claim_sim_min": 0
+  }
+}
