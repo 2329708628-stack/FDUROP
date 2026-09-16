@@ -1,0 +1,156 @@
+{
+  "A_skeleton": [
+    {
+      "id": "A1",
+      "depth": 1,
+      "title_label": "二、北宋湖北茶叶经济贸易的繁盛状貌",
+      "span": [
+        "P12",
+        "P18"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A2",
+      "depth": 1,
+      "title_label": "三、北宋湖北茶叶经济贸易繁盛的成因",
+      "span": [
+        "P21",
+        "P25"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A3",
+      "depth": 1,
+      "title_label": "四、北宋湖北茶叶经济贸易的影响",
+      "span": [
+        "P28",
+        "P32"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A4",
+      "depth": 1,
+      "title_label": "五、结语",
+      "span": [
+        "P34",
+        "P34"
+      ],
+      "parent": null
+    }
+  ],
+  "B_skeleton": [
+    {
+      "id": "B1.1",
+      "depth": 2,
+      "title_label": "（一）产茶区域与品类",
+      "span": [
+        "P12",
+        "P12"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.2",
+      "depth": 2,
+      "title_label": "（二）榷茶机构与山场布局",
+      "span": [
+        "P14",
+        "P14"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.3",
+      "depth": 2,
+      "title_label": "（三）贸易网络与运输路线",
+      "span": [
+        "P16",
+        "P16"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.4",
+      "depth": 2,
+      "title_label": "（四）税课规模与流通实态",
+      "span": [
+        "P18",
+        "P18"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B2.1",
+      "depth": 2,
+      "title_label": "（一）地理交通与区域格局",
+      "span": [
+        "P21",
+        "P21"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.2",
+      "depth": 2,
+      "title_label": "（二）榷茶制度的设计与调适",
+      "span": [
+        "P23",
+        "P23"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.3",
+      "depth": 2,
+      "title_label": "（三）消费市场与边地需求",
+      "span": [
+        "P25",
+        "P25"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B3.1",
+      "depth": 2,
+      "title_label": "（一）国家财政的支撑",
+      "span": [
+        "P28",
+        "P28"
+      ],
+      "parent": "A3"
+    },
+    {
+      "id": "B3.2",
+      "depth": 2,
+      "title_label": "（二）沿江经济带的发育",
+      "span": [
+        "P30",
+        "P30"
+      ],
+      "parent": "A3"
+    },
+    {
+      "id": "B3.3",
+      "depth": 2,
+      "title_label": "（三）社会矛盾与\"茶商军\"的出现",
+      "span": [
+        "P32",
+        "P32"
+      ],
+      "parent": "A3"
+    }
+  ],
+  "front_matter": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P9"
+  ]
+}

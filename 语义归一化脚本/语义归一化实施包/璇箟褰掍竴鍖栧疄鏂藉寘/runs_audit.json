@@ -1,0 +1,501 @@
+{
+  "scope": "确定性JSON统计与本代理专家初判；未运行嵌入或任何外部LLM，未完成双人标注或归一化效度验证。",
+  "runs": {
+    "run_1": {
+      "actual_A": 4,
+      "actual_B": 9,
+      "actual_C": 58,
+      "reported_C": 58,
+      "total_encoded_nodes": 71,
+      "unique_ids": 71,
+      "anchors": {
+        "P2": 4,
+        "P6": 4,
+        "P7": 3,
+        "P8": 6,
+        "P10": 6,
+        "P11": 2,
+        "P13": 2,
+        "P14": 4,
+        "P18": 3,
+        "P20": 3,
+        "P22": 4,
+        "P26": 6,
+        "P28": 1,
+        "P29": 4,
+        "P31": 6
+      },
+      "count_by_B": {
+        "B1.1": 13,
+        "B1.2": 8,
+        "B1.3": 6,
+        "B2.1": 7,
+        "B2.2": 3,
+        "B2.3": 4,
+        "B3.1": 6,
+        "B3.2": 5,
+        "B3.3": 6
+      },
+      "C_empty_sources": 23,
+      "unique_M_at_C": 63,
+      "M_references_at_C": 63,
+      "max_M_reuse_at_C": 1,
+      "C_ids_not_starting_C": 58,
+      "meta_keys": [
+        "paper_title",
+        "encoding_scheme",
+        "version",
+        "node_roles"
+      ],
+      "C_keys": [
+        "id",
+        "anchor",
+        "text",
+        "sources",
+        "parent"
+      ],
+      "exact_duplicate_C_texts": 0
+    },
+    "run_2": {
+      "actual_A": 4,
+      "actual_B": 9,
+      "actual_C": 50,
+      "reported_C": 50,
+      "total_encoded_nodes": 63,
+      "unique_ids": 63,
+      "anchors": {
+        "P2": 2,
+        "P6": 4,
+        "P7": 2,
+        "P8": 4,
+        "P10": 6,
+        "P11": 2,
+        "P13": 2,
+        "P14": 3,
+        "P18": 3,
+        "P20": 2,
+        "P22": 4,
+        "P26": 6,
+        "P28": 1,
+        "P29": 4,
+        "P31": 5
+      },
+      "count_by_B": {
+        "B1.1": 10,
+        "B1.2": 8,
+        "B1.3": 5,
+        "B2.1": 5,
+        "B2.2": 2,
+        "B2.3": 4,
+        "B3.1": 6,
+        "B3.2": 5,
+        "B3.3": 5
+      },
+      "C_empty_sources": 17,
+      "unique_M_at_C": 63,
+      "M_references_at_C": 63,
+      "max_M_reuse_at_C": 1,
+      "C_ids_not_starting_C": 50,
+      "meta_keys": [
+        "paper_title",
+        "encoding_scheme",
+        "version",
+        "node_roles"
+      ],
+      "C_keys": [
+        "id",
+        "anchor",
+        "text",
+        "sources",
+        "parent"
+      ],
+      "exact_duplicate_C_texts": 0
+    },
+    "run_3": {
+      "actual_A": 4,
+      "actual_B": 9,
+      "actual_C": 55,
+      "reported_C": 55,
+      "total_encoded_nodes": 68,
+      "unique_ids": 68,
+      "anchors": {
+        "P2": 2,
+        "P6": 6,
+        "P7": 2,
+        "P8": 4,
+        "P10": 8,
+        "P11": 2,
+        "P13": 2,
+        "P14": 2,
+        "P18": 2,
+        "P20": 3,
+        "P22": 4,
+        "P26": 7,
+        "P28": 1,
+        "P29": 3,
+        "P31": 7
+      },
+      "count_by_B": {
+        "B1.1": 12,
+        "B1.2": 10,
+        "B1.3": 4,
+        "B2.1": 4,
+        "B2.2": 3,
+        "B2.3": 4,
+        "B3.1": 7,
+        "B3.2": 4,
+        "B3.3": 7
+      },
+      "C_empty_sources": 22,
+      "unique_M_at_C": 63,
+      "M_references_at_C": 63,
+      "max_M_reuse_at_C": 1,
+      "C_ids_not_starting_C": 55,
+      "meta_keys": [
+        "paper_title",
+        "encoding_scheme",
+        "version",
+        "node_roles"
+      ],
+      "C_keys": [
+        "id",
+        "anchor",
+        "text",
+        "sources",
+        "parent"
+      ],
+      "exact_duplicate_C_texts": 0
+    }
+  },
+  "pairwise": [
+    {
+      "runs": [
+        "run_1",
+        "run_2"
+      ],
+      "A_nodes_exactly_equal": true,
+      "B_nodes_exactly_equal": true,
+      "C_exact_text_intersection": 2,
+      "unrestricted_C_crosspairs": 2900,
+      "same_anchor_C_crosspairs": 224,
+      "anchors_with_different_C_counts": 6
+    },
+    {
+      "runs": [
+        "run_1",
+        "run_3"
+      ],
+      "A_nodes_exactly_equal": true,
+      "B_nodes_exactly_equal": true,
+      "C_exact_text_intersection": 3,
+      "unrestricted_C_crosspairs": 3190,
+      "same_anchor_C_crosspairs": 254,
+      "anchors_with_different_C_counts": 10
+    },
+    {
+      "runs": [
+        "run_2",
+        "run_3"
+      ],
+      "A_nodes_exactly_equal": true,
+      "B_nodes_exactly_equal": true,
+      "C_exact_text_intersection": 0,
+      "unrestricted_C_crosspairs": 2750,
+      "same_anchor_C_crosspairs": 228,
+      "anchors_with_different_C_counts": 8
+    }
+  ],
+  "representative_cases": [
+    {
+      "case": "同义改写候选",
+      "nodes": [
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 537,
+          "id": "B1.3.2",
+          "anchor": "P13",
+          "text": "表3辑录湖北部分茶叶官府收购价及本地、异地销售价，利润多寡主由品质决定，亦受道里远近影响。",
+          "sources": [],
+          "parent": "B1.3"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 516,
+          "id": "B1.3.2",
+          "anchor": "P13",
+          "text": "表3辑录湖北茶叶收购价及本地、异地售价，利润高下主由品质决定，亦受道里远近影响。",
+          "sources": [],
+          "parent": "B1.3"
+        }
+      ],
+      "expert_preliminary": "核心价格与利润判断非常接近；样本显示只做字符串比较会误判差异。仍应将复合句拆成价格表内容、品质作用、距离作用等原子命题后判定。",
+      "requirement": "向量只召回候选；审查者对原子命题做等义判断。"
+    },
+    {
+      "case": "一个来源位置内的拆合",
+      "nodes": [
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 482,
+          "id": "B1.2.4",
+          "anchor": "P10",
+          "text": "太平兴国间增置江陵府等榷务，六榷务十三场体系确立；雍熙入中法令商人沿边纳刍粮、凭引至江淮荆湖领茶北销。",
+          "sources": [
+            "M30",
+            "M31",
+            "M32"
+          ],
+          "parent": "B1.2"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 451,
+          "id": "B1.2.3",
+          "anchor": "P10",
+          "text": "湖北榷茶始于建隆间刘湛榷茶蕲春，乾德间苏晓奏榷五州置十四场，太平兴国间六榷务十三场确立。",
+          "sources": [
+            "M28",
+            "M29",
+            "M30",
+            "M31"
+          ],
+          "parent": "B1.2"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 463,
+          "id": "B1.2.4",
+          "anchor": "P10",
+          "text": "雍熙间为供边粮行入中法，商人沿边纳刍粮领交引，至江淮荆湖领茶，湖北茶大量转销西北。",
+          "sources": [
+            "M32"
+          ],
+          "parent": "B1.2"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 482,
+          "id": "B1.2.5",
+          "anchor": "P10",
+          "text": "太平兴国间增置江陵府等榷务，六榷务十三茶场体系正式确立，为宋初榷茶提供制度保障。",
+          "sources": [
+            "M30",
+            "M31"
+          ],
+          "parent": "B1.2"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 492,
+          "id": "B1.2.6",
+          "anchor": "P10",
+          "text": "雍熙间为供边粮行入中法，商人纳刍粮领交引、至江淮荆湖领茶，湖北茶因利厚大量转销西北。",
+          "sources": [
+            "M32"
+          ],
+          "parent": "B1.2"
+        }
+      ],
+      "expert_preliminary": "run1同一节点含太平兴国榷务体系及雍熙入中法；run2把前一命题与更早榷茶史合并，后一命题独立；run3两者分开并增加制度保障及利厚因果描述。不是节点顺序一一配对可解决。",
+      "requirement": "先原子化，保留母节点与子命题映射；新增因果表述单独判定。"
+    },
+    {
+      "case": "独立事实的复合与数量精度",
+      "nodes": [
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 642,
+          "id": "B2.2.2",
+          "anchor": "P20",
+          "text": "湖北山地丘陵居多、地势西高东低，秦岭、大巴、武陵、大别、幕阜诸山拦截水汽并提供富含有机质土壤。",
+          "sources": [],
+          "parent": "B2.2"
+        },
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 649,
+          "id": "B2.2.3",
+          "anchor": "P20",
+          "text": "现代研究称茶树生长最适温为19至30℃，北宋气候较今暖0.3至0.5℃，湖北温度更宜茶树生长。",
+          "sources": [],
+          "parent": "B2.2"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 599,
+          "id": "B2.2.2",
+          "anchor": "P20",
+          "text": "湖北多山地丘陵、群山环峙，既可拦截水汽又提供富含有机质土壤；北宋气候较今暖，温度宜茶。",
+          "sources": [],
+          "parent": "B2.2"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 613,
+          "id": "B2.2.2",
+          "anchor": "P20",
+          "text": "湖北地势西高东低、群山环峙，既拦截水汽又为茶树提供富含有机质的土壤。",
+          "sources": [],
+          "parent": "B2.2"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 620,
+          "id": "B2.2.3",
+          "anchor": "P20",
+          "text": "现代研究以19至30℃为茶树最适温度，北宋气候较今暖0.3至0.5℃，湖北温度更为相宜。",
+          "sources": [],
+          "parent": "B2.2"
+        }
+      ],
+      "expert_preliminary": "run2在一个节点合并地形土壤与气温条件，并省去19至30℃和0.3至0.5℃；run1/3分别表达。可合并共享的原子命题，不能把整句当完全等义。",
+      "requirement": "区分等义、单向蕴含/细节省略、独立命题拆合；预注册数字精度规则。"
+    },
+    {
+      "case": "原文anchor跨轮迁移",
+      "nodes": [
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 393,
+          "id": "B1.1.7",
+          "anchor": "P7",
+          "text": "湖北除夔州施州外概行榷茶，便于视作一体统计官府买茶额，表2即反映官府买茶数量。",
+          "sources": [],
+          "parent": "B1.1"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 386,
+          "id": "B1.1.6",
+          "anchor": "P7",
+          "text": "湖北除夔州施州外概行榷茶，可将其视作一体统计官府买茶额，具体数额见表2。",
+          "sources": [],
+          "parent": "B1.1"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 409,
+          "id": "B1.1.9",
+          "anchor": "P8",
+          "text": "湖北除夔州施州外概行榷茶，便于视作一体统计，表2载官府在鄂买茶额达10102753斤。",
+          "sources": [],
+          "parent": "B1.1"
+        }
+      ],
+      "expert_preliminary": "前两轮把湖北除夔州施州外行榷茶及统一统计放P7；run3放P8并合入10102753斤。严格只比较同anchor会遗漏真实对应，且P7/P8在full.md没有可核验的编号映射。",
+      "requirement": "原文句级span可多对多；同anchor先召回，邻近anchor和全局高相似候选补召回，人工核查。"
+    },
+    {
+      "case": "主题相同但结果方向不同",
+      "nodes": [
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 623,
+          "id": "B2.1.7",
+          "anchor": "P18",
+          "text": "民间饮茶之风盛行，士人分茶斗茶、城镇茶坊林立，蔡條称本朝茶事穷极新出，民间需求支撑产量高位。",
+          "sources": [
+            "M40"
+          ],
+          "parent": "B2.1"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 580,
+          "id": "B2.1.5",
+          "anchor": "P18",
+          "text": "民间饮茶、斗茶之风盛行，城镇茶坊林立，蔡條叹本朝茶事穷极新出，需求维持产量高位。",
+          "sources": [
+            "M40"
+          ],
+          "parent": "B2.1"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 594,
+          "id": "B2.1.4",
+          "anchor": "P18",
+          "text": "民间饮茶风行，士人分茶斗茶、城镇茶坊林立，蔡條称茶事至本朝穷极新出，拉动产量攀升。",
+          "sources": [
+            "M40"
+          ],
+          "parent": "B2.1"
+        }
+      ],
+      "expert_preliminary": "run1民间需求支撑产量高位、run2需求维持产量高位，与run3拉动产量攀升不同：维持高水平不能直接等同于导致上升。full.md第92行原文称需求使产量始终维持高位；注意B标题本身写产量攀升，可能影响概括。",
+      "requirement": "谓词方向、状态与变化、因果强度作为不可抹除槽位；若抽取错误也不可在归一化环节偷偷改正后消去错误。"
+    },
+    {
+      "case": "结果/解释命题遗漏",
+      "nodes": [
+        {
+          "run": "run_1",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_1.json",
+          "text_line": 512,
+          "id": "B1.2.7",
+          "anchor": "P11",
+          "text": "嘉祐四年通商法正式推行，园户官收租钱、商贾官收征算而尽罢禁榷，湖北茶叶市场获短暂快速发展。",
+          "sources": [
+            "M36"
+          ],
+          "parent": "B1.2"
+        },
+        {
+          "run": "run_2",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_2.json",
+          "text_line": 491,
+          "id": "B1.2.7",
+          "anchor": "P11",
+          "text": "嘉祐四年通商法正式推行，园户官收租钱、商贾官收征算而尽罢禁榷，湖北市场获短暂发展。",
+          "sources": [
+            "M36"
+          ],
+          "parent": "B1.2"
+        },
+        {
+          "run": "run_3",
+          "path": "/Users/jessie/Desktop/寻文/three runs/run_3.json",
+          "text_line": 520,
+          "id": "B1.2.9",
+          "anchor": "P11",
+          "text": "嘉祐四年通商法正式推行，园户官收租钱、商贾官收征算而尽罢禁榷。",
+          "sources": [
+            "M36"
+          ],
+          "parent": "B1.2"
+        }
+      ],
+      "expert_preliminary": "三轮共享嘉祐四年通商法措施，但run1追加市场获短暂快速发展、run2追加短暂发展，run3未表达市场结果；政策事实等义不代表整个节点完全等义。",
+      "requirement": "先拆政策事实与市场后果；未表达项作为缺失保留，不能用宽泛主题簇把缺失抹去。"
+    }
+  ],
+  "C_count_sample_CV": 0.07438255001829534,
+  "source_and_protocol_limitations": [
+    "Only supplied prompt&example.json declares v3.0 whereas runs declare v3.1; actual executed prompts and structured input are unavailable.",
+    "No model ID/snapshot, run timestamp, temperature/top_p/seed, API/request record, exact input hash, prompt hash or independent-session record in runs; independent repeated executions cannot be verified from these files.",
+    "All 4 A titles appear verbatim in provided prompt mapping, and B titles copy original headings; exclude these predetermined nodes from generated-semantic convergence inference.",
+    "No immutable sentence spans/quotes or P-number-to-source mapping file. full.md lacks P labels.",
+    "No materials M1-M63 source table in supplied directory; existence/faithfulness of references cannot be fully checked.",
+    "Each M appears exactly once at C in each run; aggregated A/B source sets coincide, but this does not show stable claim-evidence binding.",
+    "C nodes use B1.1.1-style IDs despite schema saying C1.1.1. IDs are unique locally but should be run-qualified and standardized without changing provenance.",
+    "Run data are extraction outputs for one paper and three files; insufficient for general conditional-generation convergence or statistical population claims."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "A_skeleton": [
+    {
+      "id": "A1",
+      "depth": 1,
+      "title_label": "一 北宋时期湖北地区茶叶经济繁盛的状貌",
+      "span": [
+        "P4",
+        "P14"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A2",
+      "depth": 1,
+      "title_label": "二 北宋时期湖北地区茶叶经济繁盛的缘由",
+      "span": [
+        "P16",
+        "P22"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A3",
+      "depth": 1,
+      "title_label": "三 北宋时期湖北地区茶叶经济繁盛的影响",
+      "span": [
+        "P24",
+        "P31"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A0",
+      "depth": 1,
+      "title_label": "结语",
+      "span": [
+        "P33",
+        "P33"
+      ],
+      "parent": null
+    }
+  ],
+  "B_skeleton": [
+    {
+      "id": "B1.1",
+      "depth": 2,
+      "title_label": "（一）规模化的茶叶供给",
+      "span": [
+        "P6",
+        "P8"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.2",
+      "depth": 2,
+      "title_label": "（二）辐射广阔的茶叶市场",
+      "span": [
+        "P10",
+        "P11"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.3",
+      "depth": 2,
+      "title_label": "（三）丰厚的茶叶利润",
+      "span": [
+        "P13",
+        "P14"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B2.1",
+      "depth": 2,
+      "title_label": "（一）多元需求拉动茶产量攀升",
+      "span": [
+        "P18",
+        "P18"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.2",
+      "depth": 2,
+      "title_label": "（二）自然环境助推茶叶生产",
+      "span": [
+        "P20",
+        "P20"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.3",
+      "depth": 2,
+      "title_label": "（三）地理区位促进茶叶运销",
+      "span": [
+        "P22",
+        "P22"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B3.1",
+      "depth": 2,
+      "title_label": "(一) 塑造沿江经济带",
+      "span": [
+        "P26",
+        "P26"
+      ],
+      "parent": "A3"
+    },
+    {
+      "id": "B3.2",
+      "depth": 2,
+      "title_label": "（二）提高政府财政收入",
+      "span": [
+        "P28",
+        "P29"
+      ],
+      "parent": "A3"
+    },
+    {
+      "id": "B3.3",
+      "depth": 2,
+      "title_label": "（三）改变地方民生状态",
+      "span": [
+        "P31",
+        "P31"
+      ],
+      "parent": "A3"
+    }
+  ],
+  "front_matter": [
+    "P2"
+  ]
+}

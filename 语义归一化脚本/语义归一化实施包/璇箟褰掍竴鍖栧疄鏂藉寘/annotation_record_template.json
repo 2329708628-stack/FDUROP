@@ -1,0 +1,12 @@
+{
+  "pair_id": "pair_001",
+  "atom_a": "anon_a",
+  "atom_b": "anon_b",
+  "sampling_stratum": "natural_or_challenge",
+  "sampling_probability": null,
+  "annotator_1_label": null,
+  "annotator_2_label": null,
+  "adjudicated_label": null,
+  "unresolved": false,
+  "notes": "先分别保存独立判断，再统计讨论前一致性，最后裁决；空值不是DIFFERENT。"
+}

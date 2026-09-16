@@ -1,0 +1,22 @@
+{
+  "experiment": "Q_A",
+  "condition": "Q",
+  "paper_id": "A01",
+  "run_no": "2",
+  "model": "GLM-4.5-Flash",
+  "temperature": 0.7,
+  "max_tokens": 16384,
+  "question": "北宋时期湖北地区茶叶经济贸易的情况、原因和影响",
+  "prompt_chars": 6325,
+  "source_pool": {
+    "total_sources": 19,
+    "total_passages": 52,
+    "S_block_chars": 5757
+  },
+  "output_chars": 6016,
+  "elapsed_sec": 255.03,
+  "time_to_first_token_sec": 85.19,
+  "finish_reason": "stop",
+  "usage": null,
+  "timestamp": "2026-09-16 11:40:34"
+}

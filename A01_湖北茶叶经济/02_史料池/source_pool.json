@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "paper_id": "A01",
+    "description": "DeepSeek 手工提取的史料池",
+    "note": "来源标注含现代出版物版次，暂以古籍名+卷号为主体标识"
+  },
+  "statistics": {
+    "total_sources": 19,
+    "total_passages": 52
+  },
+  "sources": [
+    {
+      "source_id": "SRC_001",
+      "title": "〈宋史·食货志·茶法〉校证",
+      "dynasty": "",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_001_P01",
+          "original_id": "M21",
+          "text": "蕲州曰王祺、石桥、洗马，黄州曰麻城，庐州曰王同，舒州曰太湖、罗源，寿州曰霍山、麻步、开顺，光州曰商城、子安、光山",
+          "source_full": "方健：《〈宋史·食货志·茶法〉校证》，《中国经济史研究》1990年第3期。",
+          "volume": ""
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_002",
+      "title": "东京梦华录 都城纪胜 西湖老人繁胜录 梦梁录 武林旧事",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_002_P01",
+          "original_id": "M2",
+          "text": "盖人家每日不可阙者",
+          "source_full": "（宋）孟元老等：《东京梦华录 都城纪胜 西湖老人繁胜录 梦梁录 武林旧事》卷16，中国商业出版社1982年版，第139页。",
+          "volume": "卷16"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_003",
+      "title": "东斋记事",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_003_P01",
+          "original_id": "M11",
+          "text": "蜀之产茶八处：雅州之蒙顶、蜀州之味江、邛州之火井、嘉州之中峰、彭州之堋口、汉州之杨村、绵州之兽目、利州之罗村",
+          "source_full": "（宋）范镇撰：《东斋记事》卷4，汝沛点校，中华书局1980年版，第37页。",
+          "volume": "卷4"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_004",
+      "title": "临川先生文集",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_004_P01",
+          "original_id": "M49",
+          "text": "又既仰巨商，饶丰价薄，园民困耗，逋欠岁程，至如石桥一场，祖额一百七万，而近岁买纳，才得十万",
+          "source_full": "（宋）王安石：《临川先生文集》卷70，中华书局1959年版，第744页。",
+          "volume": "卷70"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_005",
+      "title": "元丰九域志",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_005_P01",
+          "original_id": "M15",
+          "text": "碧涧茶芽六百斤",
+          "source_full": "（宋）王存：《元丰九域志》卷6，王文楚、魏嵩山点校，中华书局2005年版，第266页。",
+          "volume": "卷6"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_006",
+      "title": "净德集",
+      "dynasty": "宋",
+      "citation_count": 2,
+      "passages": [
+        {
+          "passage_id": "SRC_006_P01",
+          "original_id": "M9",
+          "text": "赋税一例折科、役钱一例均出",
+          "source_full": "（宋）吕陶：《净德集》卷3，商务印书馆1935年版，第34页。",
+          "volume": "卷3"
+        },
+        {
+          "passage_id": "SRC_006_P02",
+          "original_id": "M10",
+          "text": "旧例住税每斤六文，过税每斤收二文",
+          "source_full": "（宋）吕陶：《净德集》卷3，商务印书馆1935年版，第34页。",
+          "volume": "卷3"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_007",
+      "title": "太平寰宇记",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_007_P01",
+          "original_id": "M35",
+          "text": "北至郢州私路二百五十里，官路三百里",
+          "source_full": "（宋）乐史：《太平寰宇记》卷144，王文楚等点校，中华书局2007年版，第2802页。",
+          "volume": "卷144"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_008",
+      "title": "宋会要辑稿",
+      "dynasty": "清",
+      "citation_count": 11,
+      "passages": [
+        {
+          "passage_id": "SRC_008_P01",
+          "original_id": "M3",
+          "text": "茶盐之法，系朝廷利柄，自祖宗以来，他司不敢侵紊",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货二六，刘琳等校点，上海古籍出版社2014年版，第6566页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P02",
+          "original_id": "M14",
+          "text": "每百斤纳耗二十斤至三十五斤",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货30，刘琳等校点，上海古籍出版社2014年版，第6654页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P03",
+          "original_id": "M16",
+          "text": "诸州军捕得私茶，每岁不下三二万斤，送食茶务出卖",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货30，刘琳等校点，上海古籍出版社2014年版，第6656页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P04",
+          "original_id": "M17",
+          "text": "产茶州县在城铺户居民，多在城外置买些地土，种植茶株，自造茶货，更无引目，收私茶相兼，转般入城，与里外铺户私相交易，或自开张铺席，影带出卖",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货30，刘琳等校点，上海古籍出版社2014年版，第6703页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P05",
+          "original_id": "M18",
+          "text": "遣监察御史薛雄诣沿江诸州禁绝私茶",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货30，刘琳等校点，上海古籍出版社2014年版，第6649页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P06",
+          "original_id": "M36",
+          "text": "广南诸州自桂州由湖南、北、江陵、荆门而至",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货48，刘琳等校点，上海古籍出版社2014年版，第7081页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P07",
+          "original_id": "M39",
+          "text": "泥水阻滞车牛……买贩蕲口、洗马、石桥、太湖茶货到庐州，……权令转江船般，借路取真、扬州、高邮军、楚、泗州经过，只纳旧路庐、寿等州一路税钱",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货17，刘琳等校点，上海古籍出版社2014年版，第6357页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P08",
+          "original_id": "M40",
+          "text": "贩卖蕲口、太湖、洗马、石桥、无为军等五处场务茶货……若水路船般，转江下来，取东路真、扬、高邮军、楚、泗州、宿、亳州、南京经过上京者，依贩卖汉阳榷务等处茶例",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货17，刘琳等校点，上海古籍出版社2014年版，第6357页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P09",
+          "original_id": "M42",
+          "text": "郢州至襄阳，尽是滩碛",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货44，刘琳等校点，上海古籍出版社2014年版，第6996页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P10",
+          "original_id": "M43",
+          "text": "管下舟车辐辏",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货40，刘琳等校点，上海古籍出版社2014年版，第6901页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_008_P11",
+          "original_id": "M50",
+          "text": "昨定夺司条制茶事，……令知园户采撷用功，须更得人手制造，……又佣力者众，皆是贫民，既斥去无用，安知不聚为寇盗？",
+          "source_full": "（清）徐松辑：《宋会要辑稿》食货36，刘琳等校点，上海古籍出版社2014年版，第6789页。",
+          "volume": ""
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_009",
+      "title": "宋史",
+      "dynasty": "",
+      "citation_count": 7,
+      "passages": [
+        {
+          "passage_id": "SRC_009_P01",
+          "original_id": "M4",
+          "text": "元丰又析为二十三：曰京东东、西，曰京西南、北，曰河北东、西，曰永兴，曰秦凤，曰河东，曰淮南东、西，曰两浙，曰江南东、西，曰荆湖南、北，曰成都，曰梓、利、夔、曰福建，曰广南东、西",
+          "source_full": "《宋史》卷85，中华书局1985年版，第2094页。",
+          "volume": "卷85"
+        },
+        {
+          "passage_id": "SRC_009_P02",
+          "original_id": "M5",
+          "text": "景祐元年，天下户千二十九万六千五百六十五，丁二千六百二十万五千四百四十一，三分其一为产茶州军",
+          "source_full": "《宋史》卷184，中华书局1985年版，第4495页。",
+          "volume": "卷184"
+        },
+        {
+          "passage_id": "SRC_009_P03",
+          "original_id": "M7",
+          "text": "散茶出淮南、归州、江南、荆湖，有龙溪、雨前、雨后之类十一等",
+          "source_full": "《宋史》卷184，中华书局1985年版，第4477页。",
+          "volume": "卷184"
+        },
+        {
+          "passage_id": "SRC_009_P04",
+          "original_id": "M12",
+          "text": "民岁输税愿折茶者，谓之折税茶",
+          "source_full": "《宋史》卷184，中华书局1985年版，第4477页。",
+          "volume": "卷184"
+        },
+        {
+          "passage_id": "SRC_009_P05",
+          "original_id": "M13",
+          "text": "凡民茶折税外，匿不送官及私贩鬻者没入之，计其直论罪",
+          "source_full": "《宋史》卷184，中华书局1985年版，第4478页。",
+          "volume": "卷184"
+        },
+        {
+          "passage_id": "SRC_009_P06",
+          "original_id": "M24",
+          "text": "转致于西北，利尝至数倍",
+          "source_full": "《宋史》卷184，中华书局1985年版，第4479页。",
+          "volume": "卷184"
+        },
+        {
+          "passage_id": "SRC_009_P07",
+          "original_id": "M52",
+          "text": "湖北茶商群聚暴横……籍为兵……号曰'茶商军'后多赖其用",
+          "source_full": "《宋史》卷414，中华书局1985年版，第12419页。",
+          "volume": "卷414"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_010",
+      "title": "建炎以来朝野杂记",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_010_P01",
+          "original_id": "M8",
+          "text": "夔路自祖宗以来不榷茶，政和中，有司请卖引，议者以民夷不便，罢之",
+          "source_full": "（宋）李心传：《建炎以来朝野杂记》卷14，徐规点校，中华书局2006年版，第306页。",
+          "volume": "卷14"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_011",
+      "title": "忠肃集",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_011_P01",
+          "original_id": "M41",
+          "text": "凡浮江下于黔、蜀，与夫陆驿自二广、湖、湘以往来京师者，此为咽喉",
+          "source_full": "（宋）刘挚：《忠肃集》卷10，中华书局1985年版，第138页。",
+          "volume": "卷10"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_012",
+      "title": "文献通考",
+      "dynasty": "元",
+      "citation_count": 9,
+      "passages": [
+        {
+          "passage_id": "SRC_012_P01",
+          "original_id": "M6",
+          "text": "大柘枕出江陵，岳麓、草子、杨树、雨前、雨后出荆湖，清口出归州",
+          "source_full": "（元）马端临：《文献通考》卷18，上海师范大学古籍整理研究所、华东师范大学古籍研究所点校，中华书局2011年版，第504页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P02",
+          "original_id": "M22",
+          "text": "于江陵府、襄复州、无为军增置务，端拱二年，又于海州置务。淳化四年废建安、襄复州务",
+          "source_full": "（元）马端临：《文献通考》卷18，上海师范大学古籍整理研究所、华东师范大学古籍研究所点校，中华书局2011年版，第503页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P03",
+          "original_id": "M23",
+          "text": "多令商人输刍粮塞下，酌地之远近而为其直，取市价而厚增之，授以要券，谓之交引，至京师给以缗钱，又移文江、淮、荆湖给以颗、末盐及茶",
+          "source_full": "（元）马端临：《文献通考》卷18，第505页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P04",
+          "original_id": "M25",
+          "text": "产茶州军许其民赴场输息，量限斤数，给短引，于旁近郡县便鬻",
+          "source_full": "（元）马端临：《文献通考》卷18，第512页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P05",
+          "original_id": "M26",
+          "text": "商人自场给长引，沿路登时批发，至所指地，然后计税尽输，则再道无苛留",
+          "source_full": "（元）马端临：《文献通考》卷18，第512页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P06",
+          "original_id": "M27",
+          "text": "以十三茶场买卖本息并计其数，罢官给本钱，使商人与园户自相交易，一切定为中估而官收其息",
+          "source_full": "（元）马端临：《文献通考》卷18，第509页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P07",
+          "original_id": "M28",
+          "text": "园户之种茶者，官收租钱，商贾之贩茶者，官收征算，而尽罢禁榷",
+          "source_full": "（元）马端临：《文献通考》卷18，第509页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P08",
+          "original_id": "M29",
+          "text": "凡茶入官以轻估，其出以重估，县官之利甚博，而商贾转致于西北，以致散于夷狄，其利又特厚",
+          "source_full": "（元）马端临：《文献通考》卷18，第507页。",
+          "volume": "卷18"
+        },
+        {
+          "passage_id": "SRC_012_P09",
+          "original_id": "M46",
+          "text": "恭惟我艺祖开基之岁，首定商税则例，自后累朝守为家法",
+          "source_full": "（元）马端临：《文献通考》卷15，第401页。",
+          "volume": "卷15"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_013",
+      "title": "梦溪笔谈",
+      "dynasty": "宋",
+      "citation_count": 2,
+      "passages": [
+        {
+          "passage_id": "SRC_013_P01",
+          "original_id": "M30",
+          "text": "鄂州崇阳县多旷土，民不务耕织，唯以植茶为业",
+          "source_full": "（宋）沈括：《梦溪笔谈》卷12，中华书局2016年版，第453页。",
+          "volume": "卷12"
+        },
+        {
+          "passage_id": "SRC_013_P02",
+          "original_id": "M37",
+          "text": "受纳潭、鼎、澧、岳、归、峡、荆南府片茶、散茶共八十七万五千三百五十七斤",
+          "source_full": "（宋）沈括：《梦溪笔谈》卷12，中华书局1937年版，第82页。",
+          "volume": "卷12"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_014",
+      "title": "欧阳修全集",
+      "dynasty": "宋",
+      "citation_count": 3,
+      "passages": [
+        {
+          "passage_id": "SRC_014_P01",
+          "original_id": "M47",
+          "text": "旧纳茶税，今变租钱",
+          "source_full": "（宋）欧阳修：《欧阳修全集》卷112，李逸安点校，中华书局2001年版，第1701页。",
+          "volume": "卷112"
+        },
+        {
+          "passage_id": "SRC_014_P02",
+          "original_id": "M48",
+          "text": "破产亡家，怨嗟愁苦，不可堪忍，或举族而逃，或自经而死",
+          "source_full": "（宋）欧阳修：《欧阳修全集》卷112，李逸安点校，中华书局2001年版，第1701页。",
+          "volume": "卷112"
+        },
+        {
+          "passage_id": "SRC_014_P03",
+          "original_id": "M51",
+          "text": "小商所贩至少，大商绝不通行",
+          "source_full": "（宋）欧阳修：《欧阳修全集》卷112，李逸安点校，中华书局2001年版，第1701页。",
+          "volume": "卷112"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_015",
+      "title": "续资治通鉴长编",
+      "dynasty": "宋",
+      "citation_count": 5,
+      "passages": [
+        {
+          "passage_id": "SRC_015_P01",
+          "original_id": "M19",
+          "text": "奉召榷茶于蕲春",
+          "source_full": "（宋）李焘：《续资治通鉴长编》卷3，上海师范大学古籍整理研究所、华东师范大学古籍研究所点校，中华书局1993年版，第61页。",
+          "volume": "卷3"
+        },
+        {
+          "passage_id": "SRC_015_P02",
+          "original_id": "M20",
+          "text": "榷蕲、黄、舒、庐、寿五州茶，置十四场，笼其利，岁入百余万缗",
+          "source_full": "（宋）李焘：《续资治通鉴长编》卷6，第157页。",
+          "volume": "卷6"
+        },
+        {
+          "passage_id": "SRC_015_P03",
+          "original_id": "M31",
+          "text": "今三边有百万待哺之卒，计天下二税，上供之外能足其食乎？故茶盐酒税山泽杂产之利尽归于官，尚犹日算岁计，恐其不足",
+          "source_full": "（宋）李焘：《续资治通鉴长编》卷143，第3462页。",
+          "volume": "卷143"
+        },
+        {
+          "passage_id": "SRC_015_P04",
+          "original_id": "M38",
+          "text": "京师、建安、汉阳、蕲口并置场榷茶",
+          "source_full": "（宋）李焘：《续资治通鉴长编》卷5，中华书局1995年版，第131页。",
+          "volume": "卷5"
+        },
+        {
+          "passage_id": "SRC_015_P05",
+          "original_id": "M44",
+          "text": "元年用旧法得五百六十九万贯，二年用新法得四百一十万贯，三年得二百八十五万贯",
+          "source_full": "（宋）李焘：《续资治通鉴长编》卷66，第1482页。",
+          "volume": "卷66"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_016",
+      "title": "茶录：外十种",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_016_P01",
+          "original_id": "M34",
+          "text": "植产之地，崖必阳、圃必阴",
+          "source_full": "（宋）蔡襄等：《茶录：外十种》，唐晓云校点，上海书店出版社2015年版，第40页。",
+          "volume": ""
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_017",
+      "title": "茶经 续茶经",
+      "dynasty": "唐",
+      "citation_count": 2,
+      "passages": [
+        {
+          "passage_id": "SRC_017_P01",
+          "original_id": "M1",
+          "text": "兴于唐，盛于宋，始为世重矣",
+          "source_full": "（唐）陆羽、（清）陆廷灿著，乙力编：《茶经 续茶经》卷上，三秦出版社2005年版，第71页。",
+          "volume": ""
+        },
+        {
+          "passage_id": "SRC_017_P02",
+          "original_id": "M33",
+          "text": "上者生烂石，中者生栎壤，下者生黄土",
+          "source_full": "（唐）陆羽、（清）陆廷灿著，乙力编：《茶经 续茶经》卷上，三秦出版社2005年版，第2页。",
+          "volume": ""
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_018",
+      "title": "铁围山丛谈",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_018_P01",
+          "original_id": "M32",
+          "text": "茶之尚，盖自唐人始，至本朝为盛而本朝又至祐陵时益穷极新出，而无以加矣",
+          "source_full": "（宋）蔡僚撰：《铁围山丛谈》卷6，冯惠民、沈锡麟点校，中华书局1983年版，第106页。",
+          "volume": "卷6"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC_019",
+      "title": "麈史",
+      "dynasty": "宋",
+      "citation_count": 1,
+      "passages": [
+        {
+          "passage_id": "SRC_019_P01",
+          "original_id": "M45",
+          "text": "六路租茶通商以来，蠲减外，岁计三十三万八千六十八贯有畸。湖北独当十万二千三百三十一贯有畸，而鄂一州所敛无虑三万九千缗",
+          "source_full": "（宋）王得臣：《麈史》卷上，中华书局1985年版，第15页。",
+          "volume": ""
+        }
+      ]
+    }
+  ]
+}

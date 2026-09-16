@@ -1,0 +1,1107 @@
+[
+  {
+    "pair_id": "run_1_C1.1.1__run_2_C1.1.1",
+    "label": "EQUIVALENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_2_C1.1.1",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "两个命题都描述了北宋元丰年间二十三路的标准，以及今湖北地跨的五个路名，主体、关系、对象、时空范围、肯否、数量程度、状态或变化、因果方向、条件、认识强度和判断归属完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_2_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_2_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述的是北宋元丰年间二十三路的标准和湖北地跨的路名，而命题B描述的是湖北地区的府州军数量和产茶区占比，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_2_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_2_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述的是北宋元丰年间二十三路的标准和湖北地跨的路名，而命题B描述的是蕲州三场与黄州麻城场属于的产茶区，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_2_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_2_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述的是北宋元丰年间二十三路的标准和湖北地跨的路名，而命题B描述的是景祐年间全国产茶比例和湖北的比例，两者时空范围和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_2_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_2_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述的是北宋元丰年间二十三路的标准和湖北地跨的路名，而命题B描述的是北宋茶叶的分类和荆湖产出的品种，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_2_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_2_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，而B命题提到北宋的五路划分，两者内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_2_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_2_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量，B命题提到湖北地区府州军数量和产茶区比例，两者内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_2_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_2_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，B命题提到蕲州三场和黄州麻城场的产茶区，两者内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_2_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_2_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，B命题提到全国州军产茶的比例和湖北的比例，两者内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_2_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_2_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，B命题提到北宋茶叶的品种和产地，两者内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_2_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_2_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是北宋时期的行政区域划分，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_2_C1.1.2",
+    "label": "A_ENTAILS_B",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_2_C1.1.2",
+      "label": "A_ENTAILS_B",
+      "a_entails_b": true,
+      "b_entails_a": false,
+      "reason": "A命题中提到的湖北地区重要产茶区数量和占比在B命题中得到了确认，但B命题没有提及占比信息。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_2_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_2_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是蕲州三场与黄州麻城场所属的产茶区，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_2_C1.1.4",
+    "label": "A_ENTAILS_B",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_2_C1.1.4",
+      "label": "A_ENTAILS_B",
+      "a_entails_b": true,
+      "b_entails_a": false,
+      "reason": "A命题中提到的湖北地区产茶比例高于全国三分之一的信息在B命题中得到了确认，但B命题没有提及湖北的具体比例。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_2_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_2_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是北宋茶叶的品种，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_2_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_2_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是北宋时期的行政区域划分，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_2_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_2_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是湖北地区产茶区的数量和比例，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_2_C1.1.3",
+    "label": "EQUIVALENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_2_C1.1.3",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都明确指出蕲州三场和黄州麻城场属于十三山场产茶区，主体、关系、对象和时空范围完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_2_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_2_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是全国和湖北产茶的比例，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_2_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_2_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是荆湖地区的茶叶品种，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_2_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_2_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶州军的比例，B命题讨论的是北宋的路划分，两者主题不同，内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_2_C1.1.2",
+    "label": "A_ENTAILS_B",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_2_C1.1.2",
+      "label": "A_ENTAILS_B",
+      "a_entails_b": true,
+      "b_entails_a": false,
+      "reason": "A命题中提到的湖北地区产茶州军比例高于全国平均水平，B命题提供了湖北地区产茶区占比的具体数字，因此A命题蕴含B命题。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_2_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_2_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶州军的比例，B命题讨论的是蕲州三场和黄州麻城场的产茶区，两者主题不同，内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_2_C1.1.4",
+    "label": "EQUIVALENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_2_C1.1.4",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都讨论了景祐年间全国三分之一州军产茶，湖北比例远高于此，主体、时空、数量、肯否、因果方向、状态或变化、认识强度完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_2_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_2_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶州军的比例，B命题讨论的是茶叶的品种，两者主题不同，内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_2_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_2_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的分类和荆湖地区的茶叶品种，而B命题讨论的是北宋的行政区域划分，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_2_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_2_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是茶叶品种，B命题讨论的是湖北地区的行政单位和产茶区比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_2_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_2_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是茶叶品种，B命题讨论的是特定地区的产茶区，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_2_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_2_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是茶叶品种，B命题讨论的是全国和湖北的产茶比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_2_C1.1.5",
+    "label": "EQUIVALENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_2_C1.1.5",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都在讨论北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种，主题和内容完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_3_C1.1.1",
+    "label": "EQUIVALENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_3_C1.1.1",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "两个命题都描述了北宋元丰年间二十三路的标准，以及今湖北地跨的五路，时空范围和数量程度一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述了湖北地跨的五路，而命题B描述了湖北的府州军数量和产茶区比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述了湖北地跨的五路，而命题B描述了蕲州三场的产茶区，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述了湖北地跨的五路，而命题B描述了全国产茶的比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.1__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰年间二十三路为标准，今湖北地跨京西南路、荆湖北路、淮南西路、江南西路、夔州路",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_1_C1.1.1__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "命题A描述了湖北地跨的五路，而命题B描述了茶叶的分类和荆湖的产出，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，而B命题提到湖北地跨五路，没有提及府州军数量和分布。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量，而B命题提到湖北的府州军数量和产茶区占比，两者内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，而B命题提到蕲州三场黄州麻城场的产茶区，两者内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，而B命题提到全国州军产茶的占比，两者内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.2__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "属今湖北地区的府州军共18个，分布于五路之中",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_1_C1.1.2__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区的府州军数量和分布，而B命题提到茶叶的分类和荆湖的产出，两者内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是湖北地跨的路数，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_3_C1.1.2",
+    "label": "EQUIVALENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_3_C1.1.2",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都在讨论湖北地区重要产茶区的数量和占比，且关键限定（主体/时空/数量/肯否/因果方向/状态或变化/认识强度）完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是蕲州三场黄州麻城场属十三山场产茶区，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是全国三分之一州军产茶的比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.3__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "湖北地区重要产茶区共10府州军，在域内占比达55%",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_1_C1.1.3__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区重要产茶区的数量和占比，而B命题讨论的是茶叶的分类和荆湖的产出，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是湖北地跨的路数，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是湖北的府州军数量和产茶区占比，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_3_C1.1.3",
+    "label": "EQUIVALENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_3_C1.1.3",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都在讨论蕲州三场和黄州麻城场属于哪个产茶区，主体、关系、对象和时空范围完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是景祐年间全国和湖北的产茶比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.4__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "蕲州三场和黄州麻城场属十三山场产茶区",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_1_C1.1.4__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场和黄州麻城场属于哪个产茶区，而B命题讨论的是茶叶的分类和荆湖的产出，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶州军的比例，B命题讨论的是湖北地跨的路数，两者主题不同，无法互相蕴含。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_3_C1.1.2",
+    "label": "A_ENTAILS_B",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_3_C1.1.2",
+      "label": "A_ENTAILS_B",
+      "a_entails_b": true,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北地区产茶州军比例远高于全国三分之一，B命题提供了湖北产茶区占比的具体数字，因此A命题蕴含B命题。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_3_C1.1.3",
+    "label": "UNCERTAIN",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_3_C1.1.3",
+      "label": "UNCERTAIN",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题和C命题都涉及湖北的产茶情况，但没有提供足够的信息来直接判断两者之间的关系，因此无法确定。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_3_C1.1.4",
+    "label": "EQUIVALENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_3_C1.1.4",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A命题和B命题都提到景祐年间全国三分之一州军产茶，湖北比例更高，关键限定一致，因此两者等义。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.5__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "景祐元年全国三分之一的州军为产茶州军，湖北地区远高于此比例",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_1_C1.1.5__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶州军的比例，B命题讨论的是茶叶的种类和荆湖的产出，两者主题不同，无法互相蕴含。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的分类和荆湖地区的茶叶品种，而B命题讨论的是元丰二十三年湖北的行政区划，两者主题和内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的分类和荆湖地区的茶叶品种，而B命题讨论的是湖北的府州军数量和产茶区比例，两者主题和内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的分类和荆湖地区的茶叶品种，而B命题讨论的是蕲州三场黄州麻城场的产茶区归属，两者主题和内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的分类和荆湖地区的茶叶品种，而B命题讨论的是景祐年间全国和湖北的产茶比例，两者主题和内容无关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C1.1.6__run_3_C1.1.5",
+    "label": "EQUIVALENT",
+    "A": "北宋茶叶分片茶与散茶两类，荆湖地区产出岳麓、草子、杨树、雨前等品种",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_1_C1.1.6__run_3_C1.1.5",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都在讨论北宋茶叶的分类和荆湖地区的茶叶品种，内容相同，只是表述略有不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.1__run_3_C1.1.1",
+    "label": "EQUIVALENT",
+    "A": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_2_C1.1.1__run_3_C1.1.1",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "两个命题都提到了元丰二十三路作为标准，以及湖北地跨五路，时空范围和数量程度一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.1__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_2_C1.1.1__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地跨的五路，而B命题讨论的是湖北的府州军数量和产茶区比例，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.1__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_2_C1.1.1__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地跨的五路，而B命题讨论的是蕲州三场的产茶区，两者主题和对象不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.1__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_2_C1.1.1__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地跨的五路，而B命题讨论的是全国产茶比例和湖北的比例，两者主题和范围不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.1__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_2_C1.1.1__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地跨的五路，而B命题讨论的是茶叶的分类和荆湖的产出，两者主题和对象不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.2__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_2_C1.1.2__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区府州军数量和产茶区占比，而B命题讨论的是湖北地区在元丰二十三年的行政划分，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.2__run_3_C1.1.2",
+    "label": "EQUIVALENT",
+    "A": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_2_C1.1.2__run_3_C1.1.2",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都讨论了湖北地区共18府州军，其中重要产茶区10个占比55%，主体、关系、对象、时空范围、肯否、数量程度完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.2__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_2_C1.1.2__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区府州军数量和产茶区占比，而B命题讨论的是蕲州三场黄州麻城场属于的产茶区，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.2__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_2_C1.1.2__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区府州军数量和产茶区占比，而B命题讨论的是全国三分之一州军产茶的情况，两者主题和范围不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.2__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_2_C1.1.2__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区府州军数量和产茶区占比，而B命题讨论的是茶叶的分类和荆湖地区的产出，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.3__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_2_C1.1.3__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场与黄州麻城场属于哪个产茶区，而B命题讨论的是湖北地跨的路数，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.3__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_2_C1.1.3__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场与黄州麻城场属于哪个产茶区，而B命题讨论的是湖北的府州军数量和产茶区占比，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.3__run_3_C1.1.3",
+    "label": "EQUIVALENT",
+    "A": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_2_C1.1.3__run_3_C1.1.3",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都在讨论蕲州三场与黄州麻城场属于哪个产茶区，主体、关系、对象和时空范围完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.3__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_2_C1.1.3__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场与黄州麻城场属于哪个产茶区，而B命题讨论的是景祐年间全国和湖北的产茶比例，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.3__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "蕲州三场与黄州麻城场属十三山场产茶区",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_2_C1.1.3__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是蕲州三场与黄州麻城场属于哪个产茶区，而B命题讨论的是茶叶的分类和荆湖的产出，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.4__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_2_C1.1.4__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶的比例，B命题讨论的是地理区域划分，两者主题不同，不蕴含。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.4__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_2_C1.1.4__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶的比例，B命题讨论的是府州军数量和产茶区占比，两者信息不相关，不蕴含。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.4__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_2_C1.1.4__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶的比例，B命题讨论的是特定地区的产茶区，两者信息不相关，不蕴含。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.4__run_3_C1.1.4",
+    "label": "EQUIVALENT",
+    "A": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_2_C1.1.4__run_3_C1.1.4",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都讨论了景祐间湖北产茶比例远高于全国三分之一，关键限定一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.4__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_2_C1.1.4__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是产茶的比例，B命题讨论的是茶叶的种类和产地，两者主题不同，不蕴含。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.5__run_3_C1.1.1",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "B": "以元丰二十三路为准，今湖北地跨五路",
+    "raw": {
+      "pair_id": "run_2_C1.1.5__run_3_C1.1.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的品种和产地，而B命题讨论的是元丰二十三年湖北的行政区划，两者主题和内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.5__run_3_C1.1.2",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "B": "湖北共18府州军，重要产茶区10个占比55%",
+    "raw": {
+      "pair_id": "run_2_C1.1.5__run_3_C1.1.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的品种和产地，而B命题讨论的是湖北的府州军数量和产茶区比例，两者主题和内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.5__run_3_C1.1.3",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "B": "蕲州三场黄州麻城场属十三山场产茶区",
+    "raw": {
+      "pair_id": "run_2_C1.1.5__run_3_C1.1.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的品种和产地，而B命题讨论的是蕲州三场黄州麻城场属于的产茶区，两者主题和内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.5__run_3_C1.1.4",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "B": "景祐间全国三分之一州军产茶，湖北比例更高",
+    "raw": {
+      "pair_id": "run_2_C1.1.5__run_3_C1.1.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是北宋茶叶的品种和产地，而B命题讨论的是景祐年间全国和湖北的产茶比例，两者主题和内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_2_C1.1.5__run_3_C1.1.5",
+    "label": "DIFFERENT",
+    "A": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+    "B": "茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等",
+    "raw": {
+      "pair_id": "run_2_C1.1.5__run_3_C1.1.5",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题和B命题虽然都提到了茶叶的品种和荆湖的产地，但B命题省略了“分片茶散茶”这一信息，导致两者在内容上不完全一致。"
+    }
+  }
+]

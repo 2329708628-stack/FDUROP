@@ -1,0 +1,224 @@
+{
+  "A_skeleton": [
+    {
+      "id": "A1",
+      "depth": 1,
+      "title_label": "二、情况、原因",
+      "span": [
+        "P18",
+        "P32"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A2",
+      "depth": 1,
+      "title_label": "三、影响",
+      "span": [
+        "P36",
+        "P49"
+      ],
+      "parent": null
+    }
+  ],
+  "B_skeleton": [
+    {
+      "id": "B1.1",
+      "depth": 2,
+      "title_label": "(一) 湖北茶叶经济繁荣的表现",
+      "span": [
+        "P18",
+        "P20"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.1.1",
+      "depth": 3,
+      "title_label": "1. 茶叶产量与税收",
+      "span": [
+        "P18",
+        "P18"
+      ],
+      "parent": "B1.1"
+    },
+    {
+      "id": "B1.1.2",
+      "depth": 3,
+      "title_label": "2. 茶叶贸易规模",
+      "span": [
+        "P20",
+        "P20"
+      ],
+      "parent": "B1.1"
+    },
+    {
+      "id": "B1.2",
+      "depth": 2,
+      "title_label": "(二) 湖北茶叶经济发展的原因",
+      "span": [
+        "P23",
+        "P27"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.2.1",
+      "depth": 3,
+      "title_label": "1. 自然地理条件",
+      "span": [
+        "P23",
+        "P23"
+      ],
+      "parent": "B1.2"
+    },
+    {
+      "id": "B1.2.2",
+      "depth": 3,
+      "title_label": "2. 政策支持",
+      "span": [
+        "P25",
+        "P25"
+      ],
+      "parent": "B1.2"
+    },
+    {
+      "id": "B1.2.3",
+      "depth": 3,
+      "title_label": "3. 交通便利",
+      "span": [
+        "P27",
+        "P27"
+      ],
+      "parent": "B1.2"
+    },
+    {
+      "id": "B1.3",
+      "depth": 2,
+      "title_label": "(三) 茶叶经济面临的挑战",
+      "span": [
+        "P30",
+        "P32"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.3.1",
+      "depth": 3,
+      "title_label": "1. 官榷制度的弊端",
+      "span": [
+        "P30",
+        "P30"
+      ],
+      "parent": "B1.3"
+    },
+    {
+      "id": "B1.3.2",
+      "depth": 3,
+      "title_label": "2. 私茶贸易的冲击",
+      "span": [
+        "P32",
+        "P32"
+      ],
+      "parent": "B1.3"
+    },
+    {
+      "id": "B2.1",
+      "depth": 2,
+      "title_label": "(一) 对湖北地区经济的影响",
+      "span": [
+        "P36",
+        "P38"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.1.1",
+      "depth": 3,
+      "title_label": "1. 财政贡献",
+      "span": [
+        "P36",
+        "P36"
+      ],
+      "parent": "B2.1"
+    },
+    {
+      "id": "B2.1.2",
+      "depth": 3,
+      "title_label": "2. 产业结构调整",
+      "span": [
+        "P38",
+        "P38"
+      ],
+      "parent": "B2.1"
+    },
+    {
+      "id": "B2.2",
+      "depth": 2,
+      "title_label": "(二) 对社会的影响",
+      "span": [
+        "P41",
+        "P43"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.2.1",
+      "depth": 3,
+      "title_label": "1. 民生影响",
+      "span": [
+        "P41",
+        "P41"
+      ],
+      "parent": "B2.2"
+    },
+    {
+      "id": "B2.2.2",
+      "depth": 3,
+      "title_label": "2. 茶商群体形成",
+      "span": [
+        "P43",
+        "P43"
+      ],
+      "parent": "B2.2"
+    },
+    {
+      "id": "B2.3",
+      "depth": 2,
+      "title_label": "(三) 对国家战略的影响",
+      "span": [
+        "P46",
+        "P49"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.3.1",
+      "depth": 3,
+      "title_label": "1. 茶盐互市政策",
+      "span": [
+        "P46",
+        "P46"
+      ],
+      "parent": "B2.3"
+    },
+    {
+      "id": "B2.3.2",
+      "depth": 3,
+      "title_label": "2. 茶商军的作用",
+      "span": [
+        "P48",
+        "P49"
+      ],
+      "parent": "B2.3"
+    }
+  ],
+  "front_matter": [
+    "P1",
+    "P5",
+    "P7",
+    "P10",
+    "P12",
+    "P14"
+  ]
+}

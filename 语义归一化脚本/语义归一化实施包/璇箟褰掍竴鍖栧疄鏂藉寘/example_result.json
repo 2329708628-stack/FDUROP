@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "fixed_normalization_independent_of_analysis_runs_asserted": true,
+  "groups": {
+    "single": {
+      "input_qc": {
+        "records_supplied": 3,
+        "usable_nonempty_ok_runs": 3,
+        "usable_run_ids": [
+          "demo_1",
+          "demo_2",
+          "demo_3"
+        ],
+        "failed_run_ids": [],
+        "missing_run_ids": [],
+        "ok_but_empty_run_ids": [],
+        "within_run_duplicate_ids_removed": 0,
+        "nonempty_success_fraction_of_supplied_records": 1.0,
+        "empty_ok_exclusion_explicitly_requested": false,
+        "estimand": "convergence conditional on status=ok AND a nonempty normalized output",
+        "unreported_missing_runs_cannot_be_detected": true
+      },
+      "analysis": {
+        "aci_j": 0.3333333333333333,
+        "distance_matrix_in_input_usable_run_order": [
+          [
+            0.0,
+            0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ]
+        ],
+        "pair_count_not_independent_sample_size": 3,
+        "counts": {
+          "n": 3,
+          "T_total_within_run_deduplicated": 9,
+          "U_unique_concepts": 4,
+          "original_U_over_T": 0.4444444444444444,
+          "count_endpoint_corrected": 0.16666666666666666
+        },
+        "per_run_concept_counts": [
+          3,
+          3,
+          3
+        ],
+        "concept_frequencies": {
+          "a": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "b": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c": {
+            "run_count": 2,
+            "prevalence": 0.6666666666666666
+          },
+          "d": {
+            "run_count": 1,
+            "prevalence": 0.3333333333333333
+          }
+        },
+        "inference": {
+          "jackknife_run_delete_se": 0.33333333333333337,
+          "hoeffding_interval": {
+            "method": "fixed_kernel_U_statistic_Hoeffding",
+            "confidence_level": 0.95,
+            "lower": 0.0,
+            "upper": 1.0,
+            "half_width_before_clipping": 1.3581015157406195,
+            "floor_n_over_2": 1
+          },
+          "assumptions": "iid runs; symmetric pairwise rule fixed independently of analysis runs",
+          "zero_se_does_not_imply_certainty": true,
+          "normalization_error_included": false,
+          "n_under_10_warning": true
+        }
+      },
+      "analysis_errors": []
+    }
+  },
+  "comparison": null,
+  "warning": "Scores do not establish semantic accuracy, source fidelity, or historical validity"
+}

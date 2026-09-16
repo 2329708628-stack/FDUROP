@@ -1,0 +1,109 @@
+{
+  "A_skeleton": [
+    {
+      "id": "A1",
+      "depth": 1,
+      "title_label": "一 吴江地区的水利开发与新县增设",
+      "span": [
+        "P5",
+        "P11"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A2",
+      "depth": 1,
+      "title_label": "二 嘉定地区的水利开发与新县增设",
+      "span": [
+        "P14",
+        "P27"
+      ],
+      "parent": null
+    },
+    {
+      "id": "A0",
+      "depth": 1,
+      "title_label": "结语",
+      "span": [
+        "P29",
+        "P29"
+      ],
+      "parent": null
+    }
+  ],
+  "B_skeleton": [
+    {
+      "id": "B1.1",
+      "depth": 2,
+      "title_label": "(一) 吴江地区的水利开发",
+      "span": [
+        "P5",
+        "P6"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.2",
+      "depth": 2,
+      "title_label": "（二）吴江县的创设及对区域开发的影响",
+      "span": [
+        "P8",
+        "P9"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B1.3",
+      "depth": 2,
+      "title_label": "（三）吴江县增设对区域治水的影响",
+      "span": [
+        "P11",
+        "P11"
+      ],
+      "parent": "A1"
+    },
+    {
+      "id": "B2.1",
+      "depth": 2,
+      "title_label": "（一）嘉定创县前水利开发的基本形势",
+      "span": [
+        "P14",
+        "P15"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.2",
+      "depth": 2,
+      "title_label": "（二）昆山县邑难治与嘉定县的析置",
+      "span": [
+        "P17",
+        "P20"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.3",
+      "depth": 2,
+      "title_label": "（三）创置嘉定县的具体过程",
+      "span": [
+        "P22",
+        "P25"
+      ],
+      "parent": "A2"
+    },
+    {
+      "id": "B2.4",
+      "depth": 2,
+      "title_label": "（四）创置嘉定县对水利开发的影响",
+      "span": [
+        "P27",
+        "P27"
+      ],
+      "parent": "A2"
+    }
+  ],
+  "front_matter": [
+    "P2"
+  ]
+}

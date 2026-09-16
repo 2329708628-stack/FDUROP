@@ -1,0 +1,1058 @@
+{
+  "meta": {
+    "paper_title": "北宋时期湖北地区茶叶经济繁盛的状貌、缘由及影响*",
+    "encoding_scheme": "A-B-C-M hierarchical encoding",
+    "version": "3.2",
+    "node_roles": {
+      "A0": "结论节点（结语/余论/结论），claim 为全文核心命题，sources 为全文 M 并集",
+      "A1_An": "正文一级章节节点，depth=1，title_label 为原标题、claim 为独立生成的命题",
+      "B": "二级（一）/三级（1.）标题节点，depth=2 或 3；扁平结构论文 B_level 为空数组",
+      "C": "段落级单一可检验事实主张（叶子节点），anchor 为来源段落 P 编号，直接绑定 M",
+      "M": "原始史料（脚注）编号，只能取输入 materials 中存在的编号"
+    }
+  },
+  "encoding_rules": {
+    "depth_policy": "标题层机械映射作者显式标题：一级→A(depth1)，（一）→B(depth2)，1.→B(depth3)；无该级标题则该层为空，禁止推断性补层；span 为所辖正文段 P 编号闭区间",
+    "A": "一级标题节点；title_label 保原文，claim 由调用④独立生成；sources 为子树并集，A0 为全文 M 并集",
+    "B": "节/目节点；title_label 保原文，claim 由调用③独立生成；sources 为下属并集",
+    "C": "段落级事实主张，按父节点内 anchor 页序→段内切分序连续编号；anchor 为来源段 P 编号；sources 只取 anchor 段 material_refs 中支撑该条的 M，推导性主张留空 []",
+    "M": "史料编号，仅能使用输入 materials 中存在的编号，不得虚构",
+    "path_separator": "-",
+    "independent_generation": [
+      "调用①骨架：标题→节点+span，机械映射零概括（本 run 骨架由脚本确定性推导）",
+      "调用②C 级：仅见 paragraphs+materials",
+      "调用③B 级：每节点仅见自身 title_label+span 段落，不见 C",
+      "调用④A 级：每节点仅见自身 title_label+span 段落，不见 B/C",
+      "调用⑤核查综合：支持核查通过后回填 supported/supported_by"
+    ],
+    "attribution_method": [
+      "每条 C 带 anchor（来源段落 P 编号）；跨轮比较以 span（标题节点）与 anchor（C）为客观对齐点。",
+      "标题节点严格机械映射作者显式标题：一级→A(depth1)，（一）→B(depth2)，1.→B(depth3)；扁平结构无 B 层，C 直接挂 A。",
+      "A/B 的 claim 由模型在独立调用中仅依据 title_label+span 段落生成（B 不见 C、A 不见 B/C）；supported 字段待调用⑤支持核查回填。",
+      "sources 自底向上取并集：B=子树 C 并集，A=子树 C 并集，A0=全文 M 并集；推导性主张 sources 留空 []。",
+      "P2 引言段语义归入 B2.1",
+      "M13 补绑至 P6 茶品种 C",
+      "M23 补绑至 P8 水磨茶 C",
+      "P4/P16/P24 总起段不切 C，P7/P14/P28 无史料段 sources 留空"
+    ],
+    "support_check": [
+      "待调用⑤回填：节点id | 首查是否通过 | 改写后 claim（若有）| supported_by"
+    ]
+  },
+  "encoding_table": {
+    "A_level": [
+      {
+        "id": "A0",
+        "depth": 1,
+        "title_label": "结语",
+        "claim": "北宋湖北茶叶经济繁盛本质是政策主导的产物，发展受中央茶法控制",
+        "span": [
+          "P33",
+          "P33"
+        ],
+        "sources": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M34",
+          "M35",
+          "M36",
+          "M37",
+          "M38",
+          "M39",
+          "M40",
+          "M41",
+          "M42",
+          "M43",
+          "M44",
+          "M45",
+          "M46",
+          "M47",
+          "M48",
+          "M49",
+          "M50",
+          "M51",
+          "M52",
+          "M53",
+          "M54",
+          "M55",
+          "M56",
+          "M57",
+          "M58",
+          "M59",
+          "M60",
+          "M61",
+          "M62",
+          "M63"
+        ],
+        "source_count": 63,
+        "supported": null,
+        "supported_by": [],
+        "parent": null
+      },
+      {
+        "id": "A1",
+        "depth": 1,
+        "title_label": "一 北宋时期湖北地区茶叶经济繁盛的状貌",
+        "claim": "北宋湖北茶叶在供给规模、市场辐射和利润空间上均呈现繁盛态势",
+        "span": [
+          "P4",
+          "P14"
+        ],
+        "sources": [
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M34",
+          "M35",
+          "M36",
+          "M37"
+        ],
+        "source_count": 34,
+        "supported": null,
+        "supported_by": [],
+        "parent": null
+      },
+      {
+        "id": "A2",
+        "depth": 1,
+        "title_label": "二 北宋时期湖北地区茶叶经济繁盛的缘由",
+        "claim": "需求拉动、自然禀赋与地理区位共同促成湖北茶叶经济勃兴",
+        "span": [
+          "P16",
+          "P22"
+        ],
+        "sources": [
+          "M1",
+          "M2",
+          "M3",
+          "M38",
+          "M39",
+          "M40",
+          "M41",
+          "M42",
+          "M43",
+          "M44",
+          "M45"
+        ],
+        "source_count": 11,
+        "supported": null,
+        "supported_by": [],
+        "parent": null
+      },
+      {
+        "id": "A3",
+        "depth": 1,
+        "title_label": "三 北宋时期湖北地区茶叶经济繁盛的影响",
+        "claim": "湖北茶叶经济塑造沿江经济带、增加财政收入并改变民生状态",
+        "span": [
+          "P24",
+          "P31"
+        ],
+        "sources": [
+          "M46",
+          "M47",
+          "M48",
+          "M49",
+          "M50",
+          "M51",
+          "M52",
+          "M53",
+          "M54",
+          "M55",
+          "M56",
+          "M57",
+          "M58",
+          "M59",
+          "M60",
+          "M61",
+          "M62",
+          "M63"
+        ],
+        "source_count": 18,
+        "supported": null,
+        "supported_by": [],
+        "parent": null
+      }
+    ],
+    "B_level": [
+      {
+        "id": "B1.1",
+        "depth": 2,
+        "title_label": "（一）规模化的茶叶供给",
+        "claim": "湖北产茶区占比55%且品种多样，年产量保守逾千万斤",
+        "span": [
+          "P6",
+          "P8"
+        ],
+        "sources": [
+          "M4",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27"
+        ],
+        "source_count": 24,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A1"
+      },
+      {
+        "id": "B1.2",
+        "depth": 2,
+        "title_label": "（二）辐射广阔的茶叶市场",
+        "claim": "湖北茶叶市场经历榷茶专营到通商自由的两阶段嬗变",
+        "span": [
+          "P10",
+          "P11"
+        ],
+        "sources": [
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M34",
+          "M35",
+          "M36"
+        ],
+        "source_count": 9,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A1"
+      },
+      {
+        "id": "B1.3",
+        "depth": 2,
+        "title_label": "（三）丰厚的茶叶利润",
+        "claim": "湖北茶叶官购与售价差距悬殊，茶商利润丰厚",
+        "span": [
+          "P13",
+          "P14"
+        ],
+        "sources": [
+          "M37"
+        ],
+        "source_count": 1,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A1"
+      },
+      {
+        "id": "B2.1",
+        "depth": 2,
+        "title_label": "（一）多元需求拉动茶产量攀升",
+        "claim": "官府倚重茶利与民间饮茶风尚共同驱动植茶热潮",
+        "span": [
+          "P18",
+          "P18"
+        ],
+        "sources": [
+          "M1",
+          "M2",
+          "M3",
+          "M38",
+          "M39",
+          "M40"
+        ],
+        "source_count": 6,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A2"
+      },
+      {
+        "id": "B2.2",
+        "depth": 2,
+        "title_label": "（二）自然环境助推茶叶生产",
+        "claim": "湖北山地丘陵地貌和温暖气候为茶叶生长提供优越条件",
+        "span": [
+          "P20",
+          "P20"
+        ],
+        "sources": [
+          "M41",
+          "M42"
+        ],
+        "source_count": 2,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A2"
+      },
+      {
+        "id": "B2.3",
+        "depth": 2,
+        "title_label": "（三）地理区位促进茶叶运销",
+        "claim": "湖北居中的水陆交通便利茶叶运输与跨区销售",
+        "span": [
+          "P22",
+          "P22"
+        ],
+        "sources": [
+          "M43",
+          "M44",
+          "M45"
+        ],
+        "source_count": 3,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A2"
+      },
+      {
+        "id": "B3.1",
+        "depth": 2,
+        "title_label": "(一) 塑造沿江经济带",
+        "claim": "榷茶体系与水运区位共同塑造江陵府汉阳军鄂州双核心沿江带",
+        "span": [
+          "P26",
+          "P26"
+        ],
+        "sources": [
+          "M46",
+          "M47",
+          "M48",
+          "M49",
+          "M50",
+          "M51"
+        ],
+        "source_count": 6,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A3"
+      },
+      {
+        "id": "B3.2",
+        "depth": 2,
+        "title_label": "（二）提高政府财政收入",
+        "claim": "茶叶经济通过茶税和商税为北宋贡献可观财政收入",
+        "span": [
+          "P28",
+          "P29"
+        ],
+        "sources": [
+          "M52",
+          "M53",
+          "M54",
+          "M55",
+          "M56"
+        ],
+        "source_count": 5,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A3"
+      },
+      {
+        "id": "B3.3",
+        "depth": 2,
+        "title_label": "（三）改变地方民生状态",
+        "claim": "茶叶经济开辟就业同时引发茶农破产与社会冲突",
+        "span": [
+          "P31",
+          "P31"
+        ],
+        "sources": [
+          "M57",
+          "M58",
+          "M59",
+          "M60",
+          "M61",
+          "M62",
+          "M63"
+        ],
+        "source_count": 7,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A3"
+      }
+    ],
+    "C_level": [
+      {
+        "id": "C1.1.1",
+        "anchor": "P6",
+        "text": "北宋以元丰二十三路为准，今湖北地跨京西南、荆湖北、淮南西、江南西、夔州五路",
+        "sources": [
+          "M4"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.2",
+        "anchor": "P6",
+        "text": "湖北地区共18府州军，其中重要产茶区10个占比55%",
+        "sources": [
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9",
+          "M10"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.3",
+        "anchor": "P6",
+        "text": "蕲州三场与黄州麻城场属十三山场产茶区",
+        "sources": [
+          "M11"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.4",
+        "anchor": "P6",
+        "text": "景祐间全国三分之一州军产茶，湖北比例远高于此",
+        "sources": [
+          "M12"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.5",
+        "anchor": "P6",
+        "text": "北宋茶叶分片茶散茶，荆湖产出岳麓草子杨树雨前等品种",
+        "sources": [
+          "M13",
+          "M14",
+          "M15"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.6",
+        "anchor": "P7",
+        "text": "鄂州江陵府蕲州三场茶叶种类丰富质量上乘",
+        "sources": [],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.7",
+        "anchor": "P7",
+        "text": "北宋全国茶产量因史料散佚和计量单位变更难以精确",
+        "sources": [],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.8",
+        "anchor": "P7",
+        "text": "湖北除夔州路施州外概行榷茶法便于统一计算",
+        "sources": [],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.9",
+        "anchor": "P8",
+        "text": "夔州路终北宋未入榷茶体系，始终行税茶政策",
+        "sources": [
+          "M16",
+          "M17"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.10",
+        "anchor": "P8",
+        "text": "《东斋记事》未列施州产茶，施州产茶量极低不计",
+        "sources": [
+          "M18"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.11",
+        "anchor": "P8",
+        "text": "折税茶独立于买茶额之外，天禧末全国降至76万余斤",
+        "sources": [
+          "M19",
+          "M20",
+          "M21"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.12",
+        "anchor": "P8",
+        "text": "湖北纳耗率取27.5%，耗茶约278万斤",
+        "sources": [
+          "M22"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.13",
+        "anchor": "P8",
+        "text": "水磨茶法元丰间行于京师周围，贡茶仅江陵府碧涧茶芽六百斤",
+        "sources": [
+          "M23",
+          "M24"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.14",
+        "anchor": "P8",
+        "text": "食茶已计入买茶额，私茶估定为买茶额半数至持平",
+        "sources": [
+          "M25",
+          "M26",
+          "M27"
+        ],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.1.15",
+        "anchor": "P8",
+        "text": "湖北茶叶总产量保守约1290万斤，含私茶最高2300万斤",
+        "sources": [],
+        "parent": "B1.1"
+      },
+      {
+        "id": "C1.2.1",
+        "anchor": "P10",
+        "text": "北宋市场分汴京东南蜀川关陇四域，湖北凭水网联结四方",
+        "sources": [
+          "M35"
+        ],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.2.2",
+        "anchor": "P10",
+        "text": "茶法分禁榷通商卖引阶段，贴射法归属存争议",
+        "sources": [
+          "M32"
+        ],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.2.3",
+        "anchor": "P10",
+        "text": "湖北榷茶始自建隆刘湛蕲春榷茶，乾德苏晓置十四场岁入百万缗",
+        "sources": [
+          "M28",
+          "M29"
+        ],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.2.4",
+        "anchor": "P10",
+        "text": "太平兴国二年六榷务十三茶场体系确立",
+        "sources": [
+          "M30"
+        ],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.2.5",
+        "anchor": "P10",
+        "text": "雍熙交引法使茶叶转贩西北，政和茶法以长短引规制贸易",
+        "sources": [
+          "M31",
+          "M33",
+          "M34"
+        ],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.2.6",
+        "anchor": "P11",
+        "text": "嘉祐四年通商法推行，官府撤出流通仅留管理职能",
+        "sources": [
+          "M36"
+        ],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.2.7",
+        "anchor": "P11",
+        "text": "茶法嬗变使湖北茶叶市场在采购运输销售上呈榷茶通商两阶段差异",
+        "sources": [],
+        "parent": "B1.2"
+      },
+      {
+        "id": "C1.3.1",
+        "anchor": "P13",
+        "text": "官府轻估入重估出，商人转贩西北获利特厚",
+        "sources": [
+          "M37"
+        ],
+        "parent": "B1.3"
+      },
+      {
+        "id": "C1.3.2",
+        "anchor": "P13",
+        "text": "茶叶利润主要由品质决定，亦受路途影响",
+        "sources": [],
+        "parent": "B1.3"
+      },
+      {
+        "id": "C1.3.3",
+        "anchor": "P14",
+        "text": "榷茶阶段湖北茶主要销本地，收购价销售价差悬殊",
+        "sources": [],
+        "parent": "B1.3"
+      },
+      {
+        "id": "C1.3.4",
+        "anchor": "P14",
+        "text": "兴国军片茶收购40文转售真州800文，价差达20倍",
+        "sources": [],
+        "parent": "B1.3"
+      },
+      {
+        "id": "C1.3.5",
+        "anchor": "P14",
+        "text": "片茶价格普遍高于散茶，品质等级决定利润",
+        "sources": [],
+        "parent": "B1.3"
+      },
+      {
+        "id": "C2.1.1",
+        "anchor": "P2",
+        "text": "饮茶之风盛于宋，茶叶成为百姓每日不可或缺的日用品",
+        "sources": [
+          "M1",
+          "M2"
+        ],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.1.2",
+        "anchor": "P2",
+        "text": "北宋官府将茶盐之法视为朝廷利柄，茶叶经济是国家财政重要组成",
+        "sources": [
+          "M3"
+        ],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.1.3",
+        "anchor": "P2",
+        "text": "学界对宋代茶叶经济研究分茶法、产茶额、影响、地区茶业四种倾向",
+        "sources": [],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.1.4",
+        "anchor": "P2",
+        "text": "鲜有学者系统讨论北宋今湖北地区茶叶经济",
+        "sources": [],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.1.5",
+        "anchor": "P18",
+        "text": "官府倚重茶利支撑边疆战事和皇室开支",
+        "sources": [
+          "M39"
+        ],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.1.6",
+        "anchor": "P18",
+        "text": "鄂州崇阳县民唯以植茶为业，植茶积极性高",
+        "sources": [
+          "M38"
+        ],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.1.7",
+        "anchor": "P18",
+        "text": "士大夫拓展分茶斗茶等活动推广茶文化",
+        "sources": [
+          "M40"
+        ],
+        "parent": "B2.1"
+      },
+      {
+        "id": "C2.2.1",
+        "anchor": "P20",
+        "text": "陆羽赵佶论茶树宜生烂石、崖阳圃阴",
+        "sources": [
+          "M41"
+        ],
+        "parent": "B2.2"
+      },
+      {
+        "id": "C2.2.2",
+        "anchor": "P20",
+        "text": "湖北山地丘陵提供富含有机质土壤",
+        "sources": [
+          "M42"
+        ],
+        "parent": "B2.2"
+      },
+      {
+        "id": "C2.2.3",
+        "anchor": "P20",
+        "text": "北宋气候偏暖较今高0.3-0.5度更宜茶生长",
+        "sources": [],
+        "parent": "B2.2"
+      },
+      {
+        "id": "C2.3.1",
+        "anchor": "P22",
+        "text": "长江汉江交汇形成鄂州汉阳军江陵府多中心水运网",
+        "sources": [
+          "M43"
+        ],
+        "parent": "B2.3"
+      },
+      {
+        "id": "C2.3.2",
+        "anchor": "P22",
+        "text": "江陵府榷货务受纳潭鼎等路茶87万余斤分销全国",
+        "sources": [
+          "M44"
+        ],
+        "parent": "B2.3"
+      },
+      {
+        "id": "C2.3.3",
+        "anchor": "P22",
+        "text": "复州北至郢州私路250里官路300里，江汉平原有陆运通道",
+        "sources": [
+          "M45"
+        ],
+        "parent": "B2.3"
+      },
+      {
+        "id": "C2.3.4",
+        "anchor": "P22",
+        "text": "湖北居国家中心，东西长江贯通南北为广南至京师枢纽",
+        "sources": [],
+        "parent": "B2.3"
+      },
+      {
+        "id": "C3.1.1",
+        "anchor": "P26",
+        "text": "乾德二年置场榷茶，黄州江陵蕲州襄州复州均设榷场",
+        "sources": [
+          "M46"
+        ],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.1.2",
+        "anchor": "P26",
+        "text": "大中祥符间茶商借路转江般运蕲口等处茶货",
+        "sources": [
+          "M47"
+        ],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.1.3",
+        "anchor": "P26",
+        "text": "仁宗令水路般运五处茶货取东路上京依汉阳例",
+        "sources": [
+          "M49"
+        ],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.1.4",
+        "anchor": "P26",
+        "text": "襄州水运欠佳在茶叶贸易中处辅助地位",
+        "sources": [
+          "M48"
+        ],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.1.5",
+        "anchor": "P26",
+        "text": "鄂州汉阳军隔江相望水路便利舟车辐辏",
+        "sources": [
+          "M50"
+        ],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.1.6",
+        "anchor": "P26",
+        "text": "汉阳军熙宁废县元祐复军直至北宋亡",
+        "sources": [
+          "M51"
+        ],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.1.7",
+        "anchor": "P26",
+        "text": "江陵府与汉阳军鄂州形成双核心沿江经济带",
+        "sources": [],
+        "parent": "B3.1"
+      },
+      {
+        "id": "C3.2.1",
+        "anchor": "P28",
+        "text": "官府控制产销运各环节使茶利成国家税收重要来源",
+        "sources": [],
+        "parent": "B3.2"
+      },
+      {
+        "id": "C3.2.2",
+        "anchor": "P29",
+        "text": "景德间茶税旧法569万贯新法410万贯285万贯",
+        "sources": [
+          "M52"
+        ],
+        "parent": "B3.2"
+      },
+      {
+        "id": "C3.2.3",
+        "anchor": "P29",
+        "text": "天禧末财政总收入2650万贯，茶利地位可观",
+        "sources": [
+          "M53"
+        ],
+        "parent": "B3.2"
+      },
+      {
+        "id": "C3.2.4",
+        "anchor": "P29",
+        "text": "通商法园户种茶官收租钱，六路租茶岁计33万余贯",
+        "sources": [
+          "M54"
+        ],
+        "parent": "B3.2"
+      },
+      {
+        "id": "C3.2.5",
+        "anchor": "P29",
+        "text": "湖北茶税10万余贯，鄂州占全国约一成",
+        "sources": [
+          "M55"
+        ],
+        "parent": "B3.2"
+      },
+      {
+        "id": "C3.2.6",
+        "anchor": "P29",
+        "text": "商税肇自太祖守为家法，湖北茶相关产业纳税",
+        "sources": [
+          "M56"
+        ],
+        "parent": "B3.2"
+      },
+      {
+        "id": "C3.3.1",
+        "anchor": "P31",
+        "text": "茶叶经济开辟多元就业，大量农民转茶园户",
+        "sources": [],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.2",
+        "anchor": "P31",
+        "text": "城镇茶坊林立创造大量就业机会",
+        "sources": [],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.3",
+        "anchor": "P31",
+        "text": "斗茶传入湖北提高民众文化品质",
+        "sources": [
+          "M57"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.4",
+        "anchor": "P31",
+        "text": "官府频更茶法致茶农生存环境恶化",
+        "sources": [
+          "M58"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.5",
+        "anchor": "P31",
+        "text": "通商法荆湖茶园户赋税重，破产逃亡或自尽",
+        "sources": [
+          "M59"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.6",
+        "anchor": "P31",
+        "text": "大茶园户兼并个体茶户垄断贸易",
+        "sources": [
+          "M60"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.7",
+        "anchor": "P31",
+        "text": "贫民破产可能聚为寇盗影响治安",
+        "sources": [
+          "M61"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.8",
+        "anchor": "P31",
+        "text": "通商法小商贩少大商不通，茶商利益被侵",
+        "sources": [
+          "M62"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C3.3.9",
+        "anchor": "P31",
+        "text": "湖北茶商群聚暴横被籍为兵号茶商军",
+        "sources": [
+          "M63"
+        ],
+        "parent": "B3.3"
+      },
+      {
+        "id": "C0.1",
+        "anchor": "P33",
+        "text": "北宋湖北茶叶年产量至少逾1300万斤",
+        "sources": [],
+        "parent": "A0"
+      },
+      {
+        "id": "C0.2",
+        "anchor": "P33",
+        "text": "茶叶经济增益政府财源并影响地方民生",
+        "sources": [],
+        "parent": "A0"
+      },
+      {
+        "id": "C0.3",
+        "anchor": "P33",
+        "text": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+        "sources": [],
+        "parent": "A0"
+      },
+      {
+        "id": "C0.4",
+        "anchor": "P33",
+        "text": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+        "sources": [],
+        "parent": "A0"
+      }
+    ]
+  },
+  "statistics": {
+    "total_A_nodes": 4,
+    "total_B_nodes": 9,
+    "total_C_nodes": 67,
+    "total_unique_M": 63,
+    "nodes_by_depth": {
+      "1": 4,
+      "2": 9,
+      "3": 0
+    },
+    "source_count_by_A": {
+      "A0": 63,
+      "A1": 34,
+      "A2": 11,
+      "A3": 18
+    },
+    "source_count_by_B": {
+      "B1.1": 24,
+      "B1.2": 9,
+      "B1.3": 1,
+      "B2.1": 6,
+      "B2.2": 2,
+      "B2.3": 3,
+      "B3.1": 6,
+      "B3.2": 5,
+      "B3.3": 7
+    },
+    "C_nodes_without_sources": 21,
+    "claims_total": 13,
+    "claims_supported": 0,
+    "claims_unsupported": 0,
+    "claims_revised": 0
+  }
+}

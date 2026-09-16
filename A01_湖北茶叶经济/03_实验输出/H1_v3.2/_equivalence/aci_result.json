@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "fixed_normalization_independent_of_analysis_runs_asserted": false,
+  "groups": {
+    "single": {
+      "input_qc": {
+        "records_supplied": 3,
+        "usable_nonempty_ok_runs": 3,
+        "usable_run_ids": [
+          "run_1",
+          "run_2",
+          "run_3"
+        ],
+        "failed_run_ids": [],
+        "missing_run_ids": [],
+        "ok_but_empty_run_ids": [],
+        "within_run_duplicate_ids_removed": 0,
+        "nonempty_success_fraction_of_supplied_records": 1.0,
+        "empty_ok_exclusion_explicitly_requested": false,
+        "estimand": "convergence conditional on status=ok AND a nonempty normalized output",
+        "unreported_missing_runs_cannot_be_detected": true
+      },
+      "analysis": {
+        "aci_j": 0.0693396923986986,
+        "distance_matrix_in_input_usable_run_order": [
+          [
+            0.0,
+            0.0625,
+            0.10204081632653061
+          ],
+          [
+            0.0625,
+            0.0,
+            0.04347826086956519
+          ],
+          [
+            0.10204081632653061,
+            0.04347826086956519,
+            0.0
+          ]
+        ],
+        "pair_count_not_independent_sample_size": 3,
+        "counts": {
+          "n": 3,
+          "T_total_within_run_deduplicated": 138,
+          "U_unique_concepts": 49,
+          "original_U_over_T": 0.35507246376811596,
+          "count_endpoint_corrected": 0.03260869565217391
+        },
+        "per_run_concept_counts": [
+          48,
+          45,
+          45
+        ],
+        "concept_frequencies": {
+          "c1": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c10": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c11": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c12": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c13": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c14": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c15": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c16": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c17": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c18": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c19": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c2": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c20": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c21": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c22": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c23": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c24": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c25": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c26": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c27": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c28": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c29": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c3": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c30": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c31": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c32": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c33": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c34": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c35": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c36": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c37": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c38": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c39": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c4": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c40": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c41": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c42": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c43": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c44": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c45": {
+            "run_count": 2,
+            "prevalence": 0.6666666666666666
+          },
+          "c46": {
+            "run_count": 1,
+            "prevalence": 0.3333333333333333
+          },
+          "c47": {
+            "run_count": 1,
+            "prevalence": 0.3333333333333333
+          },
+          "c48": {
+            "run_count": 1,
+            "prevalence": 0.3333333333333333
+          },
+          "c49": {
+            "run_count": 1,
+            "prevalence": 0.3333333333333333
+          },
+          "c5": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c6": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c7": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c8": {
+            "run_count": 3,
+            "prevalence": 1.0
+          },
+          "c9": {
+            "run_count": 3,
+            "prevalence": 1.0
+          }
+        },
+        "inference": null,
+        "inference_note": "Descriptive only: independently fixed normalization was not asserted"
+      },
+      "analysis_errors": []
+    }
+  },
+  "comparison": null,
+  "warning": "Scores do not establish semantic accuracy, source fidelity, or historical validity"
+}

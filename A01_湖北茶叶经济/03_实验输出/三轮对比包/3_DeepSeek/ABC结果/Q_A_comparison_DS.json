@@ -1,0 +1,316 @@
+{
+  "gold_run": "A01_湖北茶叶经济\\03_实验输出\\Q_A_实验\\Q_human_baseline\\run_poolspace.json",
+  "model_run": "A01_湖北茶叶经济\\03_实验输出\\Q_A_实验\\Q_run_DS\\run.json",
+  "structure": {
+    "gold": {
+      "A": 4,
+      "B_depth2": 9,
+      "B_depth3": 0,
+      "C": 90
+    },
+    "model": {
+      "A": 4,
+      "B_depth2": 10,
+      "B_depth3": 0,
+      "C": 62
+    },
+    "gold_total": 103,
+    "model_total": 76
+  },
+  "material_coverage": {
+    "total_M": 52,
+    "gold_used": 43,
+    "model_used": 52,
+    "gold_coverage_pct": 82.7,
+    "model_coverage_pct": 100.0,
+    "gold_only": [],
+    "model_only": [
+      "M10",
+      "M12",
+      "M13",
+      "M21",
+      "M25",
+      "M27",
+      "M39",
+      "M47",
+      "M48"
+    ],
+    "Precision": 0.827,
+    "Recall": 1.0,
+    "F1": 0.905
+  },
+  "anchor_coverage": {
+    "gold_anchors": [
+      "P10",
+      "P11",
+      "P13",
+      "P14",
+      "P18",
+      "P2",
+      "P20",
+      "P22",
+      "P26",
+      "P28",
+      "P29",
+      "P31",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "model_anchors": [
+      "P10",
+      "P12",
+      "P15",
+      "P17",
+      "P19",
+      "P22",
+      "P24",
+      "P26",
+      "P3",
+      "P6",
+      "P8"
+    ],
+    "intersection": [
+      "P10",
+      "P22",
+      "P26",
+      "P6",
+      "P8"
+    ],
+    "Jaccard": 0.238,
+    "per_anchor": [
+      {
+        "anchor": "P2",
+        "gold_C": 3,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P3",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 6,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P6",
+        "gold_C": 6,
+        "model_C": 6,
+        "gold_M": 4,
+        "model_M": 9,
+        "M_Jaccard": 0.444
+      },
+      {
+        "anchor": "P7",
+        "gold_C": 3,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P8",
+        "gold_C": 12,
+        "model_C": 6,
+        "gold_M": 9,
+        "model_M": 6,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P10",
+        "gold_C": 12,
+        "model_C": 6,
+        "gold_M": 7,
+        "model_M": 8,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P11",
+        "gold_C": 2,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P12",
+        "gold_C": 0,
+        "model_C": 6,
+        "gold_M": 0,
+        "model_M": 6,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P13",
+        "gold_C": 2,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P14",
+        "gold_C": 4,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P15",
+        "gold_C": 0,
+        "model_C": 6,
+        "gold_M": 0,
+        "model_M": 10,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P17",
+        "gold_C": 0,
+        "model_C": 6,
+        "gold_M": 0,
+        "model_M": 14,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P18",
+        "gold_C": 7,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P19",
+        "gold_C": 0,
+        "model_C": 5,
+        "gold_M": 0,
+        "model_M": 6,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P20",
+        "gold_C": 4,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P22",
+        "gold_C": 6,
+        "model_C": 6,
+        "gold_M": 3,
+        "model_M": 8,
+        "M_Jaccard": 0.1
+      },
+      {
+        "anchor": "P24",
+        "gold_C": 0,
+        "model_C": 5,
+        "gold_M": 0,
+        "model_M": 7,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P26",
+        "gold_C": 10,
+        "model_C": 6,
+        "gold_M": 5,
+        "model_M": 6,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P28",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P29",
+        "gold_C": 7,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P31",
+        "gold_C": 11,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      }
+    ]
+  },
+  "claim_comparison": [
+    {
+      "gold_id": "B3.1",
+      "model_id": "B3.2",
+      "title_label": "(一) 塑造沿江经济带 ≈ （二）沿江经济带的发育",
+      "gold_claim": "榷货务设置与自然区位共同塑造湖北双核心沿江经济带",
+      "model_claim": "茶叶贸易带动鄂州汉阳蕲口等沿江城镇繁荣形成区域经济带",
+      "sim": 0.2,
+      "title_sim": 0.667
+    },
+    {
+      "gold_id": "A0",
+      "model_id": "A4",
+      "title_label": "结语 ≈ 五、结语",
+      "gold_claim": "湖北茶叶经济始终与茶法息息相关其繁盛主导权归于中央而非市场规律",
+      "model_claim": "北宋湖北茶叶经济贸易在国家茶法体系与区域地理优势的交汇中走向繁盛榷茶机构水陆网络引法制度共同塑造湖北作为长江中游茶叶集散中心的地位",
+      "sim": 0.229,
+      "title_sim": 0.667
+    },
+    {
+      "gold_id": "A3",
+      "model_id": "A3",
+      "title_label": "三 北宋时期湖北地区茶叶经济繁盛的影响 ≈ 四、北宋湖北茶叶经济贸易的影响",
+      "gold_claim": "湖北茶叶经济繁盛既塑造沿江经济带提高财政收入又改变地方民生状态",
+      "model_claim": "湖北茶利支撑国家财政拉动沿江经济带同时催生茶商军等社会矛盾",
+      "sim": 0.3,
+      "title_sim": 0.667
+    },
+    {
+      "gold_id": "A2",
+      "model_id": "A2",
+      "title_label": "二 北宋时期湖北地区茶叶经济繁盛的缘由 ≈ 三、北宋湖北茶叶经济贸易繁盛的成因",
+      "gold_claim": "湖北茶叶经济繁盛源于多元需求拉动自然环境适宜与地理区位枢纽三重因素",
+      "model_claim": "湖北茶叶繁盛源于地理枢纽榷法调适与消费需求三重力量交汇",
+      "sim": 0.4,
+      "title_sim": 0.629
+    },
+    {
+      "gold_id": "A1",
+      "model_id": "A1",
+      "title_label": "一 北宋时期湖北地区茶叶经济繁盛的状貌 ≈ 二、北宋湖北茶叶经济贸易的繁盛状貌",
+      "gold_claim": "北宋湖北茶叶经济呈现供给规模化市场辐射广利润丰厚的繁盛状貌",
+      "model_claim": "北宋湖北茶叶经济繁盛呈现产茶广榷务密网络全税课巨的状貌",
+      "sim": 0.5,
+      "title_sim": 0.686
+    }
+  ],
+  "metrics": {
+    "M_coverage_gold": 82.7,
+    "M_coverage_model": 100.0,
+    "M_Precision": 0.827,
+    "M_Recall": 1.0,
+    "M_F1": 0.905,
+    "anchor_Jaccard": 0.238,
+    "nodes_total_gold": 103,
+    "nodes_total_model": 76,
+    "nodes_ratio_percent": 73.8,
+    "C_count_gold": 90,
+    "C_count_model": 62,
+    "C_ratio_percent": 68.9,
+    "matched_claim_pairs": 5,
+    "claim_sim_mean": 0.326,
+    "claim_sim_min": 0.2
+  }
+}

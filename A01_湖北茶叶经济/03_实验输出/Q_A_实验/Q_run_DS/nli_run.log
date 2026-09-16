@@ -1,0 +1,36 @@
+﻿载入 claim：human=74  model=62  total=136
+加载模型 MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 ...
+python.exe : c:\Users\23297\Downloads\Lab\.pylibs\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is depre
+cated. Please switch to `torch.compile` or `torch.export`.
+At line:15 char:2264
++ ... te -Format 'HH:mm:ss')"; & $py $script $gold $ds $out 15 2>&1 | Tee-O ...
++                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\23297\...`torch.export`.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:  21%|██        | 42/198 [00:00<00:00, 375.30it/s]
+Loading weights:  40%|████      | 80/198 [00:00<00:00, 348.44it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 852.25it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+Key                 | Status     |  | 
+--------------------+------------+--+-
+pooler.dense.bias   | UNEXPECTED |  | 
+pooler.dense.weight | UNEXPECTED |  | 
+classifier.bias     | UNEXPECTED |  | 
+classifier.weight   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Stage 1: 句向量编码 ...
+  编码完成 57s  h_emb=(74, 768) m_emb=(62, 768)
+  候选对: 1310（全量 4588，压缩至 28.6%）
+Stage 2: 加载 NLI 分类头 ...
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights:  16%|█▋        | 33/202 [00:00<00:00, 316.48it/s]
+Loading weights:  33%|███▎      | 66/202 [00:00<00:00, 301.57it/s]
+Loading weights: 100%|██████████| 202/202 [00:00<00:00, 670.04it/s]
+  双向 NLI 推理 2620 次 ...

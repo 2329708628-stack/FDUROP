@@ -1,0 +1,33 @@
+{
+  "description": "纯构造示例，非当前历史论文实测结果。类别a至d预先定义。",
+  "fixed_normalization": true,
+  "runs": [
+    {
+      "run_id": "demo_1",
+      "status": "ok",
+      "concept_ids": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "run_id": "demo_2",
+      "status": "ok",
+      "concept_ids": [
+        "a",
+        "b",
+        "d"
+      ]
+    },
+    {
+      "run_id": "demo_3",
+      "status": "ok",
+      "concept_ids": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ]
+}

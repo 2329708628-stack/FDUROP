@@ -1,0 +1,60 @@
+﻿载入 claim：human=74  model=62  total=136
+加载模型 MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 ...
+python.exe : c:\Users\23297\Downloads\Lab\.pylibs\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is depre
+cated. Please switch to `torch.compile` or `torch.export`.
+At line:22 char:1
++ & $py $script $gold $ds $out $k 2>&1 | Out-File -FilePath "c:\Users\2 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\23297\...`torch.export`.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]
+Loading weights:  21%|██        | 42/198 [00:00<00:00, 406.00it/s]
+Loading weights: 100%|██████████| 198/198 [00:00<00:00, 1150.68it/s]
+Stage 1: 句向量编码 ...
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+Key                 | Status     |  | 
+--------------------+------------+--+-
+classifier.bias     | UNEXPECTED |  | 
+pooler.dense.weight | UNEXPECTED |  | 
+pooler.dense.bias   | UNEXPECTED |  | 
+classifier.weight   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  编码完成 56s  h_emb=(74, 768) m_emb=(62, 768)
+  候选对: 90（全量 4588，压缩至 2.0%）
+Stage 2: 加载 NLI 分类头 ...
+
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+Loading weights:  22%|██▏       | 44/202 [00:00<00:00, 435.61it/s]
+Loading weights:  44%|████▎     | 88/202 [00:00<00:00, 411.12it/s]
+Loading weights: 100%|██████████| 202/202 [00:00<00:00, 923.14it/s]
+  双向 NLI 推理 180 次 ...
+  dir ab 完成 76s
+  dir ba 完成 154s
+等义边: 28
+============================================================
+概念总数: 108
+人类基准概念: 74  模型概念: 62
+交集 28 / 并集 108
+Jaccard = 0.2593
+ACI_J   = 0.7407  (越低越收敛)
+============================================================
+共享概念: 28  仅人类: 46  仅模型: 34
+
+共享概念示例（前10）:
+  c1 (size=2): 蜀地八处产茶虽非湖北却反映全国产茶之盛 ...
+  c2 (size=2): 荆湖地区出产龙溪雨前雨后等十一等散茶品类丰富 ...
+  c3 (size=2): 碧涧茶芽六百斤反映湖北地方贡茶或茶额之规模 ...
+  c4 (size=2): 宋初奉召榷茶于蕲春开启湖北榷茶之始 ...
+  c5 (size=2): 蕲州王祺石桥洗马与黄州麻城为湖北境内核心山场 ...
+  c6 (size=2): 京师建安汉阳蕲口并置场榷茶构成全国榷务骨架 ...
+  c7 (size=2): 荆南府务受纳潭鼎澧岳归峡片散茶共八十七万五千余斤 ...
+  c8 (size=2): 郢州至襄阳尽是滩碛反映水运局部阻碍 ...
+  c9 (size=2): 住税每斤六文过税每斤二文构成湖北茶货过境税制 ...
+  c10 (size=2): 景祐产茶州军占天下户丁三分之一说明产茶区域广大 ...
+
+报告已保存: c:\Users\23297\Downloads\Lab\A01_湖北茶叶经济\03_实验输出\Q_A_实验\Q_run_DS\Q_A_nli_equivalence.json

@@ -1,0 +1,322 @@
+{
+  "gold_run": "A01_湖北茶叶经济\\03_实验输出\\Q_A_实验\\Q_human_baseline\\run.json",
+  "model_run": "A01_湖北茶叶经济\\03_实验输出\\Q_A_实验\\Q_run_2\\run.json",
+  "structure": {
+    "gold": {
+      "A": 4,
+      "B_depth2": 10,
+      "B_depth3": 0,
+      "C": 74
+    },
+    "model": {
+      "A": 2,
+      "B_depth2": 6,
+      "B_depth3": 13,
+      "C": 49
+    },
+    "gold_total": 88,
+    "model_total": 70
+  },
+  "material_coverage": {
+    "total_M": 52,
+    "gold_used": 52,
+    "model_used": 32,
+    "gold_coverage_pct": 100.0,
+    "model_coverage_pct": 61.5,
+    "gold_only": [
+      "M1",
+      "M2",
+      "M4",
+      "M5",
+      "M8",
+      "M9",
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14",
+      "M22",
+      "M27",
+      "M28",
+      "M29",
+      "M31",
+      "M32",
+      "M35",
+      "M44",
+      "M46"
+    ],
+    "model_only": [],
+    "Precision": 1.0,
+    "Recall": 0.615,
+    "F1": 0.762
+  },
+  "anchor_coverage": {
+    "gold_anchors": [
+      "P12",
+      "P14",
+      "P16",
+      "P18",
+      "P21",
+      "P23",
+      "P25",
+      "P28",
+      "P30",
+      "P32",
+      "P9"
+    ],
+    "model_anchors": [
+      "P10",
+      "P12",
+      "P14",
+      "P18",
+      "P20",
+      "P23",
+      "P25",
+      "P27",
+      "P30",
+      "P32",
+      "P36",
+      "P38",
+      "P41",
+      "P43",
+      "P46",
+      "P48",
+      "P5",
+      "P7"
+    ],
+    "intersection": [
+      "P12",
+      "P14",
+      "P18",
+      "P23",
+      "P25",
+      "P30",
+      "P32"
+    ],
+    "Jaccard": 0.318,
+    "per_anchor": [
+      {
+        "anchor": "P5",
+        "gold_C": 0,
+        "model_C": 3,
+        "gold_M": 0,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P7",
+        "gold_C": 0,
+        "model_C": 3,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P9",
+        "gold_C": 4,
+        "model_C": 0,
+        "gold_M": 6,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P10",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 5,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P12",
+        "gold_C": 7,
+        "model_C": 4,
+        "gold_M": 9,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P14",
+        "gold_C": 6,
+        "model_C": 5,
+        "gold_M": 6,
+        "model_M": 5,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P16",
+        "gold_C": 8,
+        "model_C": 0,
+        "gold_M": 8,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P18",
+        "gold_C": 6,
+        "model_C": 2,
+        "gold_M": 6,
+        "model_M": 2,
+        "M_Jaccard": 0.333
+      },
+      {
+        "anchor": "P20",
+        "gold_C": 0,
+        "model_C": 3,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P21",
+        "gold_C": 6,
+        "model_C": 0,
+        "gold_M": 10,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P23",
+        "gold_C": 14,
+        "model_C": 2,
+        "gold_M": 14,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P25",
+        "gold_C": 5,
+        "model_C": 4,
+        "gold_M": 6,
+        "model_M": 4,
+        "M_Jaccard": 0.111
+      },
+      {
+        "anchor": "P27",
+        "gold_C": 0,
+        "model_C": 4,
+        "gold_M": 0,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P28",
+        "gold_C": 7,
+        "model_C": 0,
+        "gold_M": 8,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P30",
+        "gold_C": 5,
+        "model_C": 3,
+        "gold_M": 7,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P32",
+        "gold_C": 6,
+        "model_C": 3,
+        "gold_M": 6,
+        "model_M": 3,
+        "M_Jaccard": 0.125
+      },
+      {
+        "anchor": "P36",
+        "gold_C": 0,
+        "model_C": 2,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P38",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P41",
+        "gold_C": 0,
+        "model_C": 2,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P43",
+        "gold_C": 0,
+        "model_C": 2,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P46",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P48",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      }
+    ]
+  },
+  "claim_comparison": [
+    {
+      "gold_id": "A3",
+      "model_id": "B2.1",
+      "title_label": "四、北宋湖北茶叶经济贸易的影响 ≈ (一) 对湖北地区经济的影响",
+      "gold_claim": "湖北茶利支撑国家财政拉动沿江经济带同时催生茶商军等社会矛盾",
+      "model_claim": "茶叶经济促进湖北产业结构调整与财政贡献",
+      "sim": 0.167,
+      "title_sim": 0.5
+    },
+    {
+      "gold_id": "A2",
+      "model_id": "B1.1",
+      "title_label": "三、北宋湖北茶叶经济贸易繁盛的成因 ≈ (一) 湖北茶叶经济繁荣的表现",
+      "gold_claim": "湖北茶叶繁盛源于地理枢纽榷法调适与消费需求三重力量交汇",
+      "model_claim": "湖北茶叶经济呈现产茶广产量巨品种多的繁荣表现",
+      "sim": 0.204,
+      "title_sim": 0.516
+    },
+    {
+      "gold_id": "A1",
+      "model_id": "B1.2",
+      "title_label": "二、北宋湖北茶叶经济贸易的繁盛状貌 ≈ (二) 湖北茶叶经济发展的原因",
+      "gold_claim": "北宋湖北茶叶经济繁盛呈现产茶广品类多榷务密税课巨的状貌",
+      "model_claim": "湖北茶叶经济发展得益于自然地理政策支持与交通便利三重原因",
+      "sim": 0.218,
+      "title_sim": 0.516
+    }
+  ],
+  "metrics": {
+    "M_coverage_gold": 100.0,
+    "M_coverage_model": 61.5,
+    "M_Precision": 1.0,
+    "M_Recall": 0.615,
+    "M_F1": 0.762,
+    "anchor_Jaccard": 0.318,
+    "nodes_total_gold": 88,
+    "nodes_total_model": 70,
+    "nodes_ratio_percent": 79.5,
+    "C_count_gold": 74,
+    "C_count_model": 49,
+    "C_ratio_percent": 66.2,
+    "matched_claim_pairs": 3,
+    "claim_sim_mean": 0.196,
+    "claim_sim_min": 0.167
+  }
+}

@@ -1,0 +1,626 @@
+[
+  {
+    "pair_id": "run_1_C0.1__run_2_C0.1",
+    "label": "EQUIVALENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "北宋湖北茶叶年产量至少逾1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_2_C0.1",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "两个命题都描述了北宋湖北地区茶叶年产量至少超过1300万斤，主体、时空、数量和肯否限定一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_2_C0.2",
+    "label": "DIFFERENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "茶叶经济增益政府财源并影响地方民生",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_2_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题描述了茶叶年产量，而B命题描述了茶叶经济对政府财源和地方民生的影响，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_2_C0.3",
+    "label": "DIFFERENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_2_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题描述了茶叶年产量，而B命题描述了湖北茶叶经济与茶法的关系以及主导权，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_2_C0.4",
+    "label": "DIFFERENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_2_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题描述了茶叶年产量，而B命题描述了湖北茶业繁盛的原因，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_2_C0.1",
+    "label": "UNCERTAIN",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "北宋湖北茶叶年产量至少逾1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_2_C0.1",
+      "label": "UNCERTAIN",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题描述了茶叶经济对政府财源和地方民生的影响，而B命题描述了北宋湖北茶叶年产量，两者之间没有直接的蕴含关系，证据不足。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_2_C0.2",
+    "label": "EQUIVALENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "茶叶经济增益政府财源并影响地方民生",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_2_C0.2",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "Both A and B discuss the economic benefits of tea to the government and its impact on local people's livelihoods, with no additional or conflicting information."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_2_C0.3",
+    "label": "DIFFERENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_2_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A focuses on the economic benefits of tea and its impact on local people's livelihoods, while B discusses the relationship between the tea economy in Hubei and the tea law, with the central government having the dominant power."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_2_C0.4",
+    "label": "DIFFERENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_2_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A discusses the economic benefits of tea and its impact on local people's livelihoods, while B focuses on the relationship between the prosperity of tea in Hubei and the expansion of financial resources, suggesting it is a result of policy rather than market-driven."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_2_C0.1",
+    "label": "DIFFERENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "北宋湖北茶叶年产量至少逾1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_2_C0.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A discusses the relationship between the tea economy in Hubei and the tea law, with the central government having the dominant power, while B provides a specific statistic about the annual tea production in Hubei during the Northern Song Dynasty."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_2_C0.2",
+    "label": "DIFFERENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "茶叶经济增益政府财源并影响地方民生",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_2_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A discusses the relationship between the tea economy in Hubei and the tea law, with the central government having the dominant power, while B discusses the economic benefits of tea and its impact on local people's livelihoods, without mentioning Hubei or the central government's role."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_2_C0.3",
+    "label": "EQUIVALENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_2_C0.3",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "Both statements discuss the relationship between the tea economy in Hubei and the tea law, with the central government having the dominant authority."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_2_C0.4",
+    "label": "DIFFERENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_2_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "The first statement discusses the relationship between the tea economy and the tea law, while the second statement discusses the cause of the tea industry's prosperity."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_2_C0.1",
+    "label": "UNCERTAIN",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "北宋湖北茶叶年产量至少逾1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_2_C0.1",
+      "label": "UNCERTAIN",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "The first statement discusses the cause of the tea economy's prosperity, while the second statement provides a specific figure for the annual tea production."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_2_C0.2",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "茶叶经济增益政府财源并影响地方民生",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_2_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "The first statement discusses the cause of the tea economy's prosperity, while the second statement discusses the impact of the tea economy on government revenue and local people's livelihood."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_2_C0.3",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_2_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "The first statement discusses the cause of the tea economy's prosperity, while the second statement discusses the relationship between the tea economy and the tea law, with the central government having the dominant authority."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_2_C0.4",
+    "label": "EQUIVALENT",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_2_C0.4",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "Both statements discuss the prosperity of tea economy in HuBei during the Northern Song Dynasty and attribute it to policies for expanding the financial resources rather than spontaneous market forces."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_3_C0.1",
+    "label": "EQUIVALENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_3_C0.1",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "Both statements provide the same quantitative information about the annual tea production in HuBei during the Northern Song Dynasty."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_3_C0.2",
+    "label": "DIFFERENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_3_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "Statement A provides information about the tea production quantity, while statement B discusses the impact of tea industry on finance and people's livelihood."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_3_C0.3",
+    "label": "DIFFERENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_3_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "Statement A discusses the tea production quantity, while statement B mentions the relationship between tea industry prosperity and tea law, and the central government's control."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.1__run_3_C0.4",
+    "label": "EQUIVALENT",
+    "A": "北宋湖北地区茶叶年产量至少逾一千三百余万斤",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.1__run_3_C0.4",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "Both statements discuss the prosperity of the tea industry in HuBei during the Northern Song Dynasty and attribute it to policy rather than market forces."
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_3_C0.1",
+    "label": "DIFFERENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_3_C0.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是茶叶经济对政府和民生的影响，而B命题讨论的是湖北茶叶的年产量，两者主题不同，内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_3_C0.2",
+    "label": "EQUIVALENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_3_C0.2",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都表达了茶叶经济对财政和民生的影响，主体、关系、对象、时空范围、肯否、数量程度、状态或变化、因果方向、条件、认识强度和判断归属完全一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_3_C0.3",
+    "label": "DIFFERENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_3_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是茶叶经济对政府和民生的影响，而B命题讨论的是茶业繁盛与茶法的关系以及主导权归属，两者主题不同，内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.2__run_3_C0.4",
+    "label": "DIFFERENT",
+    "A": "茶叶经济通过茶利及商税增益政府财源，亦影响地方民生状态",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.2__run_3_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是茶叶经济对政府和民生的影响，而B命题讨论的是茶业繁盛的原因，两者主题不同，内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_3_C0.1",
+    "label": "DIFFERENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_3_C0.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北地区茶叶经济与茶法的关系以及主导权归属，而B命题讨论的是湖北茶叶的年产量，两者主题不同，内容不相关。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_3_C0.2",
+    "label": "DIFFERENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_3_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题强调茶叶经济与茶法的关系及主导权归属，而B命题只提到茶业对财政和民生的影响，两者侧重点不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_3_C0.3",
+    "label": "EQUIVALENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_3_C0.3",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都提到湖北地区茶叶经济繁盛与茶法的关系，以及主导权在中央，关键限定一致。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.3__run_3_C0.4",
+    "label": "DIFFERENT",
+    "A": "湖北地区茶叶经济繁盛始终与茶法息息相关，主导权归于中央",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.3__run_3_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题强调茶业繁盛与茶法的关系及政策主导，而B命题提到茶业繁盛是政策结果而非市场自发，两者侧重点不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_3_C0.1",
+    "label": "UNCERTAIN",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_3_C0.1",
+      "label": "UNCERTAIN",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到茶业繁盛是政策结果而非市场自发，但未提及产量，而B命题提到年产量至少1300万斤，两者缺乏直接联系。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_3_C0.2",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_3_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题强调茶业繁盛是政策结果而非市场自发，而B命题提到茶业增益财政并影响民生，两者侧重点不同。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_3_C0.3",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_3_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题强调政策推动茶叶经济繁盛，而非市场自发；B命题提到茶业繁盛与茶法相关，但未提及政策或市场自发。"
+    }
+  },
+  {
+    "pair_id": "run_1_C0.4__run_3_C0.4",
+    "label": "A_ENTAILS_B",
+    "A": "北宋湖北茶叶经济繁盛更多是扩大财源目的所推政策的结果而非市场自发",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_1_C0.4__run_3_C0.4",
+      "label": "A_ENTAILS_B",
+      "a_entails_b": true,
+      "b_entails_a": false,
+      "reason": "A命题中提到的政策结果是B命题中提到的内容，但B命题未提及政策推动或市场自发。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.1__run_3_C0.1",
+    "label": "EQUIVALENT",
+    "A": "北宋湖北茶叶年产量至少逾1300万斤",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_2_C0.1__run_3_C0.1",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都提到湖北茶叶年产量至少1300万斤，主体、时空、数量和肯否一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.1__run_3_C0.2",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶年产量至少逾1300万斤",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_2_C0.1__run_3_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题关注茶叶年产量，B命题关注茶业对财政和民生的影响，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.1__run_3_C0.3",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶年产量至少逾1300万斤",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_2_C0.1__run_3_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题关注茶叶年产量，B命题关注茶业繁盛与茶法的关系，两者主题不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.1__run_3_C0.4",
+    "label": "DIFFERENT",
+    "A": "北宋湖北茶叶年产量至少逾1300万斤",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_2_C0.1__run_3_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题关注北宋湖北茶叶的年产量，而B命题讨论茶业繁盛的原因，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.2__run_3_C0.1",
+    "label": "DIFFERENT",
+    "A": "茶叶经济增益政府财源并影响地方民生",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_2_C0.2__run_3_C0.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到茶叶经济增益政府财源和地方民生，而B命题仅提到湖北茶叶的年产量，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.2__run_3_C0.2",
+    "label": "EQUIVALENT",
+    "A": "茶叶经济增益政府财源并影响地方民生",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_2_C0.2__run_3_C0.2",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都表达了茶叶经济增益政府财源和影响地方民生的观点，主体、关系、对象和时空范围一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.2__run_3_C0.3",
+    "label": "DIFFERENT",
+    "A": "茶叶经济增益政府财源并影响地方民生",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_2_C0.2__run_3_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论茶叶经济对政府财源和地方民生的影响，而B命题提到茶业繁盛与茶法相关，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.2__run_3_C0.4",
+    "label": "DIFFERENT",
+    "A": "茶叶经济增益政府财源并影响地方民生",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_2_C0.2__run_3_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题关注茶叶经济对政府财源和地方民生的影响，而B命题讨论茶业繁盛的原因，两者主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.3__run_3_C0.1",
+    "label": "DIFFERENT",
+    "A": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_2_C0.3__run_3_C0.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题讨论的是湖北茶叶经济与茶法的关系及主导权，而B命题讨论的是湖北茶叶的年产量，两者讨论的主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.3__run_3_C0.2",
+    "label": "DIFFERENT",
+    "A": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_2_C0.3__run_3_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到茶法与湖北茶叶经济的关系和主导权，B命题提到茶业对财政和民生的影响，两者讨论的主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.3__run_3_C0.3",
+    "label": "EQUIVALENT",
+    "A": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_2_C0.3__run_3_C0.3",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A和B命题都讨论了湖北茶叶经济繁盛与茶法的关系以及主导权在中央，关键限定一致。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.3__run_3_C0.4",
+    "label": "DIFFERENT",
+    "A": "湖北茶叶经济繁盛与茶法息息相关，主导权在中央",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_2_C0.3__run_3_C0.4",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到茶业繁盛是政策结果而非市场自发，B命题提到茶业繁盛是政策结果非市场自发，但未提及茶法的关系和主导权，两者讨论的主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.4__run_3_C0.1",
+    "label": "DIFFERENT",
+    "A": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "B": "湖北茶叶年产量至少1300万斤",
+    "raw": {
+      "pair_id": "run_2_C0.4__run_3_C0.1",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题提到湖北茶业繁盛是扩大财源政策结果而非市场自发，B命题提到湖北茶叶的年产量，两者讨论的主题和内容不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.4__run_3_C0.2",
+    "label": "DIFFERENT",
+    "A": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "B": "茶业增益财政并影响民生",
+    "raw": {
+      "pair_id": "run_2_C0.4__run_3_C0.2",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题强调湖北茶业繁盛是扩大财源政策的结果，而非市场自发；B命题则提到茶业增益财政并影响民生，没有提及政策结果或市场自发的问题。两者侧重点不同。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.4__run_3_C0.3",
+    "label": "DIFFERENT",
+    "A": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "B": "茶业繁盛与茶法相关主导权在中央",
+    "raw": {
+      "pair_id": "run_2_C0.4__run_3_C0.3",
+      "label": "DIFFERENT",
+      "a_entails_b": false,
+      "b_entails_a": false,
+      "reason": "A命题指出湖北茶业繁盛是扩大财源政策的结果，而非市场自发；B命题提到茶业繁盛与茶法相关，主导权在中央。两者讨论的主题不同，没有直接的蕴含关系。"
+    }
+  },
+  {
+    "pair_id": "run_2_C0.4__run_3_C0.4",
+    "label": "EQUIVALENT",
+    "A": "湖北茶业繁盛是扩大财源政策结果而非市场自发",
+    "B": "茶业繁盛是政策结果非市场自发",
+    "raw": {
+      "pair_id": "run_2_C0.4__run_3_C0.4",
+      "label": "EQUIVALENT",
+      "a_entails_b": true,
+      "b_entails_a": true,
+      "reason": "A命题和B命题都指出湖北茶业繁盛是政策结果而非市场自发，主体、关系、对象、时空范围、肯否、数量程度、状态或变化、因果方向、条件、认识强度和判断归属均一致。"
+    }
+  }
+]

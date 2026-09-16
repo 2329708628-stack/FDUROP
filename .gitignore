@@ -1,0 +1,13 @@
+# ---- 依赖与模型缓存（体积大，不入库）----
+.pylibs/
+.venv/
+.hf_cache/
+.ms_cache/
+__pycache__/
+*.pyc
+
+# ---- 密钥（含中转站 API key，禁止入库）----
+API.txt
+
+# ---- 临时文件 ----
+_tmp_*
