@@ -1,0 +1,49 @@
+{
+  "run_name": "A_run_2_S",
+  "model": "deepseek-chat",
+  "temperature": 0.7,
+  "timestamp": "2026-09-22 19:10:08",
+  "skeleton": {
+    "A_count": 1,
+    "B_count": 18,
+    "B_by_depth": {
+      "2": 6,
+      "3": 12
+    },
+    "front_matter": []
+  },
+  "calls": {
+    "call2_C": {
+      "elapsed_sec": 9.75,
+      "ttft_sec": 1.71,
+      "raw_chars": 4123,
+      "parsed": true,
+      "c_count": 30,
+      "finish_reason": "stop"
+    },
+    "call3_B_depth2": {
+      "elapsed_sec": 2.61,
+      "ttft_sec": 1.66,
+      "raw_chars": 364,
+      "parsed": true,
+      "node_count": 6,
+      "finish_reason": "stop"
+    },
+    "call3_B_depth3": {
+      "elapsed_sec": 4.48,
+      "ttft_sec": 1.92,
+      "raw_chars": 896,
+      "parsed": true,
+      "node_count": 12,
+      "finish_reason": "stop"
+    },
+    "call4_A": {
+      "elapsed_sec": 1.63,
+      "ttft_sec": 1.5,
+      "raw_chars": 75,
+      "parsed": true,
+      "node_count": 1,
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "run": "Q_run_2_S",
+  "n_rounds": 6,
+  "total_unique_edges": 139,
+  "freq_distribution": {
+    "6": 54,
+    "5": 6,
+    "4": 5,
+    "3": 34,
+    "2": 16,
+    "1": 24
+  },
+  "label_consistent_edges": 31,
+  "edges_k_ge_4": [
+    {
+      "human": "B1",
+      "model": "C1.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 1
+      }
+    },
+    {
+      "human": "B1",
+      "model": "B6",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 1
+      }
+    },
+    {
+      "human": "C1.1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "freq": 5,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.1",
+      "model": "C7.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.2",
+      "model": "B2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.2",
+      "model": "B2.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.2",
+      "model": "C2.2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.3",
+      "model": "B6.3",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.3",
+      "model": "C6.3.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.4",
+      "model": "B3.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.4",
+      "model": "C3.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.5",
+      "model": "B3.1",
+      "label": "H_ENTAILS_M",
+      "freq": 4,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 2
+      }
+    },
+    {
+      "human": "C1.5",
+      "model": "B6.1",
+      "label": "H_ENTAILS_M",
+      "freq": 5,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 2
+      }
+    },
+    {
+      "human": "C1.5",
+      "model": "C6.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 4,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 2
+      }
+    },
+    {
+      "human": "C1.6",
+      "model": "B6.3",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.6",
+      "model": "C6.3.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.7",
+      "model": "C2.1.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.7",
+      "model": "B6.4",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.7",
+      "model": "C6.4.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.8",
+      "model": "B6.4",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.8",
+      "model": "C6.4.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B2",
+      "model": "B4.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B2",
+      "model": "C4.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B2",
+      "model": "C4.1.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.1",
+      "model": "B4.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.1",
+      "model": "C4.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.1",
+      "model": "C4.1.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.2",
+      "model": "B6.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.2",
+      "model": "C6.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.3",
+      "model": "C6.1.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.4",
+      "model": "B6.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C2.4",
+      "model": "C6.2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B3",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "freq": 5,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B3",
+      "model": "B5.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C3.1",
+      "model": "B5.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C3.1",
+      "model": "C5.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C3.2",
+      "model": "C5.1.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B4",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "freq": 5,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B4",
+      "model": "B5.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B4",
+      "model": "C5.2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C4.1",
+      "model": "B5.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C4.1",
+      "model": "C5.2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C4.2",
+      "model": "B4.3",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C4.2",
+      "model": "C4.3.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C4.3",
+      "model": "B4.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C4.3",
+      "model": "C4.2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B5",
+      "model": "B2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "B5",
+      "model": "B2.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.1",
+      "model": "A1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 2,
+        "M_ENTAILS_H": 4
+      }
+    },
+    {
+      "human": "C5.1",
+      "model": "C7.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.2",
+      "model": "B2.2",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.2",
+      "model": "C2.2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.3",
+      "model": "C2.2.3",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.5",
+      "model": "B3.3",
+      "label": "H_ENTAILS_M",
+      "freq": 5,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 2
+      }
+    },
+    {
+      "human": "C5.5",
+      "model": "C3.3.1",
+      "label": "H_ENTAILS_M",
+      "freq": 5,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 2
+      }
+    },
+    {
+      "human": "C5.6",
+      "model": "B4.4",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.6",
+      "model": "C4.4.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.7",
+      "model": "B4.4",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.7",
+      "model": "C4.4.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.9",
+      "model": "B2.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.9",
+      "model": "C2.1.1",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C5.10",
+      "model": "B5",
+      "label": "H_ENTAILS_M",
+      "freq": 6,
+      "label_split": {
+        "H_ENTAILS_M": 3,
+        "M_ENTAILS_H": 3
+      }
+    },
+    {
+      "human": "C1.1",
+      "model": "A1",
+      "label": "M_ENTAILS_H",
+      "freq": 4,
+      "label_split": {
+        "M_ENTAILS_H": 4
+      }
+    },
+    {
+      "human": "C5.1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "freq": 4,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "H_ENTAILS_M": 1
+      }
+    },
+    {
+      "human": "C4.1",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "freq": 4,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "H_ENTAILS_M": 1
+      }
+    }
+  ]
+}

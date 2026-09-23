@@ -1,0 +1,593 @@
+{
+  "gold_run": "C:\\Users\\23297\\Downloads\\Lab\\数据集\\数据清洗后论文\\A05\\03_实验输出\\Q_A_实验\\A_human_baseline\\run.json",
+  "model_run": "C:\\Users\\23297\\Downloads\\Lab\\数据集\\数据清洗后论文\\A05\\03_实验输出\\Q_A_实验\\A_run_1_L\\run.json",
+  "structure": {
+    "gold": {
+      "A": 1,
+      "B_depth2": 5,
+      "B_depth3": 0,
+      "C": 30
+    },
+    "model": {
+      "A": 1,
+      "B_depth2": 3,
+      "B_depth3": 10,
+      "C": 32
+    },
+    "gold_total": 36,
+    "model_total": 46
+  },
+  "material_coverage": {
+    "total_M": 73,
+    "gold_used": 35,
+    "model_used": 33,
+    "gold_coverage_pct": 47.9,
+    "model_coverage_pct": 45.2,
+    "gold_only": [
+      "M5",
+      "M6",
+      "M7",
+      "M8",
+      "M9",
+      "M20",
+      "M21",
+      "M22",
+      "M23",
+      "M24",
+      "M28",
+      "M29",
+      "M30",
+      "M31",
+      "M32",
+      "M34",
+      "M36",
+      "M42",
+      "M43",
+      "M47",
+      "M48",
+      "M61",
+      "M66"
+    ],
+    "model_only": [
+      "M10",
+      "M11",
+      "M14",
+      "M15",
+      "M16",
+      "M17",
+      "M18",
+      "M25",
+      "M27",
+      "M37",
+      "M39",
+      "M44",
+      "M46",
+      "M51",
+      "M67",
+      "M71",
+      "M72",
+      "M74",
+      "M76",
+      "M77",
+      "M78"
+    ],
+    "Precision": 0.364,
+    "Recall": 0.343,
+    "F1": 0.353
+  },
+  "anchor_coverage": {
+    "gold_anchors": [
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P20",
+      "P21",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P36",
+      "P37",
+      "P38",
+      "P39",
+      "P6",
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "model_anchors": [
+      "P11",
+      "P14",
+      "P16",
+      "P18",
+      "P21",
+      "P23",
+      "P25",
+      "P29",
+      "P31",
+      "P33",
+      "P36",
+      "P38",
+      "P40",
+      "P43",
+      "P45",
+      "P47",
+      "P5",
+      "P51",
+      "P53",
+      "P55",
+      "P58",
+      "P6",
+      "P60",
+      "P62",
+      "P65",
+      "P67",
+      "P69",
+      "P72",
+      "P74",
+      "P76",
+      "P8",
+      "P9"
+    ],
+    "intersection": [
+      "P11",
+      "P16",
+      "P18",
+      "P21",
+      "P23",
+      "P25",
+      "P31",
+      "P33",
+      "P36",
+      "P38",
+      "P6",
+      "P8",
+      "P9"
+    ],
+    "Jaccard": 0.265,
+    "per_anchor": [
+      {
+        "anchor": "P5",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P6",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P7",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P8",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 1,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P9",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P10",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P11",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 3,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P12",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P13",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P14",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P15",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P16",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P17",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 5,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P18",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 4,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P20",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P21",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 2,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P23",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P24",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P25",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P26",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P27",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P28",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P29",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P30",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P31",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 4,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P32",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P33",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 2,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P34",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P35",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P36",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 3,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P37",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P38",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P39",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P40",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P43",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P45",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P47",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P51",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P53",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P55",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P58",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P60",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P62",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P65",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P67",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P69",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P72",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P74",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P76",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      }
+    ]
+  },
+  "claim_comparison": [
+    {
+      "gold_id": "B2",
+      "model_id": "B2.1.3",
+      "title_label": "二 开封动物交易的价格 ≈ 3. 开封府对动物交易秩序的维护",
+      "gold_claim": "北宋开封动物价格因种类与用途而异，马牛驴猪羊鹌鹑之间高低悬殊，且随供求与政策波动。",
+      "model_claim": "开封府对非法屠宰牛马驴狗等行为处以极刑并追究隐匿者，表明政府高度重视并严厉打击动物交易中的违法行为。",
+      "sim": 0.11,
+      "title_sim": 0.56
+    },
+    {
+      "gold_id": "B4",
+      "model_id": "B2.1.2",
+      "title_label": "四 宋政府对开封动物交易的管理 ≈ 2. 市易司与行会制度对动物交易的管理",
+      "gold_claim": "宋政府通过《宋刑统》《天圣令》规定立券、悔约与市司责任，并借助牙人调解纠纷来管理开封动物交易。",
+      "model_claim": "诸行归都提举市易司管辖且交易场所依官府指挥，表明宋代通过行会制度与市易司对动物交易实行间接管理。",
+      "sim": 0.232,
+      "title_sim": 0.5
+    }
+  ],
+  "metrics": {
+    "M_coverage_gold": 47.9,
+    "M_coverage_model": 45.2,
+    "M_Precision": 0.364,
+    "M_Recall": 0.343,
+    "M_F1": 0.353,
+    "anchor_Jaccard": 0.265,
+    "nodes_total_gold": 36,
+    "nodes_total_model": 46,
+    "nodes_ratio_percent": 127.8,
+    "C_count_gold": 30,
+    "C_count_model": 32,
+    "C_ratio_percent": 106.7,
+    "matched_claim_pairs": 2,
+    "claim_sim_mean": 0.171,
+    "claim_sim_min": 0.11
+  }
+}

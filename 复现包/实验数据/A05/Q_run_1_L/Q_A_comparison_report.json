@@ -1,0 +1,561 @@
+{
+  "gold_run": "C:\\Users\\23297\\Downloads\\Lab\\数据集\\数据清洗后论文\\A05\\03_实验输出\\Q_A_实验\\A_human_baseline\\run.json",
+  "model_run": "C:\\Users\\23297\\Downloads\\Lab\\数据集\\数据清洗后论文\\A05\\03_实验输出\\Q_A_实验\\Q_run_1_L\\run.json",
+  "structure": {
+    "gold": {
+      "A": 1,
+      "B_depth2": 5,
+      "B_depth3": 0,
+      "C": 30
+    },
+    "model": {
+      "A": 1,
+      "B_depth2": 3,
+      "B_depth3": 10,
+      "C": 27
+    },
+    "gold_total": 36,
+    "model_total": 41
+  },
+  "material_coverage": {
+    "total_M": 73,
+    "gold_used": 35,
+    "model_used": 34,
+    "gold_coverage_pct": 47.9,
+    "model_coverage_pct": 46.6,
+    "gold_only": [
+      "M5",
+      "M6",
+      "M8",
+      "M9",
+      "M19",
+      "M20",
+      "M21",
+      "M22",
+      "M23",
+      "M24",
+      "M29",
+      "M30",
+      "M31",
+      "M35",
+      "M36",
+      "M42",
+      "M43",
+      "M59",
+      "M61",
+      "M65",
+      "M66"
+    ],
+    "model_only": [
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14",
+      "M15",
+      "M16",
+      "M25",
+      "M26",
+      "M27",
+      "M38",
+      "M44",
+      "M45",
+      "M46",
+      "M51",
+      "M52",
+      "M54",
+      "M67",
+      "M78",
+      "M79"
+    ],
+    "Precision": 0.412,
+    "Recall": 0.4,
+    "F1": 0.406
+  },
+  "anchor_coverage": {
+    "gold_anchors": [
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P20",
+      "P21",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P36",
+      "P37",
+      "P38",
+      "P39",
+      "P6",
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "model_anchors": [
+      "P10",
+      "P12",
+      "P14",
+      "P17",
+      "P19",
+      "P23",
+      "P25",
+      "P27",
+      "P30",
+      "P32",
+      "P34",
+      "P37",
+      "P39",
+      "P43",
+      "P45",
+      "P47",
+      "P5",
+      "P50",
+      "P52",
+      "P54",
+      "P57",
+      "P59",
+      "P61",
+      "P64",
+      "P66",
+      "P68",
+      "P7"
+    ],
+    "intersection": [
+      "P10",
+      "P12",
+      "P17",
+      "P23",
+      "P25",
+      "P27",
+      "P30",
+      "P32",
+      "P34",
+      "P37",
+      "P39",
+      "P7"
+    ],
+    "Jaccard": 0.267,
+    "per_anchor": [
+      {
+        "anchor": "P5",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P6",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P7",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 4,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P8",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P9",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P10",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P11",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P12",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 2,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P13",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P14",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P15",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P16",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P17",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 5,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P18",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P19",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P20",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P21",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P23",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P24",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P25",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P26",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P27",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P28",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P30",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 5,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P31",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P32",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P33",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P34",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 2,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P35",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P36",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P37",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P38",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P39",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P43",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P45",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P47",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P50",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P52",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P54",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P57",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P59",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P61",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P64",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P66",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P68",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      }
+    ]
+  },
+  "claim_comparison": [
+    {
+      "gold_id": "B5",
+      "model_id": "B1",
+      "title_label": "五 北宋开封动物市场繁荣的原因 ≈ 一、北宋开封动物交易市场的形成基础与空间分布",
+      "gold_claim": "开封动物市场繁荣源于人口众多、餐饮屠宰租赁娱乐业兴盛、水陆运输便捷与政府规范管理等多重因素。",
+      "model_claim": "北宋开封动物交易市场依托汴河水路、城门通道与人口需求，形成从综合集市向鹰店、马市、牛行街等专门化街区演进的空间格局。",
+      "sim": 0.231,
+      "title_sim": 0.5
+    },
+    {
+      "gold_id": "B3",
+      "model_id": "B3",
+      "title_label": "三 北宋开封动物交易的税费 ≈ 三、北宋开封动物交易市场的管理与制度",
+      "gold_claim": "北宋政府对开封动物交易征收商税，税额较高，但在灾荒瘟疫年月会灵活减免耕牛等交易税。",
+      "model_claim": "北宋开封动物交易由商税院、开封府、厢巡、市易司与牛羊司等机构，通过市券、纳税、行会和祭祀采购制度实施管理。",
+      "sim": 0.298,
+      "title_sim": 0.667
+    },
+    {
+      "gold_id": "B2",
+      "model_id": "B2",
+      "title_label": "二 开封动物交易的价格 ≈ 二、北宋开封动物交易市场的运行机制",
+      "gold_claim": "北宋开封动物价格因种类与用途而异，马牛驴猪羊鹌鹑之间高低悬殊，且随供求与政策波动。",
+      "model_claim": "北宋开封动物交易以清晨和定期集市为主，价格随季节与政策波动，牙人立券中介，猪为大宗，禽鱼水产与节令交易并存。",
+      "sim": 0.316,
+      "title_sim": 0.593
+    }
+  ],
+  "metrics": {
+    "M_coverage_gold": 47.9,
+    "M_coverage_model": 46.6,
+    "M_Precision": 0.412,
+    "M_Recall": 0.4,
+    "M_F1": 0.406,
+    "anchor_Jaccard": 0.267,
+    "nodes_total_gold": 36,
+    "nodes_total_model": 41,
+    "nodes_ratio_percent": 113.9,
+    "C_count_gold": 30,
+    "C_count_model": 27,
+    "C_ratio_percent": 90.0,
+    "matched_claim_pairs": 3,
+    "claim_sim_mean": 0.282,
+    "claim_sim_min": 0.231
+  }
+}

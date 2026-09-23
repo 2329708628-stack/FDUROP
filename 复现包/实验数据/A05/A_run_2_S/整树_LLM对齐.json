@@ -1,0 +1,2913 @@
+{
+  "paper": "A05",
+  "run": "A_run_2_S",
+  "timestamp": "2026-09-23 13:23:10",
+  "model": "deepseek-chat",
+  "temperature": 0.0,
+  "blind": {
+    "seed": 140977893,
+    "swapped": false,
+    "maps": {
+      "H": {
+        "a001": "A1",
+        "a002": "B1",
+        "a003": "C1.1",
+        "a004": "C1.2",
+        "a005": "C1.3",
+        "a006": "C1.4",
+        "a007": "C1.5",
+        "a008": "C1.6",
+        "a009": "C1.7",
+        "a010": "C1.8",
+        "a011": "C1.9",
+        "a012": "B2",
+        "a013": "C2.1",
+        "a014": "C2.2",
+        "a015": "C2.3",
+        "a016": "C2.4",
+        "a017": "B3",
+        "a018": "C3.1",
+        "a019": "C3.2",
+        "a020": "B4",
+        "a021": "C4.1",
+        "a022": "C4.2",
+        "a023": "C4.3",
+        "a024": "B5",
+        "a025": "C5.1",
+        "a026": "C5.2",
+        "a027": "C5.3",
+        "a028": "C5.4",
+        "a029": "C5.5",
+        "a030": "C5.6",
+        "a031": "C5.7",
+        "a032": "C5.8",
+        "a033": "C5.9",
+        "a034": "C5.10"
+      },
+      "M": {
+        "b001": "A1",
+        "b002": "B1",
+        "b003": "B1.1",
+        "b004": "C1.1.1",
+        "b005": "C1.1.2",
+        "b006": "C1.1.3",
+        "b007": "B1.2",
+        "b008": "C1.2.1",
+        "b009": "C1.2.2",
+        "b010": "C1.2.3",
+        "b011": "B2",
+        "b012": "B2.1",
+        "b013": "C2.1.1",
+        "b014": "C2.1.2",
+        "b015": "C2.1.3",
+        "b016": "B2.2",
+        "b017": "C2.2.1",
+        "b018": "C2.2.2",
+        "b019": "B3",
+        "b020": "B3.1",
+        "b021": "C3.1.1",
+        "b022": "C3.1.2",
+        "b023": "C3.1.3",
+        "b024": "B3.2",
+        "b025": "C3.2.1",
+        "b026": "C3.2.2",
+        "b027": "C3.2.3",
+        "b028": "B4",
+        "b029": "B4.1",
+        "b030": "C4.1.1",
+        "b031": "C4.1.2",
+        "b032": "B4.2",
+        "b033": "C4.2.1",
+        "b034": "C4.2.2",
+        "b035": "C4.2.3",
+        "b036": "B5",
+        "b037": "B5.1",
+        "b038": "C5.1.1",
+        "b039": "C5.1.2",
+        "b040": "B5.2",
+        "b041": "C5.2.1",
+        "b042": "C5.2.2",
+        "b043": "B6",
+        "b044": "B6.1",
+        "b045": "C6.1.1",
+        "b046": "B6.2",
+        "b047": "C6.2.1",
+        "b048": "C6.2.2"
+      }
+    }
+  },
+  "raw_response": "a001=b001\na002<b002\na002<b003\na003<b002\na004<b011\na005<b032\na006<b003\na007<b003\na008<b048\na009<b045\na010<b036\na011<b036\na012<b019\na013<b019\na014<b006\na015<b042\na016<b007\na017=b019\na018<b020\na019<b024\na019<b025\na020<b021\na021<b027\na022<b022\na023<b026\na024<b011\na025<b002\na026<b011\na027<b011\na028<b016\na028<b017\na029<b010\na030<b040\na031<b031\na032<b032\na033<b036\na034<b019",
+  "n_repeats": 6,
+  "repeat_agreement": [
+    {
+      "pair": "r0-r1",
+      "agreement": 0.0222,
+      "n_union": 90
+    },
+    {
+      "pair": "r0-r2",
+      "agreement": 0.8293,
+      "n_union": 41
+    },
+    {
+      "pair": "r0-r3",
+      "agreement": 0.0222,
+      "n_union": 90
+    },
+    {
+      "pair": "r0-r4",
+      "agreement": 0.8293,
+      "n_union": 41
+    },
+    {
+      "pair": "r0-r5",
+      "agreement": 0.0222,
+      "n_union": 90
+    },
+    {
+      "pair": "r1-r2",
+      "agreement": 0.0215,
+      "n_union": 93
+    },
+    {
+      "pair": "r1-r3",
+      "agreement": 1.0,
+      "n_union": 74
+    },
+    {
+      "pair": "r1-r4",
+      "agreement": 0.0215,
+      "n_union": 93
+    },
+    {
+      "pair": "r1-r5",
+      "agreement": 1.0,
+      "n_union": 74
+    },
+    {
+      "pair": "r2-r3",
+      "agreement": 0.0215,
+      "n_union": 93
+    },
+    {
+      "pair": "r2-r4",
+      "agreement": 1.0,
+      "n_union": 38
+    },
+    {
+      "pair": "r2-r5",
+      "agreement": 0.0215,
+      "n_union": 93
+    },
+    {
+      "pair": "r3-r4",
+      "agreement": 0.0215,
+      "n_union": 93
+    },
+    {
+      "pair": "r3-r5",
+      "agreement": 1.0,
+      "n_union": 74
+    },
+    {
+      "pair": "r4-r5",
+      "agreement": 0.0215,
+      "n_union": 93
+    }
+  ],
+  "n_label_conflicts": 19,
+  "label_conflicts": [
+    {
+      "human": "B1",
+      "model": "B1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "B1",
+      "model": "B1.1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C1.1",
+      "model": "B1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C1.7",
+      "model": "C6.1.1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C2.2",
+      "model": "C1.1.3",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C3.1",
+      "model": "B3.1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C3.2",
+      "model": "B3.2",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C3.2",
+      "model": "C3.2.1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "B4",
+      "model": "C3.1.1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C4.1",
+      "model": "C3.2.3",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C4.2",
+      "model": "C3.1.2",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "B5",
+      "model": "B2",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.1",
+      "model": "B1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.4",
+      "model": "B2.2",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.4",
+      "model": "C2.2.1",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.7",
+      "model": "C4.1.2",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.8",
+      "model": "B4.2",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.9",
+      "model": "B5",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    },
+    {
+      "human": "C5.10",
+      "model": "B3",
+      "labels": [
+        "EQUIVALENT",
+        "M_ENTAILS_H"
+      ]
+    }
+  ],
+  "extra_repeats": [
+    {
+      "seed": 140980078,
+      "swapped": true,
+      "raw_response": "a001=b001\na002=b002\na002=b003\na002=b025\na003=b002\na003=b003\na003=b025\na004=b002\na004=b003\na004=b025\na005=b002\na005=b007\na006=b014\na007=b006\na008=b025\na009=b026\na010=b027\na011=b024\na011=b025\na012=b028\na013=b024\na013=b025\na014=b028\na015=b016\na016=b027\na016=b028\na017=b027\na017=b028\na018=b026\na019=b017\na019=b018\na019=b034\na020=b018\na020=b020\na020=b022\na021=b018\na021=b020\na021=b022\na022=b020\na022=b022\na023=b020\na023=b022\na024=b017\na024=b019\na024=b034\na025=b017\na025=b019\na025=b034\na026=b019\na026=b034\na027=b020\na027=b021\na028=b024\na028=b025\na029=b025\na030=b025\na031=b031\na032=b032\na033=b032\na034=b032\na035=b032\na036=b033\na037=b033\na038=b033\na039=b033\na040=b033\na041=b033\na042=b033\na043=b032\na044=b032\na045=b009\na046=b032\na047=b032\na048=b010",
+      "pairs": [
+        {
+          "human": "A1",
+          "model": "A1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "C1.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.5",
+          "model": "C1.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C2.2",
+          "model": "C1.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.4",
+          "model": "B1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C1.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "C1.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "C1.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "B2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "C2.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C2.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C2.4",
+          "model": "C2.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "B2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "C2.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "C2.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "C3.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.1",
+          "model": "C3.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "B4",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B4",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B4.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C4.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.7",
+          "model": "C4.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B4.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.7",
+          "model": "C6.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C6.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.8",
+          "model": "C6.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "seed": 140982567,
+      "swapped": false,
+      "raw_response": "a001=b001\na002<b002\na002<b003\na003<b002\na004<b011\na005<b032\na006<b003\na007<b003\na008<b048\na009<b045\na010<b036\na011<b036\na012<b019\na013<b019\na014<b006\na015<b042\na016<b007\na017=b019\na018<b020\na019<b024\na019<b025\na020<b021\na021<b021\na022<b022\na023<b026\na024<b001\na025<b002\na026<b011\na027<b011\na028<b016\na028<b017\na029<b010\na030<b046\na030<b047\na031<b031\na032<b032\na033<b036\na034<b019",
+      "pairs": [
+        {
+          "human": "A1",
+          "model": "A1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.2",
+          "model": "B2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.3",
+          "model": "B4.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.4",
+          "model": "B1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.5",
+          "model": "B1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.6",
+          "model": "C6.2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.7",
+          "model": "C6.1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.8",
+          "model": "B5",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.9",
+          "model": "B5",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B2",
+          "model": "B3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.1",
+          "model": "B3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.2",
+          "model": "C1.1.3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.3",
+          "model": "C5.2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.4",
+          "model": "B1.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "B3.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C4.1",
+          "model": "C3.1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C4.3",
+          "model": "C3.2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "A1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "B2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "B2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.2.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.5",
+          "model": "C1.2.3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.6",
+          "model": "B6.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.6",
+          "model": "C6.2.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.7",
+          "model": "C4.1.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B4.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "seed": 140984277,
+      "swapped": true,
+      "raw_response": "a001=b001\na002=b002\na002=b003\na002=b025\na003=b002\na003=b003\na003=b025\na004=b002\na004=b003\na004=b025\na005=b002\na005=b007\na006=b014\na007=b006\na008=b025\na009=b026\na010=b027\na011=b024\na011=b025\na012=b028\na013=b024\na013=b025\na014=b028\na015=b016\na016=b027\na016=b028\na017=b027\na017=b028\na018=b026\na019=b017\na019=b018\na019=b034\na020=b018\na020=b020\na020=b022\na021=b018\na021=b020\na021=b022\na022=b020\na022=b022\na023=b020\na023=b022\na024=b017\na024=b019\na024=b034\na025=b017\na025=b019\na025=b034\na026=b019\na026=b034\na027=b020\na027=b021\na028=b024\na028=b025\na029=b025\na030=b025\na031=b031\na032=b032\na033=b032\na034=b032\na035=b032\na036=b033\na037=b033\na038=b033\na039=b033\na040=b033\na041=b033\na042=b033\na043=b032\na044=b032\na045=b009\na046=b032\na047=b032\na048=b010",
+      "pairs": [
+        {
+          "human": "A1",
+          "model": "A1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "C1.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.5",
+          "model": "C1.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C2.2",
+          "model": "C1.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.4",
+          "model": "B1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C1.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "C1.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "C1.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "B2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "C2.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C2.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C2.4",
+          "model": "C2.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "B2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "C2.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "C2.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "C3.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.1",
+          "model": "C3.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "B4",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B4",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B4.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C4.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.7",
+          "model": "C4.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B4.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.7",
+          "model": "C6.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C6.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.8",
+          "model": "C6.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "seed": 140986347,
+      "swapped": false,
+      "raw_response": "a001=b001\na002<b002\na002<b003\na003<b002\na004<b011\na005<b032\na006<b003\na007<b003\na008<b048\na009<b045\na010<b036\na011<b036\na012<b019\na013<b019\na014<b006\na015<b042\na016<b007\na017=b019\na018<b020\na019<b024\na019<b025\na020<b021\na021<b021\na022<b022\na023<b026\na024<b001\na025<b002\na026<b011\na027<b011\na028<b016\na028<b017\na029<b010\na030<b046\na030<b047\na031<b031\na032<b032\na033<b036\na034<b019",
+      "pairs": [
+        {
+          "human": "A1",
+          "model": "A1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.2",
+          "model": "B2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.3",
+          "model": "B4.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.4",
+          "model": "B1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.5",
+          "model": "B1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.6",
+          "model": "C6.2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.7",
+          "model": "C6.1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.8",
+          "model": "B5",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C1.9",
+          "model": "B5",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B2",
+          "model": "B3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.1",
+          "model": "B3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.2",
+          "model": "C1.1.3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.3",
+          "model": "C5.2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C2.4",
+          "model": "B1.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "B3.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C4.1",
+          "model": "C3.1.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C4.3",
+          "model": "C3.2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "A1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "B2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "B2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.2.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.5",
+          "model": "C1.2.3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.6",
+          "model": "B6.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.6",
+          "model": "C6.2.1",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.7",
+          "model": "C4.1.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B4.2",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3",
+          "label": "M_ENTAILS_H",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "seed": 140988057,
+      "swapped": true,
+      "raw_response": "a001=b001\na002=b002\na002=b003\na002=b025\na003=b002\na003=b003\na003=b025\na004=b002\na004=b003\na004=b025\na005=b002\na005=b007\na006=b014\na007=b006\na008=b025\na009=b026\na010=b027\na011=b024\na011=b025\na012=b028\na013=b024\na013=b025\na014=b028\na015=b016\na016=b027\na016=b028\na017=b027\na017=b028\na018=b026\na019=b017\na019=b018\na019=b034\na020=b018\na020=b020\na020=b022\na021=b018\na021=b020\na021=b022\na022=b020\na022=b022\na023=b020\na023=b022\na024=b017\na024=b019\na024=b034\na025=b017\na025=b019\na025=b034\na026=b019\na026=b034\na027=b020\na027=b021\na028=b024\na028=b025\na029=b025\na030=b025\na031=b031\na032=b032\na033=b032\na034=b032\na035=b032\na036=b033\na037=b033\na038=b033\na039=b033\na040=b033\na041=b033\na042=b033\na043=b032\na044=b032\na045=b009\na046=b032\na047=b032\na048=b010",
+      "pairs": [
+        {
+          "human": "A1",
+          "model": "A1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C1.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B1",
+          "model": "C1.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.5",
+          "model": "C1.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C2.2",
+          "model": "C1.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.4",
+          "model": "B1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C1.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "C1.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "C1.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "B2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "C2.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C2.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C2.4",
+          "model": "C2.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "B2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "B2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.3",
+          "model": "C2.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.4",
+          "model": "C2.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.2",
+          "model": "C2.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "B3.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.1",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.2",
+          "model": "C3.1.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "B3.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B3",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "C3.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C3.2",
+          "model": "C3.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.10",
+          "model": "C3.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B4",
+          "model": "C3.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C4.1",
+          "model": "C3.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "B5",
+          "model": "B4",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B4",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "B4.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.1",
+          "model": "C4.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.7",
+          "model": "C4.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B4.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C4.2.3",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.1.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "B5.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.9",
+          "model": "C5.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.7",
+          "model": "C6.1.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "B6.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C5.8",
+          "model": "C6.2.1",
+          "label": "EQUIVALENT",
+          "reason": ""
+        },
+        {
+          "human": "C1.8",
+          "model": "C6.2.2",
+          "label": "EQUIVALENT",
+          "reason": ""
+        }
+      ]
+    }
+  ],
+  "n_pairs_listed": 37,
+  "pairs": [
+    {
+      "human": "A1",
+      "model": "A1",
+      "label": "EQUIVALENT",
+      "reason": ""
+    },
+    {
+      "human": "B1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "B1",
+      "model": "B1.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.2",
+      "model": "B2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.3",
+      "model": "B4.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.4",
+      "model": "B1.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.5",
+      "model": "B1.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.6",
+      "model": "C6.2.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.7",
+      "model": "C6.1.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.8",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C1.9",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "B2",
+      "model": "B3",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C2.1",
+      "model": "B3",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C2.2",
+      "model": "C1.1.3",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C2.3",
+      "model": "C5.2.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C2.4",
+      "model": "B1.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "B3",
+      "model": "B3",
+      "label": "EQUIVALENT",
+      "reason": ""
+    },
+    {
+      "human": "C3.1",
+      "model": "B3.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C3.2",
+      "model": "B3.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C3.2",
+      "model": "C3.2.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "B4",
+      "model": "C3.1.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C4.1",
+      "model": "C3.2.3",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C4.2",
+      "model": "C3.1.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C4.3",
+      "model": "C3.2.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "B5",
+      "model": "B2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.2",
+      "model": "B2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.3",
+      "model": "B2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.4",
+      "model": "B2.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.4",
+      "model": "C2.2.1",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.5",
+      "model": "C1.2.3",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.6",
+      "model": "B5.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.7",
+      "model": "C4.1.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.8",
+      "model": "B4.2",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.9",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    },
+    {
+      "human": "C5.10",
+      "model": "B3",
+      "label": "M_ENTAILS_H",
+      "reason": ""
+    }
+  ],
+  "aggregate": {
+    "overall": {
+      "n_human_nodes": 34,
+      "n_model_nodes": 48,
+      "human_coverage_weighted": 0.5294,
+      "human_coverage_binary": 1.0,
+      "model_precision_weighted": 0.2708,
+      "model_precision_binary": 0.5,
+      "unmatched_human": [],
+      "unmatched_model": [
+        "C1.1.1",
+        "C1.1.2",
+        "C1.2.1",
+        "C1.2.2",
+        "B2.1",
+        "C2.1.1",
+        "C2.1.2",
+        "C2.1.3",
+        "C2.2.2",
+        "C3.1.3",
+        "B4",
+        "B4.1",
+        "C4.1.1",
+        "C4.2.1",
+        "C4.2.2",
+        "C4.2.3",
+        "B5.1",
+        "C5.1.1",
+        "C5.1.2",
+        "C5.2.1",
+        "B6",
+        "B6.1",
+        "B6.2",
+        "C6.2.1"
+      ]
+    },
+    "by_level": {
+      "A": {
+        "n_human_nodes": 1,
+        "n_model_nodes": 1,
+        "human_coverage_weighted": 1.0,
+        "human_coverage_binary": 1.0,
+        "model_precision_weighted": 1.0,
+        "model_precision_binary": 1.0,
+        "unmatched_human": [],
+        "unmatched_model": []
+      },
+      "B": {
+        "n_human_nodes": 5,
+        "n_model_nodes": 18,
+        "human_coverage_weighted": 0.6,
+        "human_coverage_binary": 1.0,
+        "model_precision_weighted": 0.3333,
+        "model_precision_binary": 0.6111,
+        "unmatched_human": [],
+        "unmatched_model": [
+          "B2.1",
+          "B4",
+          "B4.1",
+          "B5.1",
+          "B6",
+          "B6.1",
+          "B6.2"
+        ]
+      },
+      "C": {
+        "n_human_nodes": 28,
+        "n_model_nodes": 29,
+        "human_coverage_weighted": 0.5,
+        "human_coverage_binary": 1.0,
+        "model_precision_weighted": 0.2069,
+        "model_precision_binary": 0.4138,
+        "unmatched_human": [],
+        "unmatched_model": [
+          "C1.1.1",
+          "C1.1.2",
+          "C1.2.1",
+          "C1.2.2",
+          "C2.1.1",
+          "C2.1.2",
+          "C2.1.3",
+          "C2.2.2",
+          "C3.1.3",
+          "C4.1.1",
+          "C4.2.1",
+          "C4.2.2",
+          "C4.2.3",
+          "C5.1.1",
+          "C5.1.2",
+          "C5.2.1",
+          "C6.2.1"
+        ]
+      }
+    },
+    "n_contradiction": 0,
+    "contradiction_pairs": [],
+    "n_uncertain": 0,
+    "uncertain_pairs": [],
+    "per_human_node": [
+      {
+        "human": "A1",
+        "level": "A",
+        "best_weight": 1.0,
+        "relations": [
+          {
+            "model": "A1",
+            "label": "EQUIVALENT",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "B1",
+        "level": "B",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          },
+          {
+            "model": "B1.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.1",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.2",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.3",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B4.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.4",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B1.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.5",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B1.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.6",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C6.2.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.7",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C6.1.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.8",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B5",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C1.9",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B5",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "B2",
+        "level": "B",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B3",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C2.1",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B3",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C2.2",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C1.1.3",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C2.3",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C5.2.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C2.4",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B1.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "B3",
+        "level": "B",
+        "best_weight": 1.0,
+        "relations": [
+          {
+            "model": "B3",
+            "label": "EQUIVALENT",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C3.1",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B3.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C3.2",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B3.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          },
+          {
+            "model": "C3.2.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "B4",
+        "level": "B",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C3.1.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C4.1",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C3.2.3",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C4.2",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C3.1.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C4.3",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C3.2.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "B5",
+        "level": "B",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.1",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.2",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.3",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.4",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B2.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          },
+          {
+            "model": "C2.2.1",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.5",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C1.2.3",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.6",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B5.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.7",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "C4.1.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.8",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B4.2",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.9",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B5",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "human": "C5.10",
+        "level": "C",
+        "best_weight": 0.5,
+        "relations": [
+          {
+            "model": "B3",
+            "label": "M_ENTAILS_H",
+            "reason": ""
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 16752,
+    "completion_tokens": 1669,
+    "total_tokens": 18421,
+    "calls": 6
+  }
+}

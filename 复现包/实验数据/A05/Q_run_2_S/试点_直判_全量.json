@@ -1,0 +1,289 @@
+{
+  "human_run": "A_human_baseline",
+  "model_run": "Q_run_2_S",
+  "n_human_claims": 27,
+  "n_model_claims": 29,
+  "n_rows": 34,
+  "coverage_human": {
+    "严": 0.037,
+    "中": 0.9259,
+    "宽": 0.9259
+  },
+  "coverage_model": {
+    "严": 0.0345,
+    "中": 0.0345,
+    "宽": 0.7931
+  },
+  "matched_human_ids": {
+    "严": [
+      "HC3.1"
+    ],
+    "中": [
+      "HC1.2",
+      "HC1.3",
+      "HC1.4",
+      "HC1.5",
+      "HC1.6",
+      "HC1.7",
+      "HC1.8",
+      "HC2.1",
+      "HC2.2",
+      "HC2.3",
+      "HC2.4",
+      "HC3.1",
+      "HC3.2",
+      "HC4.1",
+      "HC4.2",
+      "HC4.3",
+      "HC5.1",
+      "HC5.10",
+      "HC5.2",
+      "HC5.3",
+      "HC5.4",
+      "HC5.5",
+      "HC5.6",
+      "HC5.7",
+      "HC5.9"
+    ],
+    "宽": [
+      "HC1.2",
+      "HC1.3",
+      "HC1.4",
+      "HC1.5",
+      "HC1.6",
+      "HC1.7",
+      "HC1.8",
+      "HC2.1",
+      "HC2.2",
+      "HC2.3",
+      "HC2.4",
+      "HC3.1",
+      "HC3.2",
+      "HC4.1",
+      "HC4.2",
+      "HC4.3",
+      "HC5.1",
+      "HC5.10",
+      "HC5.2",
+      "HC5.3",
+      "HC5.4",
+      "HC5.5",
+      "HC5.6",
+      "HC5.7",
+      "HC5.9"
+    ]
+  },
+  "rows": [
+    {
+      "human": "HC1.2",
+      "model": "MC2.1.1",
+      "code": "MH",
+      "reason": "漕运汇集物产为市场物质基础"
+    },
+    {
+      "human": "HC1.2",
+      "model": "MC2.2.1",
+      "code": "MH",
+      "reason": "人口规模构成市场根本动力"
+    },
+    {
+      "human": "HC1.3",
+      "model": "MC6.3.1",
+      "code": "MH",
+      "reason": "野味交易形成规模"
+    },
+    {
+      "human": "HC1.3",
+      "model": "MC2.2.3",
+      "code": "MH",
+      "reason": "夜市动物品类繁多反映繁荣"
+    },
+    {
+      "human": "HC1.4",
+      "model": "MC3.1.1",
+      "code": "MH",
+      "reason": "形成专门化交易场所"
+    },
+    {
+      "human": "HC1.5",
+      "model": "MC6.1.1",
+      "code": "MH",
+      "reason": "大牲畜交易为市场重要组成"
+    },
+    {
+      "human": "HC1.5",
+      "model": "MC3.1.2",
+      "code": "MH",
+      "reason": "专门化市场说明分工精细"
+    },
+    {
+      "human": "HC1.6",
+      "model": "MC2.3.1",
+      "code": "MH",
+      "reason": "城郊提供本地动物资源"
+    },
+    {
+      "human": "HC1.7",
+      "model": "MC2.1.2",
+      "code": "MH",
+      "reason": "水产依赖漕运多来源供应"
+    },
+    {
+      "human": "HC1.7",
+      "model": "MC6.4.1",
+      "code": "MH",
+      "reason": "水产交易占重要地位"
+    },
+    {
+      "human": "HC1.8",
+      "model": "MC6.4.1",
+      "code": "MH",
+      "reason": "海鲜进入京师市场"
+    },
+    {
+      "human": "HC1.9",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HC2.1",
+      "model": "MC4.1.1",
+      "code": "MH",
+      "reason": "价格差异反映供求"
+    },
+    {
+      "human": "HC2.1",
+      "model": "MC4.1.2",
+      "code": "MH",
+      "reason": "价格受政策季节影响"
+    },
+    {
+      "human": "HC2.2",
+      "model": "MC6.1.1",
+      "code": "MH",
+      "reason": "马匹流通有完整制度"
+    },
+    {
+      "human": "HC2.2",
+      "model": "MC4.1.2",
+      "code": "MH",
+      "reason": "价格波动受多因素影响"
+    },
+    {
+      "human": "HC2.3",
+      "model": "MC6.1.2",
+      "code": "MH",
+      "reason": "牛驴交易制度化"
+    },
+    {
+      "human": "HC2.4",
+      "model": "MC6.2.1",
+      "code": "MH",
+      "reason": "猪羊交易规模巨大"
+    },
+    {
+      "human": "HC3.1",
+      "model": "MC5.1.1",
+      "code": "E",
+      "reason": "登记纳税印契否则漏税"
+    },
+    {
+      "human": "HC3.2",
+      "model": "MC5.1.2",
+      "code": "MH",
+      "reason": "耕牛交易享税收优惠"
+    },
+    {
+      "human": "HC3.2",
+      "model": "MC5.4.2",
+      "code": "MH",
+      "reason": "税收政策调控市场"
+    },
+    {
+      "human": "HC4.1",
+      "model": "MC5.2.1",
+      "code": "MH",
+      "reason": "刑罚规制维护市场秩序"
+    },
+    {
+      "human": "HC4.2",
+      "model": "MC4.3.1",
+      "code": "MH",
+      "reason": "大牲畜交易需立契约"
+    },
+    {
+      "human": "HC4.3",
+      "model": "MC4.2.1",
+      "code": "MH",
+      "reason": "牙人充当中间人"
+    },
+    {
+      "human": "HC5.1",
+      "model": "MC1.1",
+      "code": "MH",
+      "reason": "多层次复杂市场体系"
+    },
+    {
+      "human": "HC5.2",
+      "model": "MC2.2.1",
+      "code": "MH",
+      "reason": "人口规模构成根本动力"
+    },
+    {
+      "human": "HC5.3",
+      "model": "MC2.2.3",
+      "code": "MH",
+      "reason": "酒楼夜市消费旺盛"
+    },
+    {
+      "human": "HC5.4",
+      "model": "MC2.2.3",
+      "code": "MH",
+      "reason": "酒楼夜市所需品类繁多"
+    },
+    {
+      "human": "HC5.5",
+      "model": "MC3.3.1",
+      "code": "MH",
+      "reason": "屠宰到零售完整产业链"
+    },
+    {
+      "human": "HC5.6",
+      "model": "MC6.1.2",
+      "code": "MH",
+      "reason": "牲畜租赁繁荣带动交易"
+    },
+    {
+      "human": "HC5.7",
+      "model": "MC4.4.1",
+      "code": "MH",
+      "reason": "马驴租赁服务普遍存在"
+    },
+    {
+      "human": "HC5.8",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HC5.9",
+      "model": "MC2.1.1",
+      "code": "MH",
+      "reason": "水路漕运使动物汇聚京师"
+    },
+    {
+      "human": "HC5.10",
+      "model": "MC5.4.2",
+      "code": "MH",
+      "reason": "政府以税收政策调控市场"
+    }
+  ],
+  "raw": "HC1.2|MC2.1.1|MH|漕运汇集物产为市场物质基础\nHC1.2|MC2.2.1|MH|人口规模构成市场根本动力\nHC1.3|MC6.3.1|MH|野味交易形成规模\nHC1.3|MC2.2.3|MH|夜市动物品类繁多反映繁荣\nHC1.4|MC3.1.1|MH|形成专门化交易场所\nHC1.5|MC6.1.1|MH|大牲畜交易为市场重要组成\nHC1.5|MC3.1.2|MH|专门化市场说明分工精细\nHC1.6|MC2.3.1|MH|城郊提供本地动物资源\nHC1.7|MC2.1.2|MH|水产依赖漕运多来源供应\nHC1.7|MC6.4.1|MH|水产交易占重要地位\nHC1.8|MC6.4.1|MH|海鲜进入京师市场\nHC1.9|NONE|NONE|\nHC2.1|MC4.1.1|MH|价格差异反映供求\nHC2.1|MC4.1.2|MH|价格受政策季节影响\nHC2.2|MC6.1.1|MH|马匹流通有完整制度\nHC2.2|MC4.1.2|MH|价格波动受多因素影响\nHC2.3|MC6.1.2|MH|牛驴交易制度化\nHC2.4|MC6.2.1|MH|猪羊交易规模巨大\nHC3.1|MC5.1.1|E|登记纳税印契否则漏税\nHC3.2|MC5.1.2|MH|耕牛交易享税收优惠\nHC3.2|MC5.4.2|MH|税收政策调控市场\nHC4.1|MC5.2.1|MH|刑罚规制维护市场秩序\nHC4.2|MC4.3.1|MH|大牲畜交易需立契约\nHC4.3|MC4.2.1|MH|牙人充当中间人\nHC5.1|MC1.1|MH|多层次复杂市场体系\nHC5.2|MC2.2.1|MH|人口规模构成根本动力\nHC5.3|MC2.2.3|MH|酒楼夜市消费旺盛\nHC5.4|MC2.2.3|MH|酒楼夜市所需品类繁多\nHC5.5|MC3.3.1|MH|屠宰到零售完整产业链\nHC5.6|MC6.1.2|MH|牲畜租赁繁荣带动交易\nHC5.7|MC4.4.1|MH|马驴租赁服务普遍存在\nHC5.8|NONE|NONE|\nHC5.9|MC2.1.1|MH|水路漕运使动物汇聚京师\nHC5.10|MC5.4.2|MH|政府以税收政策调控市场",
+  "usage": {
+    "prompt_tokens": 2937,
+    "completion_tokens": 675,
+    "total_tokens": 3612,
+    "calls": 1
+  }
+}

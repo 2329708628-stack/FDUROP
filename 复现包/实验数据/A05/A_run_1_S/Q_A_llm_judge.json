@@ -1,0 +1,1006 @@
+{
+  "model": "deepseek-chat",
+  "temperature": 0.0,
+  "top_k": 5,
+  "n_human": 30,
+  "n_model": 27,
+  "matched_human": 17,
+  "human_coverage": 0.5667,
+  "hits_model": 15,
+  "model_precision": 0.5556,
+  "n_pairs": 196,
+  "label_dist": {
+    "等义": 1,
+    "部分重叠": 34,
+    "不等义": 161,
+    "ERROR": 0,
+    "PARSE_ERROR": 0
+  },
+  "usage": {
+    "prompt_tokens": 41991,
+    "completion_tokens": 6181,
+    "total_tokens": 48172
+  },
+  "judgments": [
+    {
+      "human": "C1.1",
+      "model": "C1.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.1",
+      "model": "C1.2.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.1",
+      "model": "C1.3.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.1",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.1",
+      "model": "C2.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.1",
+      "model": "C2.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.1",
+      "model": "C3.1.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.1",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.1",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.2",
+      "model": "C1.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.2",
+      "model": "C1.3.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.2",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.2",
+      "model": "C3.1.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.2",
+      "model": "C3.2.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.2",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C1.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C1.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C2.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C2.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C3.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.3",
+      "model": "C3.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.4",
+      "model": "C1.3.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.4",
+      "model": "C1.3.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.4",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.4",
+      "model": "C2.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.4",
+      "model": "C3.2.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.4",
+      "model": "C3.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.5",
+      "model": "C1.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.5",
+      "model": "C1.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.5",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.5",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.5",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.6",
+      "model": "C1.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.6",
+      "model": "C2.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.6",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.6",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.6",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C1.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C1.7",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C2.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C2.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C2.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C3.1.2.1",
+      "label": "等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.7",
+      "model": "C3.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.8",
+      "model": "C1.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.8",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.8",
+      "model": "C2.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.8",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.8",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C1.8",
+      "model": "C3.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.1",
+      "model": "C1.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.1",
+      "model": "C1.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.1",
+      "model": "C2.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.1",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.1",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.2",
+      "model": "C1.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.2",
+      "model": "C1.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.2",
+      "model": "C2.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.2",
+      "model": "C2.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.2",
+      "model": "C2.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.2",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.3",
+      "model": "C1.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.3",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.3",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.3",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.3",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.3",
+      "model": "C3.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C2.4",
+      "model": "C1.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.4",
+      "model": "C1.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.4",
+      "model": "C2.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.4",
+      "model": "C2.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C2.4",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.1",
+      "model": "C1.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.1",
+      "model": "C2.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.1",
+      "model": "C2.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.1",
+      "model": "C2.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.1",
+      "model": "C3.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.2",
+      "model": "C1.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.2",
+      "model": "C2.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.2",
+      "model": "C2.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.2",
+      "model": "C2.2.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C3.2",
+      "model": "C2.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.2",
+      "model": "C2.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C3.2",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.1",
+      "model": "C1.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.1",
+      "model": "C1.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.1",
+      "model": "C2.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C4.1",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.1",
+      "model": "C2.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C4.1",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C1.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C2.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C2.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C2.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.2",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.3",
+      "model": "C1.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.3",
+      "model": "C1.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.3",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.3",
+      "model": "C2.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.3",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.3",
+      "model": "C3.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C1.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C1.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C2.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.4",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C1.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C2.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C4.5",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.5",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C1.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C1.2.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C4.6",
+      "model": "C2.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C2.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C2.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C4.6",
+      "model": "C3.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.1",
+      "model": "C1.1.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.1",
+      "model": "C1.2.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.1",
+      "model": "C3.1.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.1",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.1",
+      "model": "C3.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.10",
+      "model": "C1.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.10",
+      "model": "C1.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.10",
+      "model": "C2.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.10",
+      "model": "C2.2.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.10",
+      "model": "C2.2.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.10",
+      "model": "C2.3.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.10",
+      "model": "C2.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.10",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.10",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.10",
+      "model": "C3.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.10",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.2",
+      "model": "C1.1.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.2",
+      "model": "C2.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.2",
+      "model": "C2.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.2",
+      "model": "C2.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.2",
+      "model": "C2.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.2",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.2",
+      "model": "C3.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.3",
+      "model": "C1.2.1.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.3",
+      "model": "C2.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.3",
+      "model": "C2.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.3",
+      "model": "C2.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.3",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.4",
+      "model": "C1.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.4",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.4",
+      "model": "C2.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.4",
+      "model": "C2.3.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.4",
+      "model": "C3.2.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.4",
+      "model": "C3.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.5",
+      "model": "C1.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.5",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.5",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.5",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.5",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.5",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.6",
+      "model": "C1.1.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.6",
+      "model": "C1.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.6",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.6",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.6",
+      "model": "C3.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.7",
+      "model": "C1.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.7",
+      "model": "C1.3.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.7",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.7",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.7",
+      "model": "C3.2.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.7",
+      "model": "C3.3.3.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.8",
+      "model": "C1.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.8",
+      "model": "C1.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.8",
+      "model": "C3.1.2.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.8",
+      "model": "C3.1.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.8",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.9",
+      "model": "C1.1.2.1",
+      "label": "部分重叠"
+    },
+    {
+      "human": "C5.9",
+      "model": "C1.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.9",
+      "model": "C1.3.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.9",
+      "model": "C3.1.1.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.9",
+      "model": "C3.2.3.1",
+      "label": "不等义"
+    },
+    {
+      "human": "C5.9",
+      "model": "C3.3.3.1",
+      "label": "不等义"
+    }
+  ]
+}

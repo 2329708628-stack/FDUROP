@@ -1,0 +1,264 @@
+{
+  "human_run": "A_human_baseline",
+  "model_run": "A_run_2_S",
+  "n_human_claims": 27,
+  "n_model_claims": 29,
+  "n_rows": 30,
+  "coverage_human": {
+    "严": 0.0741,
+    "中": 0.8889,
+    "宽": 0.8889
+  },
+  "coverage_model": {
+    "严": 0.069,
+    "中": 0.069,
+    "宽": 0.7586
+  },
+  "matched_human_ids": {
+    "严": [
+      "HC3.1",
+      "HC3.2"
+    ],
+    "中": [
+      "HC1.2",
+      "HC1.3",
+      "HC1.4",
+      "HC1.5",
+      "HC1.6",
+      "HC1.7",
+      "HC2.2",
+      "HC2.3",
+      "HC2.4",
+      "HC3.1",
+      "HC3.2",
+      "HC4.1",
+      "HC4.2",
+      "HC4.3",
+      "HC5.1",
+      "HC5.10",
+      "HC5.2",
+      "HC5.3",
+      "HC5.4",
+      "HC5.5",
+      "HC5.6",
+      "HC5.7",
+      "HC5.8",
+      "HC5.9"
+    ],
+    "宽": [
+      "HC1.2",
+      "HC1.3",
+      "HC1.4",
+      "HC1.5",
+      "HC1.6",
+      "HC1.7",
+      "HC2.2",
+      "HC2.3",
+      "HC2.4",
+      "HC3.1",
+      "HC3.2",
+      "HC4.1",
+      "HC4.2",
+      "HC4.3",
+      "HC5.1",
+      "HC5.10",
+      "HC5.2",
+      "HC5.3",
+      "HC5.4",
+      "HC5.5",
+      "HC5.6",
+      "HC5.7",
+      "HC5.8",
+      "HC5.9"
+    ]
+  },
+  "rows": [
+    {
+      "human": "HC1.2",
+      "model": "MC5.1.1",
+      "code": "MH",
+      "reason": "漕运汇集物产为动物市场提供交通保障"
+    },
+    {
+      "human": "HC1.2",
+      "model": "MC5.1.2",
+      "code": "MH",
+      "reason": "庞大人口与物资流通支撑动物市场"
+    },
+    {
+      "human": "HC1.3",
+      "model": "MC1.1.1",
+      "code": "MH",
+      "reason": "动物交易多品类且市场分工精细"
+    },
+    {
+      "human": "HC1.3",
+      "model": "MC1.2.1",
+      "code": "MH",
+      "reason": "动物产品交易时间早且具日常性"
+    },
+    {
+      "human": "HC1.4",
+      "model": "MC1.1.1",
+      "code": "MH",
+      "reason": "动物交易涵盖多品类形成交易体系"
+    },
+    {
+      "human": "HC1.5",
+      "model": "MC1.1.2",
+      "code": "MH",
+      "reason": "生猪交易活跃且组织化程度高"
+    },
+    {
+      "human": "HC1.5",
+      "model": "MC1.1.3",
+      "code": "MH",
+      "reason": "马匹设有专门马市且规模可观"
+    },
+    {
+      "human": "HC1.6",
+      "model": "MC6.2.2",
+      "code": "MH",
+      "reason": "野生动物也是市场来源之一"
+    },
+    {
+      "human": "HC1.7",
+      "model": "MC6.1.1",
+      "code": "MH",
+      "reason": "京师周边水域渔业资源丰富"
+    },
+    {
+      "human": "HC1.8",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HC1.9",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HC2.1",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HC2.2",
+      "model": "MC5.2.1",
+      "code": "MH",
+      "reason": "马匹跨区域贸易规模与投入巨大"
+    },
+    {
+      "human": "HC2.3",
+      "model": "MC5.2.2",
+      "code": "MH",
+      "reason": "牛只跨区域贸易活跃并受政府调控"
+    },
+    {
+      "human": "HC2.4",
+      "model": "MC2.1.3",
+      "code": "MH",
+      "reason": "宫廷对羊肉需求巨大拉动羊只贸易"
+    },
+    {
+      "human": "HC3.1",
+      "model": "MC3.1.1",
+      "code": "E",
+      "reason": "政府建立动物交易登记纳税契约制度"
+    },
+    {
+      "human": "HC3.2",
+      "model": "MC3.2.1",
+      "code": "E",
+      "reason": "税收政策兼顾农业生产与民生需求"
+    },
+    {
+      "human": "HC4.1",
+      "model": "MC3.2.3",
+      "code": "MH",
+      "reason": "政府以法律手段维护市场秩序"
+    },
+    {
+      "human": "HC4.2",
+      "model": "MC3.1.2",
+      "code": "MH",
+      "reason": "法律对契约订立与悔约有细致规定"
+    },
+    {
+      "human": "HC4.3",
+      "model": "MC3.2.2",
+      "code": "MH",
+      "reason": "政府管理有制度边界并纠正违规"
+    },
+    {
+      "human": "HC5.1",
+      "model": "MC1.1.1",
+      "code": "MH",
+      "reason": "动物交易多品类形成层次分明体系"
+    },
+    {
+      "human": "HC5.2",
+      "model": "MC5.1.2",
+      "code": "MH",
+      "reason": "百万人口物资供应支撑动物市场"
+    },
+    {
+      "human": "HC5.3",
+      "model": "MC2.1.1",
+      "code": "MH",
+      "reason": "动物市场繁荣根植于饮食业发达"
+    },
+    {
+      "human": "HC5.4",
+      "model": "MC2.2.1",
+      "code": "MH",
+      "reason": "酒楼餐饮业为动物市场提供需求"
+    },
+    {
+      "human": "HC5.5",
+      "model": "MC1.2.3",
+      "code": "MH",
+      "reason": "动物产品加工销售形成专业化产业链"
+    },
+    {
+      "human": "HC5.6",
+      "model": "MC6.2.1",
+      "code": "MH",
+      "reason": "动物在城市物流与民间生产中发挥作用"
+    },
+    {
+      "human": "HC5.7",
+      "model": "MC4.1.2",
+      "code": "MH",
+      "reason": "动物租赁市场繁荣且有成熟定价机制"
+    },
+    {
+      "human": "HC5.8",
+      "model": "MC4.2.2",
+      "code": "MH",
+      "reason": "动物市场繁荣与文化娱乐需求相互促进"
+    },
+    {
+      "human": "HC5.9",
+      "model": "MC5.1.1",
+      "code": "MH",
+      "reason": "漕运体系为动物大规模输入提供保障"
+    },
+    {
+      "human": "HC5.10",
+      "model": "MC3.2.1",
+      "code": "MH",
+      "reason": "税收政策体现市场治理成熟与灵活"
+    }
+  ],
+  "raw": "HC1.2|MC5.1.1|MH|漕运汇集物产为动物市场提供交通保障\nHC1.2|MC5.1.2|MH|庞大人口与物资流通支撑动物市场\nHC1.3|MC1.1.1|MH|动物交易多品类且市场分工精细\nHC1.3|MC1.2.1|MH|动物产品交易时间早且具日常性\nHC1.4|MC1.1.1|MH|动物交易涵盖多品类形成交易体系\nHC1.5|MC1.1.2|MH|生猪交易活跃且组织化程度高\nHC1.5|MC1.1.3|MH|马匹设有专门马市且规模可观\nHC1.6|MC6.2.2|MH|野生动物也是市场来源之一\nHC1.7|MC6.1.1|MH|京师周边水域渔业资源丰富\nHC1.8|NONE|NONE|\nHC1.9|NONE|NONE|\nHC2.1|NONE|NONE|\nHC2.2|MC5.2.1|MH|马匹跨区域贸易规模与投入巨大\nHC2.3|MC5.2.2|MH|牛只跨区域贸易活跃并受政府调控\nHC2.4|MC2.1.3|MH|宫廷对羊肉需求巨大拉动羊只贸易\nHC3.1|MC3.1.1|E|政府建立动物交易登记纳税契约制度\nHC3.2|MC3.2.1|E|税收政策兼顾农业生产与民生需求\nHC4.1|MC3.2.3|MH|政府以法律手段维护市场秩序\nHC4.2|MC3.1.2|MH|法律对契约订立与悔约有细致规定\nHC4.3|MC3.2.2|MH|政府管理有制度边界并纠正违规\nHC5.1|MC1.1.1|MH|动物交易多品类形成层次分明体系\nHC5.2|MC5.1.2|MH|百万人口物资供应支撑动物市场\nHC5.3|MC2.1.1|MH|动物市场繁荣根植于饮食业发达\nHC5.4|MC2.2.1|MH|酒楼餐饮业为动物市场提供需求\nHC5.5|MC1.2.3|MH|动物产品加工销售形成专业化产业链\nHC5.6|MC6.2.1|MH|动物在城市物流与民间生产中发挥作用\nHC5.7|MC4.1.2|MH|动物租赁市场繁荣且有成熟定价机制\nHC5.8|MC4.2.2|MH|动物市场繁荣与文化娱乐需求相互促进\nHC5.9|MC5.1.1|MH|漕运体系为动物大规模输入提供保障\nHC5.10|MC3.2.1|MH|税收政策体现市场治理成熟与灵活",
+  "usage": {
+    "prompt_tokens": 3049,
+    "completion_tokens": 655,
+    "total_tokens": 3704,
+    "calls": 1
+  }
+}

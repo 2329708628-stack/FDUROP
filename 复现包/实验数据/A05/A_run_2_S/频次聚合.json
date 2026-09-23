@@ -1,0 +1,224 @@
+{
+  "run": "A_run_2_S",
+  "n_rounds": 6,
+  "total_unique_edges": 94,
+  "freq_distribution": {
+    "6": 19,
+    "5": 0,
+    "4": 2,
+    "3": 68,
+    "2": 4,
+    "1": 1
+  },
+  "label_consistent_edges": 75,
+  "edges_k_ge_4": [
+    {
+      "human": "A1",
+      "model": "A1",
+      "label": "EQUIVALENT",
+      "freq": 6,
+      "label_split": {
+        "EQUIVALENT": 6
+      }
+    },
+    {
+      "human": "B1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "B1",
+      "model": "B1.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C1.1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C1.7",
+      "model": "C6.1.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C2.2",
+      "model": "C1.1.3",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "B3",
+      "model": "B3",
+      "label": "EQUIVALENT",
+      "freq": 6,
+      "label_split": {
+        "EQUIVALENT": 6
+      }
+    },
+    {
+      "human": "C3.1",
+      "model": "B3.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C3.2",
+      "model": "B3.2",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C3.2",
+      "model": "C3.2.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "B4",
+      "model": "C3.1.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C4.1",
+      "model": "C3.2.3",
+      "label": "EQUIVALENT",
+      "freq": 4,
+      "label_split": {
+        "M_ENTAILS_H": 1,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C4.2",
+      "model": "C3.1.2",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "B5",
+      "model": "B2",
+      "label": "EQUIVALENT",
+      "freq": 4,
+      "label_split": {
+        "M_ENTAILS_H": 1,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.1",
+      "model": "B1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.4",
+      "model": "B2.2",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.4",
+      "model": "C2.2.1",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.7",
+      "model": "C4.1.2",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.8",
+      "model": "B4.2",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.9",
+      "model": "B5",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    },
+    {
+      "human": "C5.10",
+      "model": "B3",
+      "label": "M_ENTAILS_H",
+      "freq": 6,
+      "label_split": {
+        "M_ENTAILS_H": 3,
+        "EQUIVALENT": 3
+      }
+    }
+  ]
+}

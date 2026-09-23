@@ -1,0 +1,22 @@
+{
+  "experiment": "Q_A",
+  "condition": "Q",
+  "paper_id": "A05",
+  "run_no": "1",
+  "model": "GLM-4.5-Flash",
+  "temperature": 0.7,
+  "max_tokens": 16384,
+  "question": "北宋开封动物交易的情况、原因和影响",
+  "prompt_chars": 9756,
+  "source_pool": {
+    "total_sources": 24,
+    "total_passages": 75,
+    "S_block_chars": 9195
+  },
+  "output_chars": 6210,
+  "elapsed_sec": 383.39,
+  "time_to_first_token_sec": 232.34,
+  "finish_reason": "stop",
+  "usage": null,
+  "timestamp": "2026-09-19 17:59:46"
+}

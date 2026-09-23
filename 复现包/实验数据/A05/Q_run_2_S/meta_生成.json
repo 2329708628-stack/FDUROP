@@ -1,0 +1,32 @@
+{
+  "experiment": "Q_A",
+  "condition": "Q",
+  "tier": "S",
+  "paper_id": "A05",
+  "run_no": "2",
+  "model": "deepseek-chat",
+  "temperature": 0.7,
+  "max_tokens": 32768,
+  "question": "北宋开封的动物交易市场是如何形成、运行和管理的",
+  "prompt_chars": 9761,
+  "source_pool": {
+    "total_sources": 24,
+    "total_passages": 75,
+    "S_block_chars": 9195
+  },
+  "output_chars": 7087,
+  "elapsed_sec": 31.06,
+  "time_to_first_token_sec": 1.88,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 7804,
+    "completion_tokens": 4808,
+    "total_tokens": 12612,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 7804
+  },
+  "timestamp": "2026-09-22 17:42:53"
+}

@@ -1,0 +1,608 @@
+{
+  "human_run": "A_human_baseline",
+  "model_run": "Q_run_1_S",
+  "n_human_claims": 76,
+  "n_model_claims": 44,
+  "n_rows": 77,
+  "coverage_human": {
+    "严": 0.0263,
+    "中": 0.7237,
+    "宽": 0.7237
+  },
+  "coverage_model": {
+    "严": 0.0455,
+    "中": 0.0455,
+    "宽": 0.6591
+  },
+  "matched_human_ids": {
+    "严": [
+      "HP20-38",
+      "HP26-47"
+    ],
+    "中": [
+      "HP10-12",
+      "HP11-15",
+      "HP11-16",
+      "HP12-18",
+      "HP12-19",
+      "HP13-20",
+      "HP15-23",
+      "HP18-36",
+      "HP20-37",
+      "HP20-38",
+      "HP20-39",
+      "HP21-40",
+      "HP21-41",
+      "HP23-42",
+      "HP23-43",
+      "HP24-44",
+      "HP24-45",
+      "HP24-46",
+      "HP26-47",
+      "HP26-48",
+      "HP27-49",
+      "HP27-50",
+      "HP28-51",
+      "HP28-52",
+      "HP28-53",
+      "HP30-54",
+      "HP30-55",
+      "HP30-56",
+      "HP31-57",
+      "HP31-58",
+      "HP32-59",
+      "HP32-60",
+      "HP33-61",
+      "HP33-62",
+      "HP33-63",
+      "HP34-64",
+      "HP34-65",
+      "HP35-66",
+      "HP36-67",
+      "HP36-68",
+      "HP37-69",
+      "HP37-70",
+      "HP38-71",
+      "HP38-72",
+      "HP38-73",
+      "HP39-74",
+      "HP39-75",
+      "HP39-76",
+      "HP6-1",
+      "HP6-2",
+      "HP6-3",
+      "HP7-4",
+      "HP7-5",
+      "HP8-7",
+      "HP8-8"
+    ],
+    "宽": [
+      "HP10-12",
+      "HP11-15",
+      "HP11-16",
+      "HP12-18",
+      "HP12-19",
+      "HP13-20",
+      "HP15-23",
+      "HP18-36",
+      "HP20-37",
+      "HP20-38",
+      "HP20-39",
+      "HP21-40",
+      "HP21-41",
+      "HP23-42",
+      "HP23-43",
+      "HP24-44",
+      "HP24-45",
+      "HP24-46",
+      "HP26-47",
+      "HP26-48",
+      "HP27-49",
+      "HP27-50",
+      "HP28-51",
+      "HP28-52",
+      "HP28-53",
+      "HP30-54",
+      "HP30-55",
+      "HP30-56",
+      "HP31-57",
+      "HP31-58",
+      "HP32-59",
+      "HP32-60",
+      "HP33-61",
+      "HP33-62",
+      "HP33-63",
+      "HP34-64",
+      "HP34-65",
+      "HP35-66",
+      "HP36-67",
+      "HP36-68",
+      "HP37-69",
+      "HP37-70",
+      "HP38-71",
+      "HP38-72",
+      "HP38-73",
+      "HP39-74",
+      "HP39-75",
+      "HP39-76",
+      "HP6-1",
+      "HP6-2",
+      "HP6-3",
+      "HP7-4",
+      "HP7-5",
+      "HP8-7",
+      "HP8-8"
+    ]
+  },
+  "rows": [
+    {
+      "human": "HP6-1",
+      "model": "MP7-4",
+      "code": "MH",
+      "reason": "开封帝都人口规模空前"
+    },
+    {
+      "human": "HP6-1",
+      "model": "MP7-5",
+      "code": "MH",
+      "reason": "庞大人口产生动物消费需求"
+    },
+    {
+      "human": "HP6-2",
+      "model": "MP5-2",
+      "code": "MH",
+      "reason": "汴河为东南动物入京主通道"
+    },
+    {
+      "human": "HP6-3",
+      "model": "MP7-6",
+      "code": "MH",
+      "reason": "需求催生专业化动物市场"
+    },
+    {
+      "human": "HP7-4",
+      "model": "MP16-14",
+      "code": "MH",
+      "reason": "市场高度专业化且繁荣"
+    },
+    {
+      "human": "HP7-5",
+      "model": "MP16-15",
+      "code": "MH",
+      "reason": "相国寺为珍禽异兽交易场所"
+    },
+    {
+      "human": "HP7-6",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP8-7",
+      "model": "MP16-15",
+      "code": "MH",
+      "reason": "鱼类等专门交易集散点"
+    },
+    {
+      "human": "HP8-8",
+      "model": "MP16-15",
+      "code": "MH",
+      "reason": "新郑门西水门万胜门鱼市"
+    },
+    {
+      "human": "HP8-9",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP9-10",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP9-11",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP10-12",
+      "model": "MP10-7",
+      "code": "MH",
+      "reason": "货源来自多个方向"
+    },
+    {
+      "human": "HP10-13",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP10-14",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP11-15",
+      "model": "MP10-8",
+      "code": "MH",
+      "reason": "黄河客鱼输入开封"
+    },
+    {
+      "human": "HP11-16",
+      "model": "MP5-3",
+      "code": "MH",
+      "reason": "四河交汇提供货源基础"
+    },
+    {
+      "human": "HP11-17",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP12-18",
+      "model": "MP10-10",
+      "code": "MH",
+      "reason": "海错流通至京师"
+    },
+    {
+      "human": "HP12-19",
+      "model": "MP10-11",
+      "code": "MH",
+      "reason": "水产水陆并进运抵京城"
+    },
+    {
+      "human": "HP13-20",
+      "model": "MP10-7",
+      "code": "MH",
+      "reason": "货源来自多个方向"
+    },
+    {
+      "human": "HP13-21",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP15-22",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP15-23",
+      "model": "MP7-5",
+      "code": "MH",
+      "reason": "庞大人口产生消费需求"
+    },
+    {
+      "human": "HP16-24",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP16-25",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP16-26",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP16-27",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP16-28",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP16-29",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP17-30",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP17-31",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP17-32",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP18-33",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP18-34",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP18-35",
+      "model": null,
+      "code": "NONE",
+      "reason": ""
+    },
+    {
+      "human": "HP18-36",
+      "model": "MP10-9",
+      "code": "MH",
+      "reason": "鹌鹑大车批量运入价极低"
+    },
+    {
+      "human": "HP20-37",
+      "model": "MP25-24",
+      "code": "MH",
+      "reason": "动物交易须缴商税"
+    },
+    {
+      "human": "HP20-38",
+      "model": "MP25-25",
+      "code": "E",
+      "reason": "牛驴骡马驼当日上簿三日纳税"
+    },
+    {
+      "human": "HP20-39",
+      "model": "MP25-26",
+      "code": "MH",
+      "reason": "马牛驴骡驼羊彘均须纳税"
+    },
+    {
+      "human": "HP21-40",
+      "model": "MP33-32",
+      "code": "MH",
+      "reason": "官府对耕牛交易特殊保护"
+    },
+    {
+      "human": "HP21-41",
+      "model": "MP33-33",
+      "code": "MH",
+      "reason": "天禧元年耕牛税钱再放一年"
+    },
+    {
+      "human": "HP23-42",
+      "model": "MP29-27",
+      "code": "MH",
+      "reason": "官府严格禁令打击非法交易"
+    },
+    {
+      "human": "HP23-43",
+      "model": "MP23-21",
+      "code": "MH",
+      "reason": "宋刑统规定牲畜交易立券"
+    },
+    {
+      "human": "HP24-44",
+      "model": "MP23-21",
+      "code": "MH",
+      "reason": "过价后三日内立券否则受罚"
+    },
+    {
+      "human": "HP24-45",
+      "model": "MP23-21",
+      "code": "MH",
+      "reason": "立券后三日内可因旧病悔约"
+    },
+    {
+      "human": "HP24-46",
+      "model": "MP23-21",
+      "code": "MH",
+      "reason": "市司不及时过券受处罚"
+    },
+    {
+      "human": "HP26-47",
+      "model": "MP23-22",
+      "code": "E",
+      "reason": "天圣令要求价定立券朱印给付"
+    },
+    {
+      "human": "HP26-48",
+      "model": "MP23-22",
+      "code": "MH",
+      "reason": "天圣令要求价定立券"
+    },
+    {
+      "human": "HP27-49",
+      "model": "MP23-21",
+      "code": "MH",
+      "reason": "宋刑统牲畜交易立券悔约规定"
+    },
+    {
+      "human": "HP27-50",
+      "model": "MP23-23",
+      "code": "MH",
+      "reason": "形成完整契约程序"
+    },
+    {
+      "human": "HP28-51",
+      "model": "MP21-18",
+      "code": "MH",
+      "reason": "牛马交易有专业牙人参与"
+    },
+    {
+      "human": "HP28-52",
+      "model": "MP21-20",
+      "code": "MH",
+      "reason": "牙人行形成成熟中介服务"
+    },
+    {
+      "human": "HP28-53",
+      "model": "MP21-20",
+      "code": "MH",
+      "reason": "牙人行表明中介服务体系成熟"
+    },
+    {
+      "human": "HP30-54",
+      "model": "MP16-14",
+      "code": "MH",
+      "reason": "市场高度专业化空间分布"
+    },
+    {
+      "human": "HP30-55",
+      "model": "MP10-10",
+      "code": "MH",
+      "reason": "海错流通至京师"
+    },
+    {
+      "human": "HP30-56",
+      "model": "MP10-7",
+      "code": "MH",
+      "reason": "货源来自多个方向"
+    },
+    {
+      "human": "HP31-57",
+      "model": "MP7-5",
+      "code": "MH",
+      "reason": "庞大人口产生消费需求"
+    },
+    {
+      "human": "HP31-58",
+      "model": "MP7-5",
+      "code": "MH",
+      "reason": "庞大人口产生消费需求"
+    },
+    {
+      "human": "HP32-59",
+      "model": "MP18-16",
+      "code": "MH",
+      "reason": "动物市场与餐饮空间交织"
+    },
+    {
+      "human": "HP32-60",
+      "model": "MP18-16",
+      "code": "MH",
+      "reason": "动物市场与餐饮空间交织"
+    },
+    {
+      "human": "HP33-61",
+      "model": "MP18-16",
+      "code": "MH",
+      "reason": "动物市场与餐饮空间交织"
+    },
+    {
+      "human": "HP33-62",
+      "model": "MP18-16",
+      "code": "MH",
+      "reason": "动物市场与餐饮空间交织"
+    },
+    {
+      "human": "HP33-63",
+      "model": "MP18-16",
+      "code": "MH",
+      "reason": "动物市场与餐饮空间交织"
+    },
+    {
+      "human": "HP34-64",
+      "model": "MP18-17",
+      "code": "MH",
+      "reason": "屠宰交易与娱乐空间重叠"
+    },
+    {
+      "human": "HP34-65",
+      "model": "MP18-17",
+      "code": "MH",
+      "reason": "屠宰交易与娱乐空间重叠"
+    },
+    {
+      "human": "HP35-66",
+      "model": "MP38-36",
+      "code": "MH",
+      "reason": "动物租赁服务极为发达"
+    },
+    {
+      "human": "HP36-67",
+      "model": "MP38-36",
+      "code": "MH",
+      "reason": "动物租赁服务极为发达"
+    },
+    {
+      "human": "HP36-68",
+      "model": "MP38-36",
+      "code": "MH",
+      "reason": "动物租赁服务极为发达"
+    },
+    {
+      "human": "HP37-69",
+      "model": "MP40-40",
+      "code": "MH",
+      "reason": "动物广泛用于礼仪娱乐"
+    },
+    {
+      "human": "HP37-70",
+      "model": "MP40-41",
+      "code": "MH",
+      "reason": "表演需求刺激动物交易驯养"
+    },
+    {
+      "human": "HP38-71",
+      "model": "MP5-1",
+      "code": "MH",
+      "reason": "依赖水陆交通网络"
+    },
+    {
+      "human": "HP38-72",
+      "model": "MP5-3",
+      "code": "MH",
+      "reason": "交通格局提供货源基础"
+    },
+    {
+      "human": "HP38-73",
+      "model": "MP5-1",
+      "code": "MH",
+      "reason": "依赖水陆交通网络"
+    },
+    {
+      "human": "HP39-74",
+      "model": "MP25-24",
+      "code": "MH",
+      "reason": "动物交易须缴商税受管理"
+    },
+    {
+      "human": "HP39-75",
+      "model": "MP23-21",
+      "code": "MH",
+      "reason": "宋刑统规定牲畜交易立券"
+    },
+    {
+      "human": "HP39-76",
+      "model": "MP33-33",
+      "code": "MH",
+      "reason": "天禧元年耕牛税钱再放一年"
+    }
+  ],
+  "raw": "HP6-1|MP7-4|MH|开封帝都人口规模空前\nHP6-1|MP7-5|MH|庞大人口产生动物消费需求\nHP6-2|MP5-2|MH|汴河为东南动物入京主通道\nHP6-3|MP7-6|MH|需求催生专业化动物市场\nHP7-4|MP16-14|MH|市场高度专业化且繁荣\nHP7-5|MP16-15|MH|相国寺为珍禽异兽交易场所\nHP7-6|NONE|NONE|\nHP8-7|MP16-15|MH|鱼类等专门交易集散点\nHP8-8|MP16-15|MH|新郑门西水门万胜门鱼市\nHP8-9|NONE|NONE|\nHP9-10|NONE|NONE|\nHP9-11|NONE|NONE|\nHP10-12|MP10-7|MH|货源来自多个方向\nHP10-13|NONE|NONE|\nHP10-14|NONE|NONE|\nHP11-15|MP10-8|MH|黄河客鱼输入开封\nHP11-16|MP5-3|MH|四河交汇提供货源基础\nHP11-17|NONE|NONE|\nHP12-18|MP10-10|MH|海错流通至京师\nHP12-19|MP10-11|MH|水产水陆并进运抵京城\nHP13-20|MP10-7|MH|货源来自多个方向\nHP13-21|NONE|NONE|\nHP15-22|NONE|NONE|\nHP15-23|MP7-5|MH|庞大人口产生消费需求\nHP16-24|NONE|NONE|\nHP16-25|NONE|NONE|\nHP16-26|NONE|NONE|\nHP16-27|NONE|NONE|\nHP16-28|NONE|NONE|\nHP16-29|NONE|NONE|\nHP17-30|NONE|NONE|\nHP17-31|NONE|NONE|\nHP17-32|NONE|NONE|\nHP18-33|NONE|NONE|\nHP18-34|NONE|NONE|\nHP18-35|NONE|NONE|\nHP18-36|MP10-9|MH|鹌鹑大车批量运入价极低\nHP20-37|MP25-24|MH|动物交易须缴商税\nHP20-38|MP25-25|E|牛驴骡马驼当日上簿三日纳税\nHP20-39|MP25-26|MH|马牛驴骡驼羊彘均须纳税\nHP21-40|MP33-32|MH|官府对耕牛交易特殊保护\nHP21-41|MP33-33|MH|天禧元年耕牛税钱再放一年\nHP23-42|MP29-27|MH|官府严格禁令打击非法交易\nHP23-43|MP23-21|MH|宋刑统规定牲畜交易立券\nHP24-44|MP23-21|MH|过价后三日内立券否则受罚\nHP24-45|MP23-21|MH|立券后三日内可因旧病悔约\nHP24-46|MP23-21|MH|市司不及时过券受处罚\nHP26-47|MP23-22|E|天圣令要求价定立券朱印给付\nHP26-48|MP23-22|MH|天圣令要求价定立券\nHP27-49|MP23-21|MH|宋刑统牲畜交易立券悔约规定\nHP27-50|MP23-23|MH|形成完整契约程序\nHP28-51|MP21-18|MH|牛马交易有专业牙人参与\nHP28-52|MP21-20|MH|牙人行形成成熟中介服务\nHP28-53|MP21-20|MH|牙人行表明中介服务体系成熟\nHP30-54|MP16-14|MH|市场高度专业化空间分布\nHP30-55|MP10-10|MH|海错流通至京师\nHP30-56|MP10-7|MH|货源来自多个方向\nHP31-57|MP7-5|MH|庞大人口产生消费需求\nHP31-58|MP7-5|MH|庞大人口产生消费需求\nHP32-59|MP18-16|MH|动物市场与餐饮空间交织\nHP32-60|MP18-16|MH|动物市场与餐饮空间交织\nHP33-61|MP18-16|MH|动物市场与餐饮空间交织\nHP33-62|MP18-16|MH|动物市场与餐饮空间交织\nHP33-63|MP18-16|MH|动物市场与餐饮空间交织\nHP34-64|MP18-17|MH|屠宰交易与娱乐空间重叠\nHP34-65|MP18-17|MH|屠宰交易与娱乐空间重叠\nHP35-66|MP38-36|MH|动物租赁服务极为发达\nHP36-67|MP38-36|MH|动物租赁服务极为发达\nHP36-68|MP38-36|MH|动物租赁服务极为发达\nHP37-69|MP40-40|MH|动物广泛用于礼仪娱乐\nHP37-70|MP40-41|MH|表演需求刺激动物交易驯养\nHP38-71|MP5-1|MH|依赖水陆交通网络\nHP38-72|MP5-3|MH|交通格局提供货源基础\nHP38-73|MP5-1|MH|依赖水陆交通网络\nHP39-74|MP25-24|MH|动物交易须缴商税受管理\nHP39-75|MP23-21|MH|宋刑统规定牲畜交易立券\nHP39-76|MP33-33|MH|天禧元年耕牛税钱再放一年",
+  "usage": {
+    "prompt_tokens": 5494,
+    "completion_tokens": 1341,
+    "total_tokens": 6835,
+    "calls": 1
+  }
+}

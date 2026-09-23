@@ -1,0 +1,536 @@
+{
+  "gold_run": "C:\\Users\\23297\\Downloads\\Lab\\数据集\\数据清洗后论文\\A05\\03_实验输出\\Q_A_实验\\A_human_baseline\\run.json",
+  "model_run": "C:\\Users\\23297\\Downloads\\Lab\\数据集\\数据清洗后论文\\A05\\03_实验输出\\Q_A_实验\\Q_run_1_M\\run.json",
+  "structure": {
+    "gold": {
+      "A": 1,
+      "B_depth2": 5,
+      "B_depth3": 0,
+      "C": 30
+    },
+    "model": {
+      "A": 1,
+      "B_depth2": 3,
+      "B_depth3": 8,
+      "C": 23
+    },
+    "gold_total": 36,
+    "model_total": 35
+  },
+  "material_coverage": {
+    "total_M": 73,
+    "gold_used": 35,
+    "model_used": 31,
+    "gold_coverage_pct": 47.9,
+    "model_coverage_pct": 42.5,
+    "gold_only": [
+      "M5",
+      "M6",
+      "M8",
+      "M9",
+      "M19",
+      "M20",
+      "M21",
+      "M23",
+      "M24",
+      "M29",
+      "M30",
+      "M32",
+      "M36",
+      "M42",
+      "M43",
+      "M48",
+      "M59",
+      "M60",
+      "M61",
+      "M64",
+      "M65"
+    ],
+    "model_only": [
+      "M10",
+      "M13",
+      "M14",
+      "M15",
+      "M16",
+      "M17",
+      "M40",
+      "M41",
+      "M44",
+      "M51",
+      "M52",
+      "M54",
+      "M70",
+      "M71",
+      "M78",
+      "M80",
+      "M81"
+    ],
+    "Precision": 0.452,
+    "Recall": 0.4,
+    "F1": 0.424
+  },
+  "anchor_coverage": {
+    "gold_anchors": [
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P20",
+      "P21",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P34",
+      "P35",
+      "P36",
+      "P37",
+      "P38",
+      "P39",
+      "P6",
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "model_anchors": [
+      "P10",
+      "P12",
+      "P14",
+      "P18",
+      "P20",
+      "P22",
+      "P25",
+      "P27",
+      "P29",
+      "P32",
+      "P34",
+      "P36",
+      "P40",
+      "P42",
+      "P44",
+      "P47",
+      "P49",
+      "P5",
+      "P51",
+      "P54",
+      "P56",
+      "P58",
+      "P7"
+    ],
+    "intersection": [
+      "P10",
+      "P12",
+      "P18",
+      "P20",
+      "P25",
+      "P27",
+      "P32",
+      "P34",
+      "P36",
+      "P7"
+    ],
+    "Jaccard": 0.233,
+    "per_anchor": [
+      {
+        "anchor": "P5",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P6",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P7",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 4,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P8",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P9",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P10",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 4,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P11",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 3,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P12",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 2,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P13",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 1,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P14",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P15",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P16",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P17",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 5,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P18",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 4,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P20",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P21",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P22",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P23",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P24",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P25",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P26",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P27",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P28",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P29",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P30",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P31",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 4,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P32",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P33",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P34",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 2,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P35",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 2,
+        "model_M": 0,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P36",
+        "gold_C": 1,
+        "model_C": 1,
+        "gold_M": 3,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P37",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P38",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P39",
+        "gold_C": 1,
+        "model_C": 0,
+        "gold_M": 0,
+        "model_M": 0,
+        "M_Jaccard": 1.0
+      },
+      {
+        "anchor": "P40",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 1,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P42",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P44",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 2,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P47",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P49",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P51",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P54",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P56",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      },
+      {
+        "anchor": "P58",
+        "gold_C": 0,
+        "model_C": 1,
+        "gold_M": 0,
+        "model_M": 3,
+        "M_Jaccard": 0.0
+      }
+    ]
+  },
+  "claim_comparison": [
+    {
+      "gold_id": "B5",
+      "model_id": "B1",
+      "title_label": "五 北宋开封动物市场繁荣的原因 ≈ 一、北宋开封动物交易市场的形成基础与空间格局",
+      "gold_claim": "开封动物市场繁荣源于人口众多、餐饮屠宰租赁娱乐业兴盛、水陆运输便捷与政府规范管理等多重因素。",
+      "model_claim": "北宋开封依托汴河水运与百万人口消费需求，形成了牛马鱼猪等专业化行市及相国寺、城门桥梁等交易节点并存的空间格局。",
+      "sim": 0.139,
+      "title_sim": 0.5
+    },
+    {
+      "gold_id": "B3",
+      "model_id": "B3",
+      "title_label": "三 北宋开封动物交易的税费 ≈ 三、北宋开封动物交易市场的管理与影响",
+      "gold_claim": "北宋政府对开封动物交易征收商税，税额较高，但在灾荒瘟疫年月会灵活减免耕牛等交易税。",
+      "model_claim": "北宋官府通过商税登记、行会牙人、屠宰管控等手段管理动物市场，其运行保障了城市肉食供应并带动相关行业发展。",
+      "sim": 0.151,
+      "title_sim": 0.667
+    },
+    {
+      "gold_id": "B2",
+      "model_id": "B2",
+      "title_label": "二 开封动物交易的价格 ≈ 二、北宋开封动物交易市场的运行机制",
+      "gold_claim": "北宋开封动物价格因种类与用途而异，马牛驴猪羊鹌鹑之间高低悬殊，且随供求与政策波动。",
+      "model_claim": "北宋开封动物市场通过批发零售分层、牙人中介、市券立契与试水草验货等制度，形成了较为规范的运行机制。",
+      "sim": 0.2,
+      "title_sim": 0.593
+    }
+  ],
+  "metrics": {
+    "M_coverage_gold": 47.9,
+    "M_coverage_model": 42.5,
+    "M_Precision": 0.452,
+    "M_Recall": 0.4,
+    "M_F1": 0.424,
+    "anchor_Jaccard": 0.233,
+    "nodes_total_gold": 36,
+    "nodes_total_model": 35,
+    "nodes_ratio_percent": 97.2,
+    "C_count_gold": 30,
+    "C_count_model": 23,
+    "C_ratio_percent": 76.7,
+    "matched_claim_pairs": 3,
+    "claim_sim_mean": 0.163,
+    "claim_sim_min": 0.139
+  }
+}

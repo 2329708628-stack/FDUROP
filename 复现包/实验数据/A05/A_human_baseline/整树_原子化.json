@@ -1,0 +1,1108 @@
+{
+  "source_run": "A_human_baseline",
+  "model": "deepseek-chat",
+  "temperature": 0.0,
+  "prompt_version": "development_1.0",
+  "context": "语境：北宋开封的动物交易市场研究。",
+  "n_nodes": 34,
+  "atoms": [
+    {
+      "atom_id": "A1.a1",
+      "level": "A",
+      "node_id": "A1",
+      "text": "北宋开封动物交易市场空前繁荣"
+    },
+    {
+      "atom_id": "A1.a2",
+      "level": "A",
+      "node_id": "A1",
+      "text": "北宋开封动物交易市场空前繁荣是宋代经济文化与餐饮业高度发达的体现"
+    },
+    {
+      "atom_id": "A1.a3",
+      "level": "A",
+      "node_id": "A1",
+      "text": "北宋开封动物交易市场空前繁荣是政府市场治理走向成熟的重要反映"
+    },
+    {
+      "atom_id": "A1.a4",
+      "level": "A",
+      "node_id": "A1",
+      "text": "北宋开封动物交易市场空前繁荣是坊市制度崩溃的重要反映"
+    },
+    {
+      "atom_id": "A1.a5",
+      "level": "A",
+      "node_id": "A1",
+      "text": "北宋开封动物交易市场空前繁荣是市民文化繁荣的重要反映"
+    },
+    {
+      "atom_id": "B1.a1",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易人气旺盛"
+    },
+    {
+      "atom_id": "B1.a2",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易品种繁多"
+    },
+    {
+      "atom_id": "B1.a3",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易形成了鱼行专门化市场"
+    },
+    {
+      "atom_id": "B1.a4",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易形成了猪行专门化市场"
+    },
+    {
+      "atom_id": "B1.a5",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易形成了牛行专门化市场"
+    },
+    {
+      "atom_id": "B1.a6",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易形成了马行专门化市场"
+    },
+    {
+      "atom_id": "B1.a7",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易数额巨大"
+    },
+    {
+      "atom_id": "B1.a8",
+      "level": "B",
+      "node_id": "B1",
+      "text": "开封动物交易来源广泛"
+    },
+    {
+      "atom_id": "B2.a1",
+      "level": "B",
+      "node_id": "B2",
+      "text": "开封动物交易价格受需求制约"
+    },
+    {
+      "atom_id": "B2.a2",
+      "level": "B",
+      "node_id": "B2",
+      "text": "开封动物交易价格受供应制约"
+    },
+    {
+      "atom_id": "B2.a3",
+      "level": "B",
+      "node_id": "B2",
+      "text": "开封动物交易价格受交易方式制约"
+    },
+    {
+      "atom_id": "B2.a4",
+      "level": "B",
+      "node_id": "B2",
+      "text": "开封动物交易价格整体高于其他地区"
+    },
+    {
+      "atom_id": "B2.a5",
+      "level": "B",
+      "node_id": "B2",
+      "text": "开封不同畜种的动物交易价格浮动明显"
+    },
+    {
+      "atom_id": "B2.a6",
+      "level": "B",
+      "node_id": "B2",
+      "text": "开封不同时期的动物交易价格浮动明显"
+    },
+    {
+      "atom_id": "B3.a1",
+      "level": "B",
+      "node_id": "B3",
+      "text": "动物交易是北宋政府重要税源"
+    },
+    {
+      "atom_id": "B3.a2",
+      "level": "B",
+      "node_id": "B3",
+      "text": "官府对牲畜交易规定登记纳税制度"
+    },
+    {
+      "atom_id": "B3.a3",
+      "level": "B",
+      "node_id": "B3",
+      "text": "官府在灾荒瘟疫时灵活减免税额"
+    },
+    {
+      "atom_id": "B3.a4",
+      "level": "B",
+      "node_id": "B3",
+      "text": "官府在灾荒瘟疫时灵活减免税额以体恤民众"
+    },
+    {
+      "atom_id": "B4.a1",
+      "level": "B",
+      "node_id": "B4",
+      "text": "宋政府通过律令与牙人中介对动物交易加以规范管理"
+    },
+    {
+      "atom_id": "B4.a2",
+      "level": "B",
+      "node_id": "B4",
+      "text": "宋政府明确动物交易买卖双方权责"
+    },
+    {
+      "atom_id": "B4.a3",
+      "level": "B",
+      "node_id": "B4",
+      "text": "宋政府打击动物交易中的欺诈"
+    },
+    {
+      "atom_id": "B4.a4",
+      "level": "B",
+      "node_id": "B4",
+      "text": "宋政府保障动物交易秩序"
+    },
+    {
+      "atom_id": "B4.a5",
+      "level": "B",
+      "node_id": "B4",
+      "text": "宋政府保障消费者权益"
+    },
+    {
+      "atom_id": "B5.a1",
+      "level": "B",
+      "node_id": "B5",
+      "text": "开封人口众多。"
+    },
+    {
+      "atom_id": "B5.a2",
+      "level": "B",
+      "node_id": "B5",
+      "text": "开封餐饮屠宰业兴盛。"
+    },
+    {
+      "atom_id": "B5.a3",
+      "level": "B",
+      "node_id": "B5",
+      "text": "开封牲畜畜力租赁发达。"
+    },
+    {
+      "atom_id": "B5.a4",
+      "level": "B",
+      "node_id": "B5",
+      "text": "开封市民娱乐文化勃兴。"
+    },
+    {
+      "atom_id": "B5.a5",
+      "level": "B",
+      "node_id": "B5",
+      "text": "开封水陆运输便捷。"
+    },
+    {
+      "atom_id": "B5.a6",
+      "level": "B",
+      "node_id": "B5",
+      "text": "开封人口众多、餐饮屠宰业兴盛、牲畜畜力租赁发达、市民娱乐文化勃兴以及水陆运输便捷，共同推动了动物交易市场的繁荣。"
+    },
+    {
+      "atom_id": "C1.1.a1",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场火爆。"
+    },
+    {
+      "atom_id": "C1.1.a2",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场品种繁多。"
+    },
+    {
+      "atom_id": "C1.1.a3",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场数额巨大。"
+    },
+    {
+      "atom_id": "C1.1.a4",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场形成专业化市场。"
+    },
+    {
+      "atom_id": "C1.1.a5",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场是经济繁荣的表征。"
+    },
+    {
+      "atom_id": "C1.1.a6",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场是交通提升的表征。"
+    },
+    {
+      "atom_id": "C1.1.a7",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场是文化提升的表征。"
+    },
+    {
+      "atom_id": "C1.1.a8",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "北宋开封动物交易市场是市民生活提升的表征。"
+    },
+    {
+      "atom_id": "C1.1.a9",
+      "level": "C",
+      "node_id": "C1.1",
+      "text": "学界尚未对北宋开封动物交易市场作专文研究。"
+    },
+    {
+      "atom_id": "C1.2.a1",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "开封人口众多。"
+    },
+    {
+      "atom_id": "C1.2.a2",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "开封消费力强。"
+    },
+    {
+      "atom_id": "C1.2.a3",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "开封漕运便利。"
+    },
+    {
+      "atom_id": "C1.2.a4",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "漕运便利汇集各地物产。"
+    },
+    {
+      "atom_id": "C1.2.a5",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "开封形成专门化销售市场。"
+    },
+    {
+      "atom_id": "C1.2.a6",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "开封人口众多、消费力强，加之漕运便利汇集各地物产，形成专门化销售市场。"
+    },
+    {
+      "atom_id": "C1.2.a7",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "专门化销售市场推动了动物贸易繁荣。"
+    },
+    {
+      "atom_id": "C1.2.a8",
+      "level": "C",
+      "node_id": "C1.2",
+      "text": "专门化销售市场提升了市民生活质量。"
+    },
+    {
+      "atom_id": "C1.3.a1",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场人气爆棚"
+    },
+    {
+      "atom_id": "C1.3.a2",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场交易品种多"
+    },
+    {
+      "atom_id": "C1.3.a3",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场交易品种奇"
+    },
+    {
+      "atom_id": "C1.3.a4",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场交易品种珍"
+    },
+    {
+      "atom_id": "C1.3.a5",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场交易数量大"
+    },
+    {
+      "atom_id": "C1.3.a6",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "夜市野味售卖延续至天明"
+    },
+    {
+      "atom_id": "C1.3.a7",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场满足市民精神需求"
+    },
+    {
+      "atom_id": "C1.3.a8",
+      "level": "C",
+      "node_id": "C1.3",
+      "text": "开封动物交易市场满足市民饮食需求"
+    },
+    {
+      "atom_id": "C1.4.a1",
+      "level": "C",
+      "node_id": "C1.4",
+      "text": "开封形成了鱼行等专门化动物交易市场。"
+    },
+    {
+      "atom_id": "C1.4.a2",
+      "level": "C",
+      "node_id": "C1.4",
+      "text": "开封的专门化动物交易市场分布广泛。"
+    },
+    {
+      "atom_id": "C1.4.a3",
+      "level": "C",
+      "node_id": "C1.4",
+      "text": "开封的专门化动物交易市场交易数额巨大。"
+    },
+    {
+      "atom_id": "C1.4.a4",
+      "level": "C",
+      "node_id": "C1.4",
+      "text": "开封的专门化动物交易市场价格便宜。"
+    },
+    {
+      "atom_id": "C1.5.a1",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "生猪贸易是开封动物交易的龙头产业"
+    },
+    {
+      "atom_id": "C1.5.a2",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "马行是开封的专门市场"
+    },
+    {
+      "atom_id": "C1.5.a3",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "牛行是开封的专门市场"
+    },
+    {
+      "atom_id": "C1.5.a4",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "鹰鹘是开封的专门市场"
+    },
+    {
+      "atom_id": "C1.5.a5",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "鹌鹑是开封的专门市场"
+    },
+    {
+      "atom_id": "C1.5.a6",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "马行、牛行及鹰鹘、鹌鹑等专门市场争奇斗艳"
+    },
+    {
+      "atom_id": "C1.5.a7",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "马行、牛行及鹰鹘、鹌鹑等专门市场从侧面反映商品经济发达"
+    },
+    {
+      "atom_id": "C1.5.a8",
+      "level": "C",
+      "node_id": "C1.5",
+      "text": "马行、牛行及鹰鹘、鹌鹑等专门市场从侧面反映市民文化多元"
+    },
+    {
+      "atom_id": "C1.6.a1",
+      "level": "C",
+      "node_id": "C1.6",
+      "text": "开封生态环境适合小型野生动物生存"
+    },
+    {
+      "atom_id": "C1.6.a2",
+      "level": "C",
+      "node_id": "C1.6",
+      "text": "开封狩猎活跃"
+    },
+    {
+      "atom_id": "C1.6.a3",
+      "level": "C",
+      "node_id": "C1.6",
+      "text": "开封交易活跃"
+    },
+    {
+      "atom_id": "C1.6.a4",
+      "level": "C",
+      "node_id": "C1.6",
+      "text": "狐兔等常成为地方政府征购对象"
+    },
+    {
+      "atom_id": "C1.6.a5",
+      "level": "C",
+      "node_id": "C1.6",
+      "text": "禁令频出"
+    },
+    {
+      "atom_id": "C1.6.a6",
+      "level": "C",
+      "node_id": "C1.6",
+      "text": "禁令成效不彰"
+    },
+    {
+      "atom_id": "C1.7.a1",
+      "level": "C",
+      "node_id": "C1.7",
+      "text": "开封水资源丰富"
+    },
+    {
+      "atom_id": "C1.7.a2",
+      "level": "C",
+      "node_id": "C1.7",
+      "text": "开封渔业资源富饶"
+    },
+    {
+      "atom_id": "C1.7.a3",
+      "level": "C",
+      "node_id": "C1.7",
+      "text": "活鱼多产自黄河及邻近湖泊水系"
+    },
+    {
+      "atom_id": "C1.7.a4",
+      "level": "C",
+      "node_id": "C1.7",
+      "text": "开封渔业资源丰富"
+    },
+    {
+      "atom_id": "C1.7.a5",
+      "level": "C",
+      "node_id": "C1.7",
+      "text": "开封渔业资源丰富带动了当地旅游业发展"
+    },
+    {
+      "atom_id": "C1.8.a1",
+      "level": "C",
+      "node_id": "C1.8",
+      "text": "开封海味多从江南长途贩运而来"
+    },
+    {
+      "atom_id": "C1.8.a2",
+      "level": "C",
+      "node_id": "C1.8",
+      "text": "开封海味多从江南长途贩运而来丰富了海鲜市场"
+    },
+    {
+      "atom_id": "C1.8.a3",
+      "level": "C",
+      "node_id": "C1.8",
+      "text": "开封海味多从江南长途贩运而来促进了南北饮食文化交融"
+    },
+    {
+      "atom_id": "C1.8.a4",
+      "level": "C",
+      "node_id": "C1.8",
+      "text": "开封海味多从江南长途贩运而来提高了人们生活质量"
+    },
+    {
+      "atom_id": "C1.9.a1",
+      "level": "C",
+      "node_id": "C1.9",
+      "text": "开封市场有活体动物沿丝绸之路从周边国家或地区贩运而来"
+    },
+    {
+      "atom_id": "C1.9.a2",
+      "level": "C",
+      "node_id": "C1.9",
+      "text": "这些活体动物为市民提供更多选择"
+    },
+    {
+      "atom_id": "C1.9.a3",
+      "level": "C",
+      "node_id": "C1.9",
+      "text": "这些活体动物反映商品经济繁荣"
+    },
+    {
+      "atom_id": "C2.1.a1",
+      "level": "C",
+      "node_id": "C2.1",
+      "text": "动物交易价格受市场需求、供应量与交易方式等多种因素制约"
+    },
+    {
+      "atom_id": "C2.1.a2",
+      "level": "C",
+      "node_id": "C2.1",
+      "text": "开封作为京师消费水平高"
+    },
+    {
+      "atom_id": "C2.1.a3",
+      "level": "C",
+      "node_id": "C2.1",
+      "text": "开封作为京师需求量大"
+    },
+    {
+      "atom_id": "C2.1.a4",
+      "level": "C",
+      "node_id": "C2.1",
+      "text": "开封动物交易价格相对较高"
+    },
+    {
+      "atom_id": "C2.2.a1",
+      "level": "C",
+      "node_id": "C2.2",
+      "text": "马匹在开封交易量较大"
+    },
+    {
+      "atom_id": "C2.2.a2",
+      "level": "C",
+      "node_id": "C2.2",
+      "text": "马匹在开封地位重要"
+    },
+    {
+      "atom_id": "C2.2.a3",
+      "level": "C",
+      "node_id": "C2.2",
+      "text": "马匹价格在不同时期浮动明显"
+    },
+    {
+      "atom_id": "C2.2.a4",
+      "level": "C",
+      "node_id": "C2.2",
+      "text": "外来马与本地马存在差价"
+    },
+    {
+      "atom_id": "C2.2.a5",
+      "level": "C",
+      "node_id": "C2.2",
+      "text": "养马数量变化直接影响马价"
+    },
+    {
+      "atom_id": "C2.3.a1",
+      "level": "C",
+      "node_id": "C2.3",
+      "text": "牛是仅次于马的重要牲畜"
+    },
+    {
+      "atom_id": "C2.3.a2",
+      "level": "C",
+      "node_id": "C2.3",
+      "text": "开封牛价一般在数贯之间"
+    },
+    {
+      "atom_id": "C2.3.a3",
+      "level": "C",
+      "node_id": "C2.3",
+      "text": "驴是常见骑乘运载工具"
+    },
+    {
+      "atom_id": "C2.3.a4",
+      "level": "C",
+      "node_id": "C2.3",
+      "text": "驴的价格有时甚至超过牛价"
+    },
+    {
+      "atom_id": "C2.4.a1",
+      "level": "C",
+      "node_id": "C2.4",
+      "text": "开封其他小牲畜、小动物价格高低不等"
+    },
+    {
+      "atom_id": "C2.4.a2",
+      "level": "C",
+      "node_id": "C2.4",
+      "text": "猪价相对稳定"
+    },
+    {
+      "atom_id": "C2.4.a3",
+      "level": "C",
+      "node_id": "C2.4",
+      "text": "羊因宫廷需求量大而价格远高于猪"
+    },
+    {
+      "atom_id": "C2.4.a4",
+      "level": "C",
+      "node_id": "C2.4",
+      "text": "鹌鹑价格便宜"
+    },
+    {
+      "atom_id": "C3.1.a1",
+      "level": "C",
+      "node_id": "C3.1",
+      "text": "动物交易是北宋政府重要税收来源"
+    },
+    {
+      "atom_id": "C3.1.a2",
+      "level": "C",
+      "node_id": "C3.1",
+      "text": "官府规定买卖牲畜须当日登记"
+    },
+    {
+      "atom_id": "C3.1.a3",
+      "level": "C",
+      "node_id": "C3.1",
+      "text": "官府规定买卖牲畜须限期纳税印契"
+    },
+    {
+      "atom_id": "C3.1.a4",
+      "level": "C",
+      "node_id": "C3.1",
+      "text": "官府规定买卖牲畜不当日登记、不限期纳税印契的以漏税论处"
+    },
+    {
+      "atom_id": "C3.2.a1",
+      "level": "C",
+      "node_id": "C3.2",
+      "text": "政府在灾荒瘟疫时会灵活减免动物交易税额"
+    },
+    {
+      "atom_id": "C3.2.a2",
+      "level": "C",
+      "node_id": "C3.2",
+      "text": "政府灵活减免动物交易税额对促进耕牛贸易具有重要意义"
+    },
+    {
+      "atom_id": "C3.2.a3",
+      "level": "C",
+      "node_id": "C3.2",
+      "text": "政府灵活减免动物交易税额对恢复农业生产具有重要意义"
+    },
+    {
+      "atom_id": "C3.2.a4",
+      "level": "C",
+      "node_id": "C3.2",
+      "text": "政府灵活减免动物交易税额对减少农户损失具有重要意义"
+    },
+    {
+      "atom_id": "C3.2.a5",
+      "level": "C",
+      "node_id": "C3.2",
+      "text": "政府灵活减免动物交易税额体现人文关怀"
+    },
+    {
+      "atom_id": "C3.2.a6",
+      "level": "C",
+      "node_id": "C3.2",
+      "text": "政府灵活减免动物交易税额体现地方治理成熟"
+    },
+    {
+      "atom_id": "C4.1.a1",
+      "level": "C",
+      "node_id": "C4.1",
+      "text": "宋政府注重加强动物交易管理"
+    },
+    {
+      "atom_id": "C4.1.a2",
+      "level": "C",
+      "node_id": "C4.1",
+      "text": "宋政府通过律令打击恶意欺诈"
+    },
+    {
+      "atom_id": "C4.1.a3",
+      "level": "C",
+      "node_id": "C4.1",
+      "text": "宋政府通过律令打击非法牟利"
+    },
+    {
+      "atom_id": "C4.1.a4",
+      "level": "C",
+      "node_id": "C4.1",
+      "text": "宋政府保护消费者权益"
+    },
+    {
+      "atom_id": "C4.1.a5",
+      "level": "C",
+      "node_id": "C4.1",
+      "text": "宋政府保证市场正常运行"
+    },
+    {
+      "atom_id": "C4.2.a1",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令要求牲畜交易签订契约"
+    },
+    {
+      "atom_id": "C4.2.a2",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令规定牲畜交易违约处罚"
+    },
+    {
+      "atom_id": "C4.2.a3",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令要求牲畜交易签订契约并规定违约处罚有利于规范市场"
+    },
+    {
+      "atom_id": "C4.2.a4",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令要求牲畜交易签订契约并规定违约处罚有利于明确法律责任"
+    },
+    {
+      "atom_id": "C4.2.a5",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令要求牲畜交易签订契约并规定违约处罚有利于保障交易秩序"
+    },
+    {
+      "atom_id": "C4.2.a6",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令要求牲畜交易签订契约并规定违约处罚有利于防止欺诈"
+    },
+    {
+      "atom_id": "C4.2.a7",
+      "level": "C",
+      "node_id": "C4.2",
+      "text": "律令要求牲畜交易签订契约并规定违约处罚有利于促进诚信经营"
+    },
+    {
+      "atom_id": "C4.3.a1",
+      "level": "C",
+      "node_id": "C4.3",
+      "text": "现实中动物交易仍难免纠纷"
+    },
+    {
+      "atom_id": "C4.3.a2",
+      "level": "C",
+      "node_id": "C4.3",
+      "text": "北宋政府设牙人作为中间人协调解决"
+    },
+    {
+      "atom_id": "C4.3.a3",
+      "level": "C",
+      "node_id": "C4.3",
+      "text": "牙人将纠纷消弭于萌芽"
+    },
+    {
+      "atom_id": "C4.3.a4",
+      "level": "C",
+      "node_id": "C4.3",
+      "text": "牙人将纠纷消弭于萌芽有利于社会稳定"
+    },
+    {
+      "atom_id": "C4.3.a5",
+      "level": "C",
+      "node_id": "C4.3",
+      "text": "牙人将纠纷消弭于萌芽反映市场规范与繁荣"
+    },
+    {
+      "atom_id": "C5.1.a1",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场异常兴盛"
+    },
+    {
+      "atom_id": "C5.1.a2",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场交易量大"
+    },
+    {
+      "atom_id": "C5.1.a3",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场交易时间长"
+    },
+    {
+      "atom_id": "C5.1.a4",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场交易场合多"
+    },
+    {
+      "atom_id": "C5.1.a5",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场形成专门化市场"
+    },
+    {
+      "atom_id": "C5.1.a6",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场动物来源广泛"
+    },
+    {
+      "atom_id": "C5.1.a7",
+      "level": "C",
+      "node_id": "C5.1",
+      "text": "北宋开封动物交易市场的繁荣由多种因素促成"
+    },
+    {
+      "atom_id": "C5.2.a1",
+      "level": "C",
+      "node_id": "C5.2",
+      "text": "开封人口众多"
+    },
+    {
+      "atom_id": "C5.2.a2",
+      "level": "C",
+      "node_id": "C5.2",
+      "text": "开封消费能力强"
+    },
+    {
+      "atom_id": "C5.2.a3",
+      "level": "C",
+      "node_id": "C5.2",
+      "text": "庞大的消费群体带动了动物交易市场繁荣"
+    },
+    {
+      "atom_id": "C5.2.a4",
+      "level": "C",
+      "node_id": "C5.2",
+      "text": "庞大的消费群体带动了肉类消费市场兴盛"
+    },
+    {
+      "atom_id": "C5.3.a1",
+      "level": "C",
+      "node_id": "C5.3",
+      "text": "开封餐饮业异军突起"
+    },
+    {
+      "atom_id": "C5.3.a2",
+      "level": "C",
+      "node_id": "C5.3",
+      "text": "开封街市肉类品种齐全"
+    },
+    {
+      "atom_id": "C5.3.a3",
+      "level": "C",
+      "node_id": "C5.3",
+      "text": "开封街市肉类数额可观"
+    },
+    {
+      "atom_id": "C5.3.a4",
+      "level": "C",
+      "node_id": "C5.3",
+      "text": "开封街市肉铺林立"
+    },
+    {
+      "atom_id": "C5.3.a5",
+      "level": "C",
+      "node_id": "C5.3",
+      "text": "繁荣的肉类消费市场客观上促进了动物贸易兴盛"
+    },
+    {
+      "atom_id": "C5.4.a1",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "酒店是餐饮业的主力军"
+    },
+    {
+      "atom_id": "C5.4.a2",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "酒店是肉类消费的主力军"
+    },
+    {
+      "atom_id": "C5.4.a3",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "开封酒店数量多"
+    },
+    {
+      "atom_id": "C5.4.a4",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "开封酒店装修豪华"
+    },
+    {
+      "atom_id": "C5.4.a5",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "开封风俗尚奢"
+    },
+    {
+      "atom_id": "C5.4.a6",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "开封酒店数量多、装修豪华、风俗尚奢推动了肉类消费"
+    },
+    {
+      "atom_id": "C5.4.a7",
+      "level": "C",
+      "node_id": "C5.4",
+      "text": "开封酒店数量多、装修豪华、风俗尚奢推动了动物市场繁盛"
+    },
+    {
+      "atom_id": "C5.5.a1",
+      "level": "C",
+      "node_id": "C5.5",
+      "text": "开封屠宰业蓬勃兴起"
+    },
+    {
+      "atom_id": "C5.5.a2",
+      "level": "C",
+      "node_id": "C5.5",
+      "text": "开封屠宰业形成专业屠宰市场"
+    },
+    {
+      "atom_id": "C5.5.a3",
+      "level": "C",
+      "node_id": "C5.5",
+      "text": "专业屠宰市场规范了市场"
+    },
+    {
+      "atom_id": "C5.5.a4",
+      "level": "C",
+      "node_id": "C5.5",
+      "text": "专业屠宰市场有利于促进肉类消费"
+    },
+    {
+      "atom_id": "C5.5.a5",
+      "level": "C",
+      "node_id": "C5.5",
+      "text": "专业屠宰市场有利于促进动物贸易扩大"
+    },
+    {
+      "atom_id": "C5.6.a1",
+      "level": "C",
+      "node_id": "C5.6",
+      "text": "大量牲畜被用作畜力"
+    },
+    {
+      "atom_id": "C5.6.a2",
+      "level": "C",
+      "node_id": "C5.6",
+      "text": "大量牲畜被用作租赁"
+    },
+    {
+      "atom_id": "C5.6.a3",
+      "level": "C",
+      "node_id": "C5.6",
+      "text": "牲畜用量巨大"
+    },
+    {
+      "atom_id": "C5.6.a4",
+      "level": "C",
+      "node_id": "C5.6",
+      "text": "牲畜被用作畜力和租赁且用量巨大带动了动物贸易的发展"
+    },
+    {
+      "atom_id": "C5.7.a1",
+      "level": "C",
+      "node_id": "C5.7",
+      "text": "牲畜租赁业蓬勃兴起"
+    },
+    {
+      "atom_id": "C5.7.a2",
+      "level": "C",
+      "node_id": "C5.7",
+      "text": "牲畜租赁业价格便宜"
+    },
+    {
+      "atom_id": "C5.7.a3",
+      "level": "C",
+      "node_id": "C5.7",
+      "text": "牲畜租赁业以强大的动物贸易市场为后盾"
+    },
+    {
+      "atom_id": "C5.7.a4",
+      "level": "C",
+      "node_id": "C5.7",
+      "text": "牲畜租赁业同样促进了开封动物贸易发展"
+    },
+    {
+      "atom_id": "C5.8.a1",
+      "level": "C",
+      "node_id": "C5.8",
+      "text": "市民文化勃兴为动物交易市场活跃提供助力"
+    },
+    {
+      "atom_id": "C5.8.a2",
+      "level": "C",
+      "node_id": "C5.8",
+      "text": "娱乐业兴盛为动物交易市场活跃提供助力"
+    },
+    {
+      "atom_id": "C5.8.a3",
+      "level": "C",
+      "node_id": "C5.8",
+      "text": "杂技百戏及马戏等大量使用动物"
+    },
+    {
+      "atom_id": "C5.8.a4",
+      "level": "C",
+      "node_id": "C5.8",
+      "text": "杂技百戏及马戏等使用动物的来源为动物市场或朝贡"
+    },
+    {
+      "atom_id": "C5.9.a1",
+      "level": "C",
+      "node_id": "C5.9",
+      "text": "便捷的水陆运输促进了动物贸易发展"
+    },
+    {
+      "atom_id": "C5.9.a2",
+      "level": "C",
+      "node_id": "C5.9",
+      "text": "水上交通运费低"
+    },
+    {
+      "atom_id": "C5.9.a3",
+      "level": "C",
+      "node_id": "C5.9",
+      "text": "水上交通运载量大"
+    },
+    {
+      "atom_id": "C5.9.a4",
+      "level": "C",
+      "node_id": "C5.9",
+      "text": "水上交通运费低、运载量大，使南北动物均可到达开封"
+    },
+    {
+      "atom_id": "C5.9.a5",
+      "level": "C",
+      "node_id": "C5.9",
+      "text": "南北动物均可到达开封，扩大交易市场规模"
+    },
+    {
+      "atom_id": "C5.10.a1",
+      "level": "C",
+      "node_id": "C5.10",
+      "text": "开封动物交易市场繁盛与政府规范管理密不可分"
+    },
+    {
+      "atom_id": "C5.10.a2",
+      "level": "C",
+      "node_id": "C5.10",
+      "text": "法律约束保障了诚信经营"
+    },
+    {
+      "atom_id": "C5.10.a3",
+      "level": "C",
+      "node_id": "C5.10",
+      "text": "税收减免保障了诚信经营"
+    },
+    {
+      "atom_id": "C5.10.a4",
+      "level": "C",
+      "node_id": "C5.10",
+      "text": "法律约束保障了商贩积极性"
+    },
+    {
+      "atom_id": "C5.10.a5",
+      "level": "C",
+      "node_id": "C5.10",
+      "text": "税收减免保障了商贩积极性"
+    }
+  ]
+}
